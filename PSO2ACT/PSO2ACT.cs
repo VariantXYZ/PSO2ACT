@@ -19,8 +19,16 @@ namespace PSO2ACT
         Label lblStatus;
         string settingsFile = Path.Combine(ActGlobals.oFormActMain.AppDataFolder.FullName, "Config\\PluginSample.config.xml");
         SettingsSerializer xmlSettings;
-        Thread logMonitor, mainThread;
         Queue<string> queueActions = new Queue<string>();
+        static ushort currInstID = 0xFFFF;
+
+        public void DeInitPlugin()
+        {
+            ActGlobals.oFormActMain.BeforeLogLineRead -= oFormActMain_BeforeLogLineRead;
+            ActGlobals.oFormActMain.OnCombatEnd -= oFormActMain_OnCombatEnd;
+            SaveSettings();
+            lblStatus.Text = "Plugin Exited";
+        }
 
         public void InitPlugin(TabPage pluginScreenSpace, Label pluginStatusText)
         {
@@ -31,12 +39,23 @@ namespace PSO2ACT
             LoadSettings();
             Config.selectedFolder = Config.Controls["directory"].Text;
             lblStatus.Text = "Loaded PSO2ACT Plugin";
-            logMonitor = new Thread(this.LogMonitor);
-            logMonitor.Start();
-            mainThread = new Thread(this.MainThread);
-            mainThread.Start();
+
+            string dir = String.Format(@"{0}\damagelogs", Config.selectedFolder);
+            DirectoryInfo dirInfo = new DirectoryInfo(dir);
+            FileInfo file = (from f in dirInfo.GetFiles("*.csv") orderby f.LastWriteTime descending select f).FirstOrDefault();
+            Config.Controls["lblLogFile"].Text = String.Format("Reading {0}", file.Name ?? "<NULL>");
+
+            ActGlobals.oFormActMain.LogFilePath = file.FullName;
+
+            ActGlobals.oFormActMain.GetDateTimeFromLog = ParseDateTime;
+            ActGlobals.oFormActMain.BeforeLogLineRead += new LogLineEventDelegate(oFormActMain_BeforeLogLineRead);
+            ActGlobals.oFormActMain.OnCombatEnd += new CombatToggleEventDelegate(oFormActMain_OnCombatEnd);
+
+            ActGlobals.oFormActMain.OpenLog(false, false);
+
             return;
         }
+
 
         struct Action
         {
@@ -55,162 +74,96 @@ namespace PSO2ACT
             public bool isMisc2;
         }
 
-        private void MainThread()
-        {
-            ushort currInstID = 0xFFFF;
 
-            while (true)
+
+        void oFormActMain_OnCombatEnd(bool isImport, CombatToggleEventArgs encounterInfo)
+        {
+            currInstID = 0xFFFF;
+        }
+
+        void oFormActMain_BeforeLogLineRead(bool isImport, LogLineEventArgs logInfo)
+        {
+            Action aAction = new Action();
+            string logLine = logInfo.logLine;
+            string[] tmp = logInfo.logLine.Split(',');
+
+            if (tmp[0].Equals("timestamp"))
+                return;
+            try
             {
-                //timestamp, instanceID, sourceID, sourceName, targetID, targetName, attackID, damage, IsJA, IsCrit, IsMultiHit, IsMisc, IsMisc2
-                while (queueActions.Count > 0)
-                {
-                    string strAction = queueActions.Dequeue();
-                    if (strAction == null)
-                        continue;
-                    Action aAction = new Action();
-                    string[] tmp = strAction.Split(',');
-
-                    if (tmp[0].Equals("timestamp"))
-                        continue;
-                    try
-                    {
-                        aAction.timestamp = Convert.ToUInt32(tmp[0]);
-                        aAction.instanceID = Convert.ToUInt16(tmp[1]);
-                        aAction.sourceID = Convert.ToUInt32(tmp[2]);
-                        aAction.sourceName = tmp[3];
-                        aAction.targetID = Convert.ToUInt32(tmp[4]);
-                        aAction.targetName = tmp[5];
-                        aAction.attackID = Convert.ToUInt32(tmp[6]);
-                        aAction.damage = Convert.ToInt32(tmp[7]);
-                        aAction.isJA = (Convert.ToInt32(tmp[8]) == 1);
-                        aAction.isCrit = (Convert.ToInt32(tmp[9]) == 1);
-                        aAction.isMultiHit = (Convert.ToInt32(tmp[10]) == 1);
-                        aAction.isMisc = (Convert.ToInt32(tmp[11]) == 1);
-                        aAction.damage = Convert.ToInt32(tmp[7]);
-                        aAction.isJA = (Convert.ToInt32(tmp[8]) == 1);
-                        aAction.isCrit = (Convert.ToInt32(tmp[9]) == 1);
-                        aAction.isMultiHit = (Convert.ToInt32(tmp[10]) == 1);
-                        aAction.isMisc = (Convert.ToInt32(tmp[11]) == 1);
-                        aAction.isMisc2 = (Convert.ToInt32(tmp[12]) == 1);
-                    }
-                    catch (Exception ex)
-                    {
-                        MessageBox.Show("Error: " + ex.Message + "\n" + strAction);
-                        continue;
-                    }
-
-                    if (aAction.targetID == 0 ||
-                        (aAction.instanceID == 0 && currInstID == 0xFFFF)
-                        ) //TODO: deal with when the first thing they do is counter
-                        continue;
-
-
-                    if (aAction.instanceID == 0)
-                        aAction.instanceID = currInstID;
-
-                    System.DateTime dateTime = new System.DateTime(1970, 1, 1, 0, 0, 0, 0);
-                    dateTime = dateTime.AddSeconds(aAction.timestamp);
-                    SwingTypeEnum e;
-                    if (aAction.damage < 0 && aAction.isMisc)
-                        e = SwingTypeEnum.Healing;
-                    else
-                        e = SwingTypeEnum.Melee;
-                    Dnum dmg = new Dnum(aAction.damage);
-                    MasterSwing ms = new MasterSwing(Convert.ToInt32(e), 
-                        aAction.isCrit, 
-                        dmg, 
-                        dateTime, 
-                        Advanced_Combat_Tracker.ActGlobals.oFormActMain.GlobalTimeSorter, 
-                        aAction.attackID.ToString(), 
-                        aAction.sourceName, 
-                        aAction.attackID.ToString(), 
-                        //aAction.targetID.ToString()
-                        aAction.targetName
-                        );
-
-
-                    if (aAction.instanceID != currInstID)
-                    {
-                        ActGlobals.oFormActMain.EndCombat(true);
-                        if(ActGlobals.oFormActMain.SetEncounter(dateTime, aAction.sourceName, aAction.target))
-                            ActGlobals.oFormActMain.AddCombatAction(ms);
-                        currInstID = aAction.instanceID;
-                    } 
-                    else if (ActGlobals.oFormActMain.InCombat)
-                        ActGlobals.oFormActMain.AddCombatAction(ms);
-
-
-
-                }
-
-                if (Config.refreshFlag)
-                {
-                    queueActions.Clear();
-                    refreshLog();
-                    Config.refreshFlag = false;
-                }
+                aAction.timestamp = Convert.ToUInt32(tmp[0]);
+                aAction.instanceID = Convert.ToUInt16(tmp[1]);
+                aAction.sourceID = Convert.ToUInt32(tmp[2]);
+                aAction.sourceName = tmp[3];
+                aAction.targetID = Convert.ToUInt32(tmp[4]);
+                aAction.targetName = tmp[5];
+                aAction.attackID = Convert.ToUInt32(tmp[6]);
+                aAction.damage = Convert.ToInt32(tmp[7]);
+                aAction.isJA = (Convert.ToInt32(tmp[8]) == 1);
+                aAction.isCrit = (Convert.ToInt32(tmp[9]) == 1);
+                aAction.isMultiHit = (Convert.ToInt32(tmp[10]) == 1);
+                aAction.isMisc = (Convert.ToInt32(tmp[11]) == 1);
+                aAction.isMisc2 = (Convert.ToInt32(tmp[12]) == 1);
             }
-        }
-
-        public void DeInitPlugin()
-        {
-            logMonitor.Abort();
-            mainThread.Abort();
-            SaveSettings();
-            lblStatus.Text = "Unloaded PSO2ACT Plugin";
-            return;
-        }
-
-        private void LogMonitor()
-        {
-            while (true)
+            catch (Exception ex)
             {
-
-                string dir = String.Format(@"{0}\damagelogs", Config.selectedFolder);
-                Config.Controls["lblLogFile"].Text = String.Format("Reading {0}", dir);
-                if (!Directory.Exists(dir))
-                {
-                    continue;
-                }
-
-                DirectoryInfo dirInfo = new DirectoryInfo(dir);
-                FileInfo file = (from f in dirInfo.GetFiles("*.csv") orderby f.LastWriteTime descending select f).First();
-                Config.Controls["lblLogFile"].Text = String.Format("Reading {0}", file.Name);
-
-                FileStream fs = new FileStream(file.FullName, FileMode.Open, FileAccess.Read, FileShare.ReadWrite);
-                var wh = new AutoResetEvent(false);
-                var fsw = new FileSystemWatcher(dir);
-                fsw.Filter = file.FullName;
-                fsw.Changed += (s, e) => wh.Set();
-                using (var sr = new StreamReader(fs, Encoding.UTF8))
-                {
-                    string s = string.Empty;
-                    while (true)
-                    {
-                        s = sr.ReadLine();
-                        uint result;
-                        if (s != null)
-                        {
-                            if (!uint.TryParse(s[0].ToString(), out result))
-                                continue;
-                            queueActions.Enqueue(s);
-                        }
-                        else
-                        {
-                            wh.WaitOne(1000);
-                        }
-                    }
-                }
-
+                MessageBox.Show("Error: " + ex.Message + "\n" + logLine);
+                return;
             }
+
+            //TODO: deal with when the first thing they do is counter
+            if (aAction.targetID == 0 ||
+                (aAction.instanceID == 0 && currInstID == 0xFFFF))
+                return;
+
+            DateTime time = ActGlobals.oFormActMain.LastKnownTime;
+            int gts = ActGlobals.oFormActMain.GlobalTimeSorter;
+
+            if (aAction.instanceID == 0)
+                aAction.instanceID = currInstID;
+
+            SwingTypeEnum e;
+            if (aAction.damage < 0 && aAction.isMisc)
+                e = SwingTypeEnum.Healing;
+            else
+                e = SwingTypeEnum.Melee;
+
+            Dnum dmg = new Dnum(aAction.damage);
+            MasterSwing ms = new MasterSwing(Convert.ToInt32(e),
+                aAction.isCrit,
+                dmg,
+                time,
+                gts,
+                aAction.attackID.ToString(),
+                aAction.sourceName,
+                aAction.attackID.ToString(),
+                //aAction.targetID.ToString()
+                aAction.targetName
+                );
+
+            if (aAction.instanceID != currInstID)
+            {
+                currInstID = aAction.instanceID;
+                ActGlobals.oFormActMain.ChangeZone(aAction.instanceID.ToString());
+            }
+
+            if (ActGlobals.oFormActMain.SetEncounter(time, aAction.sourceID.ToString(), aAction.targetID.ToString()))
+                ActGlobals.oFormActMain.AddCombatAction(ms);
+
+
         }
 
-        public void refreshLog()
+
+        DateTime ParseDateTime(string logLine)
         {
-            logMonitor.Abort();
-            logMonitor = new Thread(LogMonitor);
-            logMonitor.Start();
+            string[] tmp = logLine.Split(',');
+            if (tmp[0] == "timestamp")
+                return DateTime.MinValue;
+            System.DateTime dateTime = new System.DateTime(1970, 1, 1, 0, 0, 0, 0);
+            dateTime = dateTime.AddSeconds(Convert.ToUInt32(tmp[0]));
+            return dateTime;
         }
+
 
         void LoadSettings()
         {
