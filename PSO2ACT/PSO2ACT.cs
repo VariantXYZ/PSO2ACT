@@ -71,6 +71,7 @@ namespace PSO2ACT
             {
                 if (!Config.refreshFlag)
                     continue;
+
                 Config.refreshFlag = false;
                 string dir = String.Format(@"{0}\damagelogs", Config.selectedFolder);
                 DirectoryInfo dirInfo = new DirectoryInfo(dir);
@@ -80,32 +81,37 @@ namespace PSO2ACT
                     continue;
                 }
 
-                try
+                if (skillDict.Keys.Count == 0)
                 {
-                    FileStream f = File.Open(String.Format(@"{0}\skills.csv", Config.selectedFolder), FileMode.Open);
-                    using (StreamReader sr = new StreamReader(f))
+                    try
                     {
-                        string line;
-                        while ((line = sr.ReadLine()) != null)
+                        FileStream f = File.Open(String.Format(@"{0}\skills.csv", Config.selectedFolder), FileMode.Open);
+                        using (StreamReader sr = new StreamReader(f))
                         {
-                            string[] tmp = line.Split(',');
-                            Skill s;
-                            s.Name = tmp[0];
-                            s.Type = tmp[2];
-                            s.Comment = tmp[3];
-                            if (skillDict.ContainsKey(Convert.ToUInt32(tmp[1])))
+                            string line;
+                            while ((line = sr.ReadLine()) != null)
                             {
-                                MessageBox.Show("Duplicate ID:  " + line);
+                                string[] tmp = line.Split(',');
+                                Skill s;
+                                s.Name = tmp[0];
+                                s.Type = tmp[2];
+                                s.Comment = tmp[3];
+                                if (skillDict.ContainsKey(Convert.ToUInt32(tmp[1])))
+                                {
+                                    MessageBox.Show("Duplicate ID:  " + line);
+                                }
+                                skillDict.Add(Convert.ToUInt32(tmp[1]), s);
                             }
-                            skillDict.Add(Convert.ToUInt32(tmp[1]), s);
                         }
                     }
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message);
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message);
+                    }
                 }
 
+                if (dirInfo.GetFiles("*.csv") == null)
+                    continue;
                 FileInfo file = (from f in dirInfo.GetFiles("*.csv") orderby f.LastWriteTime descending select f).FirstOrDefault();
                 Config.Controls["lblLogFile"].Text = String.Format("Reading {0}", file.Name ?? "<NULL>");
 
