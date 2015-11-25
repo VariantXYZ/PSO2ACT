@@ -80,7 +80,6 @@ namespace PSO2ACT
                     Config.Controls["lblLogFile"].Text = "damagelogs folder not found";
                     continue;
                 }
-
                 if (skillDict.Keys.Count == 0)
                 {
                     try
@@ -110,17 +109,15 @@ namespace PSO2ACT
                     }
                 }
 
-                if (dirInfo.GetFiles("*.csv") == null)
-                    continue;
-                FileInfo file = (from f in dirInfo.GetFiles("*.csv") orderby f.LastWriteTime descending select f).FirstOrDefault();
-                Config.Controls["lblLogFile"].Text = String.Format("Reading {0}", file.Name ?? "<NULL>");
-
-                if (!file.Exists)
+                FileInfo[] dr = dirInfo.GetFiles("*.csv");
+                if (dr == null || dr.Length == 0)
                 {
-                    Config.Controls["lblLogFile"].Text = "No logs";
+                    Config.Controls["lblLogFile"].Text = "No logs, make sure your damage dump plugin is enabled.";
                     continue;
                 }
 
+                FileInfo file = (from f in dr orderby f.LastWriteTime descending select f).FirstOrDefault();
+                Config.Controls["lblLogFile"].Text = String.Format("Reading {0}", file.Name ?? "<NULL>");
                 ActGlobals.oFormActMain.LogFilePath = file.FullName;
                 ActGlobals.oFormActMain.OpenLog(false, false);
             }
@@ -205,9 +202,9 @@ namespace PSO2ACT
             else
                 e = SwingTypeEnum.Melee;
 
-            Dnum dmg = new Dnum(aAction.damage) * ((e == SwingTypeEnum.Healing) ? -1:1);
+            Dnum dmg = new Dnum(aAction.damage) * ((e == SwingTypeEnum.Healing) ? -1 : 1);
 
-            if(skillDict.ContainsKey(aAction.attackID))
+            if (skillDict.ContainsKey(aAction.attackID))
             {
                 actionType = skillDict[aAction.attackID].Name;
                 damageType = skillDict[aAction.attackID].Type;
