@@ -23,6 +23,15 @@ namespace PSO2ACT
         static ushort currInstID = 0xFFFF;
         Thread logThread;
 
+        struct Skill
+        {
+            public string Name;
+            public string Type;
+            public string Comment;
+        }
+
+        Dictionary<uint, Skill> skillDict = new Dictionary<uint, Skill>();
+
         public void DeInitPlugin()
         {
             SaveSettings();
@@ -45,30 +54,13 @@ namespace PSO2ACT
             //if (ActGlobals.oFormActMain.GetAutomaticUpdatesAllowed())
             //    new Thread(new ThreadStart(oFormActMain_UpdateCheckClicked)).Start();
 
-            logThread = new Thread(this.LogThread);
-            logThread.Start();
-
-            string dir = String.Format(@"{0}\damagelogs", Config.selectedFolder);
-            DirectoryInfo dirInfo = new DirectoryInfo(dir);
-            if (!dirInfo.Exists)
-            {
-                Config.Controls["lblLogFile"].Text = "No logs";
-                return;
-            }
-
-            FileInfo file = (from f in dirInfo.GetFiles("*.csv") orderby f.LastWriteTime descending select f).FirstOrDefault();
-            Config.Controls["lblLogFile"].Text = String.Format("Reading {0}", file.Name ?? "<NULL>");
-
-            if (!file.Exists)
-                return;
-
-            ActGlobals.oFormActMain.LogFilePath = file.FullName;
-
             ActGlobals.oFormActMain.GetDateTimeFromLog = ParseDateTime;
             ActGlobals.oFormActMain.BeforeLogLineRead += new LogLineEventDelegate(oFormActMain_BeforeLogLineRead);
             ActGlobals.oFormActMain.OnCombatEnd += new CombatToggleEventDelegate(oFormActMain_OnCombatEnd);
 
-            ActGlobals.oFormActMain.OpenLog(false, false);
+            Config.refreshFlag = true;
+            logThread = new Thread(this.LogThread);
+            logThread.Start();
 
             return;
         }
@@ -84,14 +76,45 @@ namespace PSO2ACT
                 DirectoryInfo dirInfo = new DirectoryInfo(dir);
                 if (!dirInfo.Exists)
                 {
-                    Config.Controls["lblLogFile"].Text = "No logs";
+                    Config.Controls["lblLogFile"].Text = "damagelogs folder not found";
                     continue;
                 }
+
+                try
+                {
+                    FileStream f = File.Open(String.Format(@"{0}\skills.csv", Config.selectedFolder), FileMode.Open);
+                    using (StreamReader sr = new StreamReader(f))
+                    {
+                        string line;
+                        while ((line = sr.ReadLine()) != null)
+                        {
+                            string[] tmp = line.Split(',');
+                            Skill s;
+                            s.Name = tmp[0];
+                            s.Type = tmp[2];
+                            s.Comment = tmp[3];
+                            if (skillDict.ContainsKey(Convert.ToUInt32(tmp[1])))
+                            {
+                                MessageBox.Show("Duplicate ID:  " + line);
+                            }
+                            skillDict.Add(Convert.ToUInt32(tmp[1]), s);
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+
                 FileInfo file = (from f in dirInfo.GetFiles("*.csv") orderby f.LastWriteTime descending select f).FirstOrDefault();
                 Config.Controls["lblLogFile"].Text = String.Format("Reading {0}", file.Name ?? "<NULL>");
 
                 if (!file.Exists)
+                {
+                    Config.Controls["lblLogFile"].Text = "No logs";
                     continue;
+                }
+
                 ActGlobals.oFormActMain.LogFilePath = file.FullName;
                 ActGlobals.oFormActMain.OpenLog(false, false);
             }
@@ -161,23 +184,40 @@ namespace PSO2ACT
             if (aAction.instanceID == 0)
                 aAction.instanceID = currInstID;
             SwingTypeEnum e;
-            if (aAction.damage < 0 && aAction.isMisc)
-                e = SwingTypeEnum.Healing;
-            else
-                e = SwingTypeEnum.Melee;
-            Dnum dmg = new Dnum(aAction.damage);
+
+
 
             string sourceName = aAction.sourceName + "_" + aAction.sourceID.ToString();
             string targetName = aAction.targetName + "_" + aAction.targetID.ToString();
 
-            MasterSwing ms = new MasterSwing(Convert.ToInt32(e),
+
+            string actionType = aAction.attackID.ToString();
+            string damageType = aAction.attackID.ToString();
+
+            if (aAction.damage < 0 && aAction.isMisc)
+                e = SwingTypeEnum.Healing;
+            else
+                e = SwingTypeEnum.Melee;
+
+            Dnum dmg = new Dnum(aAction.damage) * ((e == SwingTypeEnum.Healing) ? -1:1);
+
+            if(skillDict.ContainsKey(aAction.attackID))
+            {
+                actionType = skillDict[aAction.attackID].Name;
+                damageType = skillDict[aAction.attackID].Type;
+            }
+
+
+            MasterSwing ms = new MasterSwing(
+                Convert.ToInt32(e),
                 aAction.isCrit,
+                "",
                 dmg,
                 time,
                 gts,
-                aAction.attackID.ToString(),
+                actionType,
                 sourceName,
-                aAction.attackID.ToString(),
+                damageType,
                 targetName
                 );
 
