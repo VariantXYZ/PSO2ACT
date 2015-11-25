@@ -33,9 +33,10 @@ namespace PSO2ACT
                 directory.Text = selectedFolder;
             }
 
+            refreshFlag = true;
         }
 
-        private void btnRefresh_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
             refreshFlag = true;
         }

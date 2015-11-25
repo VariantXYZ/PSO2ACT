@@ -17,16 +17,18 @@ namespace PSO2ACT
     {
         config Config;
         Label lblStatus;
-        string settingsFile = Path.Combine(ActGlobals.oFormActMain.AppDataFolder.FullName, "Config\\PluginSample.config.xml");
+        string settingsFile = Path.Combine(ActGlobals.oFormActMain.AppDataFolder.FullName, "Config\\PluginPSO2.config.xml");
         SettingsSerializer xmlSettings;
         Queue<string> queueActions = new Queue<string>();
         static ushort currInstID = 0xFFFF;
+        Thread logThread;
 
         public void DeInitPlugin()
         {
+            SaveSettings();
+            logThread.Abort();
             ActGlobals.oFormActMain.BeforeLogLineRead -= oFormActMain_BeforeLogLineRead;
             ActGlobals.oFormActMain.OnCombatEnd -= oFormActMain_OnCombatEnd;
-            SaveSettings();
             lblStatus.Text = "Plugin Exited";
         }
 
@@ -40,10 +42,25 @@ namespace PSO2ACT
             Config.selectedFolder = Config.Controls["directory"].Text;
             lblStatus.Text = "Loaded PSO2ACT Plugin";
 
+            //if (ActGlobals.oFormActMain.GetAutomaticUpdatesAllowed())
+            //    new Thread(new ThreadStart(oFormActMain_UpdateCheckClicked)).Start();
+
+            logThread = new Thread(this.LogThread);
+            logThread.Start();
+
             string dir = String.Format(@"{0}\damagelogs", Config.selectedFolder);
             DirectoryInfo dirInfo = new DirectoryInfo(dir);
+            if (!dirInfo.Exists)
+            {
+                Config.Controls["lblLogFile"].Text = "No logs";
+                return;
+            }
+
             FileInfo file = (from f in dirInfo.GetFiles("*.csv") orderby f.LastWriteTime descending select f).FirstOrDefault();
             Config.Controls["lblLogFile"].Text = String.Format("Reading {0}", file.Name ?? "<NULL>");
+
+            if (!file.Exists)
+                return;
 
             ActGlobals.oFormActMain.LogFilePath = file.FullName;
 
@@ -54,6 +71,30 @@ namespace PSO2ACT
             ActGlobals.oFormActMain.OpenLog(false, false);
 
             return;
+        }
+
+        private void LogThread()
+        {
+            while (true)
+            {
+                if (!Config.refreshFlag)
+                    continue;
+                Config.refreshFlag = false;
+                string dir = String.Format(@"{0}\damagelogs", Config.selectedFolder);
+                DirectoryInfo dirInfo = new DirectoryInfo(dir);
+                if (!dirInfo.Exists)
+                {
+                    Config.Controls["lblLogFile"].Text = "No logs";
+                    continue;
+                }
+                FileInfo file = (from f in dirInfo.GetFiles("*.csv") orderby f.LastWriteTime descending select f).FirstOrDefault();
+                Config.Controls["lblLogFile"].Text = String.Format("Reading {0}", file.Name ?? "<NULL>");
+
+                if (!file.Exists)
+                    continue;
+                ActGlobals.oFormActMain.LogFilePath = file.FullName;
+                ActGlobals.oFormActMain.OpenLog(false, false);
+            }
         }
 
 
@@ -115,30 +156,29 @@ namespace PSO2ACT
             if (aAction.targetID == 0 ||
                 (aAction.instanceID == 0 && currInstID == 0xFFFF))
                 return;
-
             DateTime time = ActGlobals.oFormActMain.LastKnownTime;
             int gts = ActGlobals.oFormActMain.GlobalTimeSorter;
-
             if (aAction.instanceID == 0)
                 aAction.instanceID = currInstID;
-
             SwingTypeEnum e;
             if (aAction.damage < 0 && aAction.isMisc)
                 e = SwingTypeEnum.Healing;
             else
                 e = SwingTypeEnum.Melee;
-
             Dnum dmg = new Dnum(aAction.damage);
+
+            string sourceName = aAction.sourceName + "_" + aAction.sourceID.ToString();
+            string targetName = aAction.targetName + "_" + aAction.targetID.ToString();
+
             MasterSwing ms = new MasterSwing(Convert.ToInt32(e),
                 aAction.isCrit,
                 dmg,
                 time,
                 gts,
                 aAction.attackID.ToString(),
-                aAction.sourceName,
+                sourceName,
                 aAction.attackID.ToString(),
-                //aAction.targetID.ToString()
-                aAction.targetName
+                targetName
                 );
 
             if (aAction.instanceID != currInstID)
@@ -147,9 +187,8 @@ namespace PSO2ACT
                 ActGlobals.oFormActMain.ChangeZone(aAction.instanceID.ToString());
             }
 
-            if (ActGlobals.oFormActMain.SetEncounter(time, aAction.sourceID.ToString(), aAction.targetID.ToString()))
+            if (ActGlobals.oFormActMain.SetEncounter(time, aAction.sourceName, aAction.targetName))
                 ActGlobals.oFormActMain.AddCombatAction(ms);
-
 
         }
 
@@ -212,6 +251,34 @@ namespace PSO2ACT
             xWriter.Flush();	// Flush the file buffer to disk
             xWriter.Close();
         }
+
+        //void oFormActMain_UpdateCheckClicked()
+        //{
+        //    int pluginId = 64;
+        //    try
+        //    {
+        //        DateTime localDate = ActGlobals.oFormActMain.PluginGetSelfDateUtc(this);
+        //        DateTime remoteDate = ActGlobals.oFormActMain.PluginGetRemoteDateUtc(pluginId);
+        //        if (localDate.AddHours(2) < remoteDate)
+        //        {
+        //            DialogResult result = MessageBox.Show("There is an updated version of the EQ1 Parsing Plugin.  Update it now?\n\n(If there is an update to ACT, you should click No and update ACT first.)", "New Version", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+        //            if (result == DialogResult.Yes)
+        //            {
+        //                FileInfo updatedFile = ActGlobals.oFormActMain.PluginDownload(pluginId);
+        //                ActPluginData pluginData = ActGlobals.oFormActMain.PluginGetSelfData(this);
+        //                pluginData.pluginFile.Delete();
+        //                updatedFile.MoveTo(pluginData.pluginFile.FullName);
+        //                ThreadInvokes.CheckboxSetChecked(ActGlobals.oFormActMain, pluginData.cbEnabled, false);
+        //                Application.DoEvents();
+        //                ThreadInvokes.CheckboxSetChecked(ActGlobals.oFormActMain, pluginData.cbEnabled, true);
+        //            }
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        ActGlobals.oFormActMain.WriteExceptionLog(ex, "Plugin Update Check");
+        //    }
+        //}
 
     }
 }
