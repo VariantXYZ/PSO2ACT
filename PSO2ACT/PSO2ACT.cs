@@ -243,7 +243,7 @@ namespace PSO2ACT
                 return DateTime.MinValue;
             System.DateTime dateTime = new System.DateTime(1970, 1, 1, 0, 0, 0, 0);
             dateTime = dateTime.AddSeconds(Convert.ToUInt32(tmp[0]));
-            return dateTime;
+            return dateTime.ToLocalTime();
         }
 
 
