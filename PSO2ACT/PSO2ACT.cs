@@ -10,6 +10,7 @@ using Advanced_Combat_Tracker;
 using System.Reflection;
 using System.IO;
 using System.Threading;
+using System.Net;
 
 namespace PSO2ACT
 {
@@ -51,14 +52,15 @@ namespace PSO2ACT
             Config.selectedFolder = Config.Controls["directory"].Text;
             lblStatus.Text = "Loaded PSO2ACT Plugin";
 
-            //if (ActGlobals.oFormActMain.GetAutomaticUpdatesAllowed())
-            //    new Thread(new ThreadStart(oFormActMain_UpdateCheckClicked)).Start();
+            if (ActGlobals.oFormActMain.GetAutomaticUpdatesAllowed())
+                new Thread(oFormActMain_UpdateCheckClicked).Start();
+            else
+                Config.refreshFlag = true;
 
             ActGlobals.oFormActMain.GetDateTimeFromLog = ParseDateTime;
             ActGlobals.oFormActMain.BeforeLogLineRead += new LogLineEventDelegate(oFormActMain_BeforeLogLineRead);
             ActGlobals.oFormActMain.OnCombatEnd += new CombatToggleEventDelegate(oFormActMain_OnCombatEnd);
 
-            Config.refreshFlag = true;
             logThread = new Thread(this.LogThread);
             logThread.Start();
 
@@ -84,7 +86,9 @@ namespace PSO2ACT
                 {
                     try
                     {
-                        FileStream f = File.Open(String.Format(@"{0}\skills.csv", Config.selectedFolder), FileMode.Open);
+                        var asm = Assembly.GetExecutingAssembly();
+                        string rsrcName = "PSO2ACT.skills.csv";
+                        Stream f = asm.GetManifestResourceStream(rsrcName);
                         using (StreamReader sr = new StreamReader(f))
                         {
                             string line;
@@ -108,7 +112,6 @@ namespace PSO2ACT
                         MessageBox.Show(ex.Message);
                     }
                 }
-
                 FileInfo[] dr = dirInfo.GetFiles("*.csv");
                 if (dr == null || dr.Length == 0)
                 {
@@ -122,7 +125,6 @@ namespace PSO2ACT
                 ActGlobals.oFormActMain.OpenLog(false, false);
             }
         }
-
 
         struct Action
         {
@@ -295,33 +297,46 @@ namespace PSO2ACT
             xWriter.Close();
         }
 
-        //void oFormActMain_UpdateCheckClicked()
-        //{
-        //    int pluginId = 64;
-        //    try
-        //    {
-        //        DateTime localDate = ActGlobals.oFormActMain.PluginGetSelfDateUtc(this);
-        //        DateTime remoteDate = ActGlobals.oFormActMain.PluginGetRemoteDateUtc(pluginId);
-        //        if (localDate.AddHours(2) < remoteDate)
-        //        {
-        //            DialogResult result = MessageBox.Show("There is an updated version of the EQ1 Parsing Plugin.  Update it now?\n\n(If there is an update to ACT, you should click No and update ACT first.)", "New Version", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-        //            if (result == DialogResult.Yes)
-        //            {
-        //                FileInfo updatedFile = ActGlobals.oFormActMain.PluginDownload(pluginId);
-        //                ActPluginData pluginData = ActGlobals.oFormActMain.PluginGetSelfData(this);
-        //                pluginData.pluginFile.Delete();
-        //                updatedFile.MoveTo(pluginData.pluginFile.FullName);
-        //                ThreadInvokes.CheckboxSetChecked(ActGlobals.oFormActMain, pluginData.cbEnabled, false);
-        //                Application.DoEvents();
-        //                ThreadInvokes.CheckboxSetChecked(ActGlobals.oFormActMain, pluginData.cbEnabled, true);
-        //            }
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        ActGlobals.oFormActMain.WriteExceptionLog(ex, "Plugin Update Check");
-        //    }
-        //}
+        void oFormActMain_UpdateCheckClicked()
+        {
+            try
+            {
+                string fileURL = @"http://www.vxyz.me/files/PSO2ACT/PSO2ACT.dll";
+                DateTime localDate = ActGlobals.oFormActMain.PluginGetSelfDateUtc(this);
+                DateTime remoteDate = GetRemoteLastUpdated(fileURL);
+                if (localDate < remoteDate)
+                {
+                    DialogResult result = MessageBox.Show("There is an updated version of the PSO2 Parsing Plugin.  Update it now?\n\n(If there is an update to ACT, you should click No and update ACT first.)", "New Version", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                    if (result == DialogResult.Yes)
+                    {
+                        ActPluginData pluginData = ActGlobals.oFormActMain.PluginGetSelfData(this);
+                        WebClient w = new WebClient();
+                        w.DownloadFile(fileURL, pluginData.pluginFile.FullName + ".tmp");
+                        pluginData.pluginFile.Delete();
+                        File.Move(pluginData.pluginFile.FullName + ".tmp", pluginData.pluginFile.FullName);
+                        ThreadInvokes.CheckboxSetChecked(ActGlobals.oFormActMain, pluginData.cbEnabled, false);
+                        Application.DoEvents();
+                        ThreadInvokes.CheckboxSetChecked(ActGlobals.oFormActMain, pluginData.cbEnabled, true);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Plugin Update Failed: " + ex.Message);
+                ActGlobals.oFormActMain.WriteExceptionLog(ex, "Plugin Update Failed");
+            }
+            Config.refreshFlag = true;
+            return;
+        }
+
+        DateTime GetRemoteLastUpdated(string url)
+        {
+            var request = (HttpWebRequest)WebRequest.Create(url);
+            request.Method = "HEAD";
+            var response = (HttpWebResponse)request.GetResponse();
+            response.Close();
+            return response.LastModified.ToUniversalTime();
+        }
 
     }
 }
