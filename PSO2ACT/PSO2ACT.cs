@@ -22,6 +22,7 @@ namespace PSO2ACT
         SettingsSerializer xmlSettings;
         Queue<string> queueActions = new Queue<string>();
         static ushort currInstID = 0xFFFF;
+        static string charName = "";
         Thread logThread;
 
         struct Skill
@@ -60,6 +61,7 @@ namespace PSO2ACT
             ActGlobals.oFormActMain.GetDateTimeFromLog = ParseDateTime;
             ActGlobals.oFormActMain.BeforeLogLineRead += new LogLineEventDelegate(oFormActMain_BeforeLogLineRead);
             ActGlobals.oFormActMain.OnCombatEnd += new CombatToggleEventDelegate(oFormActMain_OnCombatEnd);
+            ActGlobals.oFormActMain.OnCombatStart += new CombatToggleEventDelegate(oFormActMain_OnCombatStart);
 
             logThread = new Thread(this.LogThread);
             logThread.Start();
@@ -143,11 +145,18 @@ namespace PSO2ACT
             public bool isMisc2;
         }
 
+        void oFormActMain_OnCombatStart(bool isImport, CombatToggleEventArgs encounterInfo)
+        {
+            if (!isImport)
+                encounterInfo.encounter.CharName = charName;
+        }
 
 
         void oFormActMain_OnCombatEnd(bool isImport, CombatToggleEventArgs encounterInfo)
         {
             currInstID = 0xFFFF;
+            if (!isImport)
+                encounterInfo.encounter.CharName = charName;
         }
 
         void oFormActMain_BeforeLogLineRead(bool isImport, LogLineEventArgs logInfo)
@@ -190,11 +199,8 @@ namespace PSO2ACT
                 aAction.instanceID = currInstID;
             SwingTypeEnum e;
 
-
-
             string sourceName = aAction.sourceName + "_" + aAction.sourceID.ToString();
             string targetName = aAction.targetName + "_" + aAction.targetID.ToString();
-
 
             string actionType = aAction.attackID.ToString();
             string damageType = aAction.attackID.ToString();
@@ -211,7 +217,6 @@ namespace PSO2ACT
                 actionType = skillDict[aAction.attackID].Name;
                 damageType = skillDict[aAction.attackID].Type;
             }
-
 
             MasterSwing ms = new MasterSwing(
                 Convert.ToInt32(e),
@@ -232,9 +237,16 @@ namespace PSO2ACT
                 ActGlobals.oFormActMain.ChangeZone(aAction.instanceID.ToString());
             }
 
-            if (ActGlobals.oFormActMain.SetEncounter(time, aAction.sourceName, aAction.targetName))
+            if (ActGlobals.oFormActMain.SetEncounter(time, sourceName, targetName))
+            {
+                //lol whatever
+                if (aAction.sourceID > 0xFFFF)
+                    charName = sourceName;
+                else if (aAction.targetID > 0xFFFF)
+                    charName = targetName;
+                
                 ActGlobals.oFormActMain.AddCombatAction(ms);
-
+            }
         }
 
 
