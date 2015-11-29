@@ -111,7 +111,7 @@ Sonic Arrow,3096768032,PA,full gear
 Sonic Arrow,1410023705,PA,???
 Cruel Throw,2150373435,PA,grab
 Cruel Throw,1224724117,PA,thrown
-Cruel Throw,2164805818,PA,beatdown
+Enemy Thrown,2164805818,PA,beatdown
 Guilty Break,3096967176,PA,no charge 1
 Guilty Break,784836873,PA,no charge 2
 Guilty Break,3096967243,PA,half charge 1
@@ -184,6 +184,8 @@ Holding current,1667539691,PA,Holding current detatch
 Air Pocket Swing,1667539880,PA,Air Pocket Swing
 Cerberus Dance,1667539817,PA,Cerberus Dance
 Cerberus Dance,185880800,PA,Cerberus Dance finish
+Cerberus Dance (C),4083015423,,Cerberus Dance (crafted)
+Cerberus Dance (C),1181894001,,Cerberus Dance finish (crafted)
 Wild Round,1667539503,PA,Wild Round
 Kaiser Rise,4083089437,PA,Kaiser Rise
 Adapting spin ,4083089500,PA,Adapting spin 
@@ -196,6 +198,9 @@ Hit,2867139739,Ranged,Gunslash R3
 Step Attack,2277392279,Melee,Gunslash Step
 Tri Impact,3316645180,PA,Tri Impact first two hits
 Tri Impact,1956354608,PA,Tri Impact third impact
+Tri Impact (C),4121081309,PA,Tri Impact Crafted hit
+Tri Impact (C),3770139908,PA,Tri Impact Crafted hit
+Tri Impact (C),1585984604,PA,Tri Impact Crafted hit
 Rage Dance,4069575100,PA,Rage dance stabs
 Rage Dance,2375995786,PA,Rage dance shot
 Ein Raketen,1803337451,PA,Ein Raketen swing
@@ -428,27 +433,186 @@ Immortal Dove,2263183145,PA,- Two gear bars
 Immortal Dove,2263183144,PA,- Three gear bars
 Hit,2272169032,Ranged,Bow normal
 Hit,2272172706,Ranged,Bow normal(charge)
-Master Shot,346594595,PA,Master Shot
-Master Shot,346612320,PA,Master Shot(Charged)
-Penetrating Arrow,345271774,PA,Penetrating Arrow
-Penetrating Arrow,345281053,PA,Penetrating Arrow(Charged)
-Gravity Point,3485093660,PA,Gravity Point(1)
-Gravity Point,3485092908,PA,Gravity Point(1)Charged)
-Gravity Point,3438287013,PA,Gravity Point(2)
-Gravity Point,3438287076,PA,Gravity Point(2)(charged)
-Kamikaze Arrow,3470042837,PA,Kamikaze Arrow(1)
-Kamikaze Arrow,3470042646,PA,Kamikaze Arrow(1)(Charged)
-Kamikaze Arrow,3439973719,PA,Kamikaze Arrow(2)
-Kamikaze Arrow,3439973654,PA,Kamikaze Arrow(2)(Charged)
+Hit,3762661375,Melee,Step Attack
+Master Shot,346594595,PA,Master Shot (uncharged)
+Master Shot,346612320,PA,Master Shot (charged)
+Penetrating Arrow,345271774,PA,Penetrating Arrow (uncharged)
+Penetrating Arrow,345281053,PA,Penetrating Arrow (charged)
+Torrential Arrow,347381214,PA,Torrential Arrow (uncharged)
+Torrential Arrow,347381151,PA,Torrential Arrow (charged)
+Gravity Point,3485093660,PA,Gravity Point (uncharged)
+Gravity Point,3438287013,PA,Gravity Point suction (uncharged)
+Gravity Point,3485092908,PA,Gravity Point (charged)
+Gravity Point,3438287076,PA,Gravity Point suction (charged)
+Kamikaze Arrow,3470042837,PA,Kamikaze Arrow fling
+Kamikaze Arrow,3439973719,PA,Kamikaze Arrow rebound
+Kamikaze Arrow,3470042646,PA,Kamikaze Arrow fling (charged)
+Kamikaze Arrow,3439973654,PA,Kamikaze Arrow rebound (charged)
 Sharp Bomber,294311563,PA,Sharp Bomber
 Final Nemesis,3765323771,PA,Final Nemesis
-Tritt Shooter,294299758,PA,Tritt Shooter(1)
-Tritt Shooter,294300276,PA,Tritt Shooter(2)
-Tritt Shooter,349008452,PA,Tritt Shooter - Type0(1)
-Tritt Shooter,349008990,PA,Tritt Shooter - Type0(2)
-Banish Arrow,348753019,PA,Banish Arrow
+Tritt Shooter,294299758,PA,Tritt Shooter kicks
+Tritt Shooter,294300276,PA,Tritt Shooter shot
+Tritt Shooter,349059562,PA,Tritt Shooter roundhouse
+Tritt Shooter,349008452,PA,Tritt Shooter (crafted) kicks
+Tritt Shooter,349008990,PA,Tritt Shooter (crafted) shots
+Tritt Shooter,3255472210,PA,Tritt Shooter (crafted) roundhouse
+Banishing Arrow,348753019,PA,Banishing Arrow
 Million Storm,294264661,PA,Million Storm
 Chase Arrow,294264342,PA,Chase Arrow
-Step Attack,3762661375,Melee,Bow Step Attack
-Torrential Arrow,347381214,PA,Torrential Arrow
-Torrential Arrow,347381151,PA,Torrential Arrow(Charged)
+Hit,1856399071,Ranged,Rifle shot
+Hit,220156466,Ranged,Rifle Diveroll shoot
+Hit,713142898,Special,Weak bullet hit
+Piercing Shell,220056925,PA,Piercing Shell
+Grenade Shell,220057357,PA,Grenade Shell
+One Point,220057548,PA,One Point
+Diffuse Shell,220057487,PA,Diffuse Shell
+Homing emission,220057166,PA,Homing Emission (uncrafted)
+Homing emission,3857665729,PA,Homing Emission (crafted)
+Impact Slider,220056584,PA,Impact Slider
+Impact Slider,1218987301,PA,Impact Slider (kick)
+Sneak Shooter,220056777,PA,Sneak Shooter
+Glorious Rain,220056714,PA,Glorious Rain
+Parallel Slider,220057419,PA,Parallel Slider
+Satellite Cannon,2295790933,PA,Satellite Cannon (no charge)
+Satellite Cannon,2295790868,PA,Satellite Cannon (half charge)
+Satellite Cannon,2295790295,PA,Satellite Cannon (full charge)
+End Attraction,2285537842,PA,End Attraction (no charge)
+End Attraction,2285537907,PA,End Attraction (half charge)
+End Attraction,2285538736,PA,End Attraction (full charge)
+Gravity Bomb,3695311812,Special,Gravity bomb
+Hit,594271163,Ranged,First
+Hit,594271098,Ranged,Second
+Hit,594270780,Ranged,Third
+Hit,2731320054,Ranged,Dive roll shoot
+Divine Launcher,2709160760,PA,Divine Launcher
+Divine Launcher (C),1445952978,PA,uncharged
+Divine Launcher (C),1445953294,PA,charged
+Concentrate One,2709161692,PA,Concentrate One
+Cluster Bullet,2709161629,PA,Cluster Bullet
+Cracker Bullet,2219649314,PA,Cracker Bullet (multihit)
+Cracker Bullet,2709161566,PA,Cracker Bullet (final)
+Zero Distance,2709161503,PA,Zero Distance
+Rodeo Drive,2219642677,PA,Rodeo Drive
+Crazy Smash,2709161368,PA,Crazy Smash (direct enemy)
+Fake Silhouette,2219699734,PA,Fake Silhouette
+Flame Bullet,2709161242,PA,Flame Bullet
+Cosmos Breaker,2219596384,PA,Cosmos Breaker
+Sphere Eraser,2219595324,PA,Sphere Eraser
+Hit,3132894402,Ranged,First attack (4x)
+Hit,3132894403,Ranged,Partial gear
+Hit,3132894401,Ranged,Full gear
+Hit,1923738865,Ranged,Second attack (4x)
+Hit,1923738870,Ranged,Partial gear
+Hit,1923738868,Ranged,Full gear
+Hit,1901223401,Ranged,Third attack (5x)
+Hit,1901223406,Ranged,Partial gear
+Hit,1901223404,Ranged,Full gear
+Hit,2297353124,Ranged,Dive roll shoot
+Hit,2297352795,Ranged,Partial gear
+Hit,2297352794,Ranged,Full gear
+Hit,2594009166,Ranged,S-roll shoot
+Hit,2594009167,Ranged,Partial gear
+Hit,2594009160,Ranged,Full gear
+Aerial Shooting,891590654,PA,Aerial shooting (uncharged kick)
+Aerial Shooting,891590641,PA,Partial gear
+Aerial Shooting,891590640,PA,Full gear
+Aerial Shooting,4004748150,PA,Aerial shooting (charged launch)
+Aerial Shooting,4004748151,PA,Partial gear
+Aerial Shooting,4004748144,PA,Full gear
+Aerial Shooting,4004760231,PA,Aerial shooting (first air hit)
+Aerial Shooting,4004760230,PA,Partial gear
+Aerial Shooting,4004760225,PA,Full gear
+Aerial Shooting,4004772370,PA,Aerial shooting (second air hit)
+Aerial Shooting,4004772369,PA,Partial gear
+Aerial Shooting,4004772368,PA,Full gear
+Bullet Squall,3463411283,PA,Bullet Squall start (uncrafted)
+Bullet Squall,3463411282,PA,Partial gear
+Bullet Squall,3463411293,PA,Full gear
+Bullet Squall,443425897,PA,Bullet Squall shots (uncrafted)
+Bullet Squall,443425896,PA,Partial gear
+Bullet Squall,443425899,PA,Full gear
+Dead Approach,232817712,PA,Dead Approach
+Dead Approach,232817719,PA,Partial gear
+Dead Approach,232817718,PA,Full gear
+Messiah Time,3991628327,PA,Messiah Time (every shot)
+Messiah Time,3991628324,PA,Partial gear
+Messiah Time,3991628325,PA,Full gear
+Infinite Fire,3134942095,PA,Infinite Fire (initial volley)
+Infinite Fire,3134942094,PA,Partial gear
+Infinite Fire,3134942093,PA,Full gear
+Infinite Fire,879653107,PA,Infinite Fire (final volley)
+Infinite Fire,879653104,PA,Partial gear
+Infinite Fire,879653105,PA,Full gear
+Satellite Aim,1770510361,PA,Satellite Aim (hit 1)
+Satellite Aim,1770510366,PA,Partial gear
+Satellite Aim,1770510367,PA,Full gear
+Satellite Aim,2273182629,PA,Satellite Aim (hit 2)
+Satellite Aim,2273181786,PA,Partial gear
+Satellite Aim,2273181787,PA,Full gear
+Elder Rebellion,1108337397,PA,Elder Rebellion (5 hits)
+Elder Rebellion,1108337396,PA,Partial gear
+Elder Rebellion,1108337395,PA,Full gear
+Elder Rebellion,4042421111,PA,Elder Rebellion (2 blasts)
+Elder Rebellion,4042421110,PA,Partial gear
+Elder Rebellion,4042421105,PA,Full gear
+Elder Rebellion,3412194152,PA,Elder Rebellion (final blast)
+Elder Rebellion,3412194159,PA,Partial gear
+Elder Rebellion,3412194158,PA,Full gear
+Reverse Tap,1550097800,PA,Reverse tap
+Reverse Tap,1550097807,PA,Partial gear
+Reverse Tap,1550097806,PA,Full gear
+Heel Stab,2371693862,PA,Heel Stab (first kick)
+Heel Stab,2371693863,PA,Partial gear
+Heel Stab,2371693860,PA,Full gear
+Heel Stab,4134662873,PA,Heel Stab (uncharged second)
+Heel Stab,4134662878,PA,Partial gear
+Heel Stab,4134662879,PA,Full gear
+Heel Stab,1163390941,PA,Heel Stab (charged second)
+Heel Stab,1163390930,PA,Partial gear
+Heel Stab,1163390931,PA,Full gear
+Heel Stab,148870087,PA,Heel Stab (charged volley)
+Heel Stab,148870086,PA,Partial gear
+Heel Stab,148870081,PA,Full gear
+Shift Period,3102409757,PA,SHIFT PERIOD (idk)
+Shift Period,3102409758,PA,Partial gear
+Shift Period,3102409728,PA,Full gear
+Shift Period,2107489028,PA,SHIFT PERIOD (idk)
+Shift Period,2107489029,PA,Partial gear
+Shift Period,2107489031,PA,Full gear
+Shift Period,2928127116,PA,SHIFT PERIOD (idk)
+Shift Period,2928127106,PA,Full gear
+Shift Period,4206265008,PA,SHIFT PERIOD (idk)
+Shift Period,4206265011,PA,Partial gear
+Shift Period,4206265013,PA,Full gear
+Shift Period,2869490729,PA,SHIFT PERIOD (idk)
+Shift Period,2869490728,PA,Partial gear
+Shift Period,2869490902,PA,Full gear
+Grim Barrage,896218141,PA,Grim Barrage
+Grim Barrage,896218140,PA,Partial gear
+Grim Barrage,896218139,PA,Full gear
+Grim Barrage,1235843178,PA,Grim Barrage (part 2)
+Grim Barrage,1235843181,PA,Partial gear
+Grim Barrage,1235843180,PA,Full gear
+Hit,3540874879,Melee,First Attack
+Hit,2778548652,Melee,Second Attack
+Hit,3614558463,Melee,Third Attack
+Hit,798466786,Melee,Step Attack
+Hit,2184540187,Melee,Shift Action
+Hit,1853582271,Special,Jump hit
+Strike Gust,2440471691,PA,Strike Gust (uncharged first two)
+Strike Gust,3982071982,PA,Strike Gust (uncharged final)
+Strike Gust,2049018178,PA,Strike Gust (half charge first three)
+Strike Gust,2476784422,PA,Strike Gust (half charge final)
+Strike Gust,1301043509,PA,Strike Gust (charged first four)
+Strike Gust,3955365271,PA,Strike Gust (final)
+Strike Gust,3088217635,PA,Strike Gust (interrupt)
+Gran Wave,424716447,PA,Gran Wave (first kick)
+Gran Wave,3764244857,PA,Gran Wave (kick volle)
+Gran Wave,147222821,PA,Gran Wave (interrupt)
+Moment Gale,1327336062,PA,Moment Gale
+Moment Gale,4236946851,PA,Moment Gale (interrupt part 1)
+Vinto Gigue,4124802045,PA,Vinto (explode)
+Vinto Gigue,2398433897,PA,Vinto (explode any gear)
+Vinto Gigue,3958422470,PA,Vinto (kick)
+Vinto Gigue,1528400162,PA,Vinto (kick half gear)
+Vinto Gigue,598735040,PA,Vinto (kick full gear)
