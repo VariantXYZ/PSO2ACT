@@ -63,16 +63,26 @@ namespace PSO2ACT
             ActGlobals.oFormActMain.OnCombatEnd += new CombatToggleEventDelegate(oFormActMain_OnCombatEnd);
             ActGlobals.oFormActMain.OnCombatStart += new CombatToggleEventDelegate(oFormActMain_OnCombatStart);
 
-            logThread = new Thread(this.LogThread);
-            logThread.Start();
-
+            try
+            {
+                InitializeSkillDict();
+                logThread = new Thread(this.LogThread);
+                logThread.Start();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
             return;
         }
+
 
         private void LogThread()
         {
             while (true)
             {
+                Thread.Sleep(100);
+
                 if (!Config.refreshFlag)
                     continue;
 
@@ -84,36 +94,7 @@ namespace PSO2ACT
                     Config.Controls["lblLogFile"].Text = "damagelogs folder not found";
                     continue;
                 }
-                if (skillDict.Keys.Count == 0)
-                {
-                    try
-                    {
-                        var asm = Assembly.GetExecutingAssembly();
-                        string rsrcName = "PSO2ACT.skills.csv";
-                        Stream f = asm.GetManifestResourceStream(rsrcName);
-                        using (StreamReader sr = new StreamReader(f))
-                        {
-                            string line;
-                            while ((line = sr.ReadLine()) != null)
-                            {
-                                string[] tmp = line.Split(',');
-                                Skill s;
-                                s.Name = tmp[0];
-                                s.Type = tmp[2];
-                                s.Comment = tmp[3];
-                                if (skillDict.ContainsKey(Convert.ToUInt32(tmp[1])))
-                                {
-                                    MessageBox.Show("Duplicate ID:  " + line);
-                                }
-                                skillDict.Add(Convert.ToUInt32(tmp[1]), s);
-                            }
-                        }
-                    }
-                    catch (Exception ex)
-                    {
-                        MessageBox.Show(ex.Message);
-                    }
-                }
+
                 FileInfo[] dr = dirInfo.GetFiles("*.csv");
                 if (dr == null || dr.Length == 0)
                 {
@@ -193,6 +174,7 @@ namespace PSO2ACT
             if (aAction.targetID == 0 ||
                 (aAction.instanceID == 0 && currInstID == 0xFFFF))
                 return;
+
             DateTime time = ActGlobals.oFormActMain.LastKnownTime;
             int gts = ActGlobals.oFormActMain.GlobalTimeSorter;
             if (aAction.instanceID == 0)
@@ -238,17 +220,40 @@ namespace PSO2ACT
             }
 
             if (ActGlobals.oFormActMain.SetEncounter(time, sourceName, targetName))
-            {
-                //lol whatever
-                if (aAction.sourceID > 0xFFFF)
-                    charName = sourceName;
-                else if (aAction.targetID > 0xFFFF)
-                    charName = targetName;
-                
                 ActGlobals.oFormActMain.AddCombatAction(ms);
-            }
         }
 
+        private void InitializeSkillDict()
+        {
+            try
+            {
+                var asm = Assembly.GetExecutingAssembly();
+                string rsrcName = "PSO2ACT.skills.csv";
+                Stream f = asm.GetManifestResourceStream(rsrcName);
+                using (StreamReader sr = new StreamReader(f))
+                {
+                    string line;
+                    while ((line = sr.ReadLine()) != null)
+                    {
+                        string[] tmp = line.Split(',');
+                        Skill s;
+                        s.Name = tmp[0];
+                        s.Type = tmp[2];
+                        s.Comment = tmp[3];
+                        if (skillDict.ContainsKey(Convert.ToUInt32(tmp[1])))
+                        {
+                            MessageBox.Show("Duplicate ID:  " + line);
+                        }
+                        skillDict.Add(Convert.ToUInt32(tmp[1]), s);
+                    }
+                }
+                f.Dispose();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
 
         DateTime ParseDateTime(string logLine)
         {
