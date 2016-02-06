@@ -181,8 +181,8 @@ namespace PSO2ACT
                 aAction.instanceID = currInstID;
             SwingTypeEnum e;
 
-            string sourceName = aAction.sourceName + "_" + aAction.sourceID.ToString();
-            string targetName = aAction.targetName + "_" + aAction.targetID.ToString();
+            string sourceName = aAction.sourceName == "YOU" ? "YOU" : aAction.sourceName + "_" + aAction.sourceID.ToString();
+            string targetName = aAction.targetName == "YOU" ? "YOU" : aAction.targetName + "_" + aAction.targetID.ToString();
 
             string actionType = aAction.attackID.ToString();
             string damageType = aAction.attackID.ToString();
