@@ -111,7 +111,6 @@ Sonic Arrow,3096760613,PA,no gear
 Sonic Arrow,3096760676,PA,partial gear
 Sonic Arrow,3096768032,PA,full gear
 Sonic Arrow,1410023705,PA,???
-Sonic Arrow,1331225593,PA,???
 Cruel Throw,2150373435,PA,grab
 Cruel Throw,1224724117,PA,thrown
 Enemy Thrown,2164805818,PA,beatdown
@@ -650,3 +649,42 @@ Sally Chaser,385050960,PA,Sally Chaser
 Hit,639929291,Melee,Sally auto-attack 1
 BOOSTO KICKU,85303029,Special,Tokyo speed-pad kick
 Clobber,3104220402,Special,Mag action - Clobber
+Julius Nifta,764702094,Special,Julius Nifta
+Stun grenade,506640607,Special,Stun grenade
+Ein Raketen,4080719295,PA,Ein Raketen shot
+Step attack,2071807444,Melee,Unarmed step attack
+Hit,3481186334,Melee,Unarmed first normal attack
+Hit,1578628668,Melee,Unarmed second normal attack
+Hit,888355388,Melee,Unarmed third normal attack
+Hit,3103989825,Melee,Katana air first normal attack 
+Hit,3103990658,Melee,Katana air second normal attack
+Hit,3103990723,Melee,Katana air third normal attack
+Hit,1306546230,Melee,Unarmed air first normal attack
+Hit,439463649,Melee,Unarmed air second normal attack
+Hit,2213730805,Melee,Unarmed air third normal attack
+Hit,1405961624,Melee,Gunslash (striking mode) air first normal attack
+Hit,3342919411,Melee,Gunslash (striking mode) air second normal attack
+Hit,3800743499,Melee,Gunslash (striking mode) air third normal attack
+Hit,3587443201,Melee,Double Saber air first normal attack
+Hit,2489626506,Melee,Double Saber air second normal attack
+Hit,3086213424,Melee,Double Saber air third normal attack
+Mag hit,2667138551,Special,Mag action (S-ATK attack)
+Hit,3833651966,Melee,Knuckles air first normal attack
+Hit,3392788140,Melee,Knuckles air second normal attack
+Hit,2085169672,Melee,Knuckles air third normal attack
+Hit,3816723344,Melee,Twin Daggers air first normal attack
+Hit,1163229184,Melee,Twin Daggers air second normal attack
+Hit,1893769682,Melee,Twin Daggers air third normal attack
+Hit,689132866,Melee,Partizan air first normal attack
+Hit,2984060434,Melee,Partizan air second normal attack
+Hit,3685709820,Melee,Partizan air third normal attack
+Hit,990294516,Melee,Dual Blades first normal attack
+Hit,990294325,Melee,Dual Blades second normal attack
+Hit,990294387,Melee,Dual Blades third normal attack
+Step attack,991363414,Melee,Dual Blades step attack
+Hit,996054556,Melee,Dual Blades air first normal attack
+Hit,996054749,Melee,Dual Blades air second normal attack
+Hit,996054686,Melee,Dual Blades air third normal attack
+Hit,1331225211,Melee,Sword air first normal attack
+Hit,1331225593,Melee,Sword air second normal attack 
+Hit,1331225146,Melee,Sword air third normal attack
