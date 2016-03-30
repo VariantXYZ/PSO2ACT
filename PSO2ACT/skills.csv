@@ -702,3 +702,26 @@ Mag hit,1049123664,Special,Mag action (T-ATK Foie)
 Mag hit,867373469,Special,Mag action (R-ATK Exploding Fire Bullet)
 Vulkan,4205203418,Special,Mag action (SP R-ATK Vulkan)
 Mag hit,1886571787,Special,Mag action (T-ATK Grants)
+Hit,2944355330,Melee,Maron first normal attack
+Hit,2944352598,Melee,Maron second normal attack
+Hit,2944352663,Melee,Maron third normal attack
+Maron Strike,3595323408,PA,Maron Strike
+Maron Strike,3595323990,PA,Maron Strike charge 1
+Maron Strike,3595323799,PA,Maron Strike charge 2
+Maron Strike,1160289435,PA,Maron Strike explosion
+Maron Break,115059488,PA,Maron Break
+Maron Slicer,2944352598,PA,Maron Slicer 
+Maron Curse,1099252288,PA,Maron Curse first hit
+Maron Curse,1102156943,PA,Maron Curse
+Maron/Melon Strike,3460765776,PA,Maron/Melon Strike pet damage taken
+Hit,2920779330,Melee,Melon first normal attack
+Hit,2920778756,Melee,Melon second normal attack
+Hit,2920778949,Melee,Melon third normal attack
+Melon Strike,3889466000,PA,Melon Strike
+Melon Strike,3889465937,PA,Melon Strike charge 1
+Melon Strike,3889465879,PA,Melon Strike charge 2
+Melon Strike,4118650930,PA,Melon Strike explosion
+Melon Break,2920778949,PA,Melon Break
+Melon Slicer,3771080766,PA,Melon Slicer
+Melon Curse,745748621,PA,Melon Curse first hit
+Melon Curse,745791480,PA,Melon Curse
