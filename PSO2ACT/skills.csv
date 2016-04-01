@@ -85,7 +85,26 @@ Namegid,803375681,Tech,
 Namegid,2368738938,Tech,
 Ilmegid,3791794807,Tech,
 Ilmegid,3041296659,Tech,
+Fomelgion,9380787,Tech,???
+Fomelgion,1671704953,Tech,???
+Zandion,481495314,Tech,???
+Zandion,2644417114,Tech,???
 Burn,2505928584,Status,Burn status
+Hit,1775819901,Melee,Wand
+Hit,1775820734,Melee,Wand
+Hit,1775820799,Melee,Wand
+Hit,1777037248,Melee,Wand (step attack)
+Wand Gear,2614865725,Tech,Wand Gear (Ice)
+Wand Gear,1479548096,Tech,Wand Gear (Fire)
+Wand Gear,789614525,Tech,Wand Gear (Thunder)
+Wand Gear,3274663457,Tech,Wand Gear (Light)
+Wand Gear,1513048310,Tech,Wand Gear (Dark)
+Wand Gear,3948088357,Tech,Wand Gear (Wind)
+Barantsion,295363461,Tech,Barantsion
+Barantsion,3388489620,Tech,Barantsion
+Barantsion,1163319447,Tech,Barantsion
+Barantsion,2334157934,Tech,Barantsion
+Barantsion,2379907725,Tech,Barantsion
 Just Guard,1612949165,Special,Hunter Weapon JG
 Snatch Step,3943870236,Melee,Braver Snatch Step
 Step Attack,1216456228,Melee,Sword
@@ -233,6 +252,7 @@ DS Tornado,2620269130,Special,level 1
 DS Tornado,2620268940,Special,level 2
 DS Tornado,2620269005,Special,level 3
 Tornado Dance (C),275226098,PA,
+Tornado Dance (C),3746811944,PA,
 Tornado Dance,1825444869,PA,
 Scissor Edge,1652495452,PA,Scissor Edge initial hit
 Scissor Edge,2998595631,PA,Scissor Edge additional hits
@@ -342,8 +362,11 @@ Surprise Knuckle,71364306,PA,Surprise Knuckle
 Flash Thousand,1586239574,PA,Flash Thousand uppercut
 Flash Thousand,3809237665,PA,Flash Thousand jabs
 Backhand Smash,653244323,PA,Backhand Smash
+Backhand Smash,653244128,PA,Backhand Smash
+Backhand Smash,653244002,PA,Backhand Smash
 Meteor Fist,2796397201,PA,Meteor Fist (lots of fists edition)
 Meteor Fist,1647551898,PA,Meteor Fist charged (lots of fists)
+Meteor Fist,1160708678,PA,Meteor Fist (medium fist no gear)
 Meteor Fist,1050511877,PA,Meteor Fist (bigass fist edition)
 Meteor Fist,70519939,PA,MEGAFIST
 Heartless Impact,1169988911,PA,Heartless Impact part 1
@@ -469,8 +492,8 @@ Piercing Shell,220056925,PA,Piercing Shell
 Grenade Shell,220057357,PA,Grenade Shell
 One Point,220057548,PA,One Point
 Diffuse Shell,220057487,PA,Diffuse Shell
-Homing emission,220057166,PA,Homing Emission (uncrafted)
-Homing emission,3857665729,PA,Homing Emission (crafted)
+Homing Emission,220057166,PA,Homing Emission (uncrafted)
+Homing Emission,3857665729,PA,Homing Emission (crafted)
 Impact Slider,220056584,PA,Impact Slider
 Impact Slider,1218987301,PA,Impact Slider (kick)
 Sneak Shooter,220056777,PA,Sneak Shooter
@@ -650,3 +673,4 @@ Sally Chaser,385050960,PA,Sally Chaser
 Hit,639929291,Melee,Sally auto-attack 1
 BOOSTO KICKU,85303029,Special,Tokyo speed-pad kick
 Clobber,3104220402,Special,Mag action - Clobber
+Clobber,3296842070,Special,Mag action - Clobber
