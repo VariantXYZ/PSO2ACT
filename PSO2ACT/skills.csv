@@ -704,9 +704,9 @@ Step attack,991363414,Melee,Dual Blades step attack
 Hit,996054556,Melee,Dual Blades air first normal attack
 Hit,996054749,Melee,Dual Blades air second normal attack
 Hit,996054686,Melee,Dual Blades air third normal attack
-Hit,1331225211,Melee,Sword air first normal attack
-Hit,1331225593,Melee,Sword air second normal attack 
-Hit,1331225146,Melee,Sword air third normal attack
+Hit,1331225593,Melee,Sword air first normal attack 
+Hit,1331225146,Melee,Sword air second normal attack
+Hit,1331225211,Melee,Sword air third normal attack
 Hit,1698836726,Melee,Rod first normal attack
 Hit,1698835954,Melee,Rod second normal attack
 Hit,1698835891,Melee,Rod third normal attack
@@ -801,11 +801,11 @@ Julius Nifta,764702092,Special,PB Julius Nifta 3-chain
 Julius Nifta,764702093,Special,PB Julius Nifta 2-chain
 Ajax Imera,4274907792,Special,PB Ajax Imera no-chain+1-chain+2-chain
 Mag hit,1542931456,Special,Mag action (R-ATK Exploding Ice Bullet)
-Mag hit,3296842070,Special,Mag action(S-ATK Blow)
 Mag hit,1059126347,Special,Mag action(T-ATK Megid)
 Helix Proi,2004640116,Special,PB Helix Proi no-chain+1-chain+2-chain
 Ajax Imera,2379589576,Special,PB Ajax Imera 4-chain
-Ilios Imera,1792224906,Special,PB Ilios Imera 4-chain
 Mag hit,546125641,Special,Mag action(S-ATK Upper)
 Mag hit,3126711672,Special,Mag action(R-ATK Exploding Lightning Bullet)
 DB Snatch step,1317379950,Special,Dual Blade Snatch step ring
+Unarmed Ducking Blow,3085782811,PA,Unarmed Ducking Blow
+Rod Shoot,82081592,Special,Rod Shoot (Fo skill)
