@@ -374,10 +374,6 @@ Hit,3146534752,Melee,Katana 1
 Hit,3146534691,Melee,Katana 2
 Hit,3146534882,Melee,Katana 3
 Step Attack,3106156042,Melee,Katana Step
-Counter,2700168094,Special,Katana Counter 1
-Counter,2700168093,Special,Katana Counter 2
-Counter,1987114712,Special,Katana Counter 3
-Counter,4184015666,Special,Katana Counter 4
 Tsukimi-sazanka,3148575588,PA,Tsukimi-sazanka
 Gekka-zakuro,215665118,PA,Gekka-zakuro downswing
 Gekka-zakuro,2160628938,PA,Gekka upswing
@@ -753,3 +749,39 @@ BOOSTO KICKU,85303029,Special,Tokyo speed-pad kick level 3
 BOOSTO KICKU,85301612,Special,Tokyo speed-pad kick level 1 on cars
 BOOSTO KICKU,85302966,Special,Tokyo speed-pad kick level 2 on cars
 BOOSTO KICKU,85303031,Special,Tokyo speed-pad kick level 3 on cars
+Turret,1852253343,Special,Turret (for future reference)
+Rodos Grapple Turret,1358461404,Special,Rodos Grapple Turret (for future reference)
+Cannon,2414748436,Special,Facility Cannon (for future reference)
+Photon Cannon,1954812953,Special,Photon Cannon uncharged (for future reference)
+Photon Cannon,2822784832,Special,Photon Cannon charged (for future reference)
+Binding Arrow Turret,791327364,Special,Binding Arrow Turret (this might not be correct, for future reference)
+Hatou Rindou,106956039,PA,Hatou Rindou charged first hit
+Hatou Rindou,168167719,PA,Hatou Rindou charged second hit
+Counter,1987114712,Special,Katana Counter Edge no gear-1 gear (ring uses this as well)
+Counter,2700168094,Special,Katana Counter hit no gear
+Counter,2700168093,Special,Katana Counter hit 1 gear
+Counter,4136181738,Special,Katana Counter hit 2 gear
+Counter,4184015666,Special,Katana Counter Edge 2-max gear
+Counter,4143333980,Special,Katana Counter hit max gear (ring uses this as well)
+Counter,2700168092,Special,something Katana Counter related?
+Hit,3816723347,Melee,Twin Daggers 1 gear air first attack
+Hit,1163229191,Melee,Twin Daggers 1 gear air second attack
+Hit,1893769685,Melee,Twin Daggers 1 gear air third attack
+Hit,3816723346,Melee,Twin Daggers 2 gear air first attack
+Hit,1163229190,Melee,Twin Daggers 2 gear air second attack
+Hit,1893769684,Melee,Twin Daggers 2 gear air third attack
+Hit,3816723349,Melee,Twin Daggers 3 gear air first attack
+Hit,1163229189,Melee,Twin Daggers 3 gear air second attack
+Hit,1893769687,Melee,Twin Daggers 3 gear air third attack
+Bloody Sarabande,1185927985,PA,Bloody Sarabande no gear second part
+Bloody Sarabande,1022160395,PA,Bloody Sarabande 2 gear air first part
+Bloody Sarabande,2745888514,PA,Bloody Sarabande 2 gear air second part
+Orchestra,120509752,PA,Orchestra 3 gear
+Scar Fugue,1193225278,PA,Scar Fugue 3 gear grab
+Scar Fugue,2790036908,PA,Scar Fugue 3 gear second hit
+Scar Fugue,721495002,PA,Scar Fugue 3 gear last hit
+Dark Scherzo,2711968286,PA,Dark Scherzo 3 gear first two hits
+Dark Scherzo,2115627908,PA,Dark Scherzo 3 gear final hit
+Facet Folia,2569859797,PA,Facet Folia full gear grab
+Facet Folia,3225817234,PA,Facet Folia full gear second part
+Fall Nocturne,1622238547,PA,Fall Nocturne full gear
