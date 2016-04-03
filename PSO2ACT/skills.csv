@@ -667,7 +667,6 @@ Sally Fall,385030021,PA,Sally Fall
 Sally Chaser,385050960,PA,Sally Chaser
 Hit,639929291,Melee,Sally auto-attack 1
 Clobber,3104220402,Special,Mag action - Clobber
-Clobber,3296842070,Special,Mag action - Clobber
 Julius Nifta,764702094,Special,Julius Nifta
 Stun grenade,506640607,Special,Stun grenade
 Ein Raketen,4080719295,PA,Ein Raketen shot
@@ -704,9 +703,9 @@ Step attack,991363414,Melee,Dual Blades step attack
 Hit,996054556,Melee,Dual Blades air first normal attack
 Hit,996054749,Melee,Dual Blades air second normal attack
 Hit,996054686,Melee,Dual Blades air third normal attack
-Hit,1331225211,Melee,Sword air first normal attack
-Hit,1331225593,Melee,Sword air second normal attack 
-Hit,1331225146,Melee,Sword air third normal attack
+Hit,1331225593,Melee,Sword air first normal attack 
+Hit,1331225146,Melee,Sword air second normal attack
+Hit,1331225211,Melee,Sword air third normal attack
 Hit,1698836726,Melee,Rod first normal attack
 Hit,1698835954,Melee,Rod second normal attack
 Hit,1698835891,Melee,Rod third normal attack
@@ -787,7 +786,7 @@ Facet Folia,3225817234,PA,Facet Folia full gear second part
 Fall Nocturne,1622238547,PA,Fall Nocturne full gear
 Photon Particle turret,3339644659,Special,Photon Particle turret (for future reference)
 AIS,119505187,Special,A.I.S rifle (for future reference)
-AIS,80047171,Special,A.I.S dash melee(for future reference)
+AIS,80047171,Special,A.I.S dash melee (for future reference)
 AIS,79964675,Special,A.I.S gap closer attack (for future reference)
 AIS,434705298,Special,A.I.S rockets (for future reference)
 AIS,4081218683,Special,A.I.S mob freezing attack (for future reference)
@@ -795,3 +794,19 @@ AIS,1460054769,Special,A.I.S cannon (for future reference)
 AIS,79965782,Special,A.I.S melee first attack (for future reference)
 AIS,79965783,Special,A.I.S melee second attack (for future reference)
 AIS,79965784,Special,A.I.S melee third attack (for future reference)
+Helix Proi,1792224906,Special,PB Helix Proi 4-chain
+Julius Nifta,764702091,Special,PB Julius Nifta 4-chain
+Julius Nifta,764702092,Special,PB Julius Nifta 3-chain
+Julius Nifta,764702093,Special,PB Julius Nifta 2-chain
+Ajax Imera,4274907792,Special,PB Ajax Imera no-chain+1-chain+2-chain
+Mag hit,1542931456,Special,Mag action (R-ATK Exploding Ice Bullet)
+Mag hit,3296842070,Special,Mag action (S-ATK Blow)
+Mag hit,1059126347,Special,Mag action (T-ATK Megid)
+Helix Proi,2004640116,Special,PB Helix Proi no-chain+1-chain+2-chain
+Ajax Imera,2379589576,Special,PB Ajax Imera 4-chain
+Mag hit,546125641,Special,Mag action (S-ATK Upper)
+Mag hit,3126711672,Special,Mag action (R-ATK Exploding Lightning Bullet)
+DB Snatch step,1317379950,Special,Dual Blade Snatch step ring
+Unarmed Ducking Blow,3085782811,PA,Unarmed Ducking Blow
+Rod Shoot,82081592,Special,Rod Shoot (Fo skill)
+Upper trap,2460168075,Special,Upper trap (Ra skill)
