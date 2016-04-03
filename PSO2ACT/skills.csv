@@ -786,7 +786,7 @@ Facet Folia,3225817234,PA,Facet Folia full gear second part
 Fall Nocturne,1622238547,PA,Fall Nocturne full gear
 Photon Particle turret,3339644659,Special,Photon Particle turret (for future reference)
 AIS,119505187,Special,A.I.S rifle (for future reference)
-AIS,80047171,Special,A.I.S dash melee(for future reference)
+AIS,80047171,Special,A.I.S dash melee (for future reference)
 AIS,79964675,Special,A.I.S gap closer attack (for future reference)
 AIS,434705298,Special,A.I.S rockets (for future reference)
 AIS,4081218683,Special,A.I.S mob freezing attack (for future reference)
@@ -800,12 +800,13 @@ Julius Nifta,764702092,Special,PB Julius Nifta 3-chain
 Julius Nifta,764702093,Special,PB Julius Nifta 2-chain
 Ajax Imera,4274907792,Special,PB Ajax Imera no-chain+1-chain+2-chain
 Mag hit,1542931456,Special,Mag action (R-ATK Exploding Ice Bullet)
-Mag hit,3296842070,Special,Mag action(S-ATK Blow)
-Mag hit,1059126347,Special,Mag action(T-ATK Megid)
+Mag hit,3296842070,Special,Mag action (S-ATK Blow)
+Mag hit,1059126347,Special,Mag action (T-ATK Megid)
 Helix Proi,2004640116,Special,PB Helix Proi no-chain+1-chain+2-chain
 Ajax Imera,2379589576,Special,PB Ajax Imera 4-chain
-Mag hit,546125641,Special,Mag action(S-ATK Upper)
-Mag hit,3126711672,Special,Mag action(R-ATK Exploding Lightning Bullet)
+Mag hit,546125641,Special,Mag action (S-ATK Upper)
+Mag hit,3126711672,Special,Mag action (R-ATK Exploding Lightning Bullet)
 DB Snatch step,1317379950,Special,Dual Blade Snatch step ring
 Unarmed Ducking Blow,3085782811,PA,Unarmed Ducking Blow
 Rod Shoot,82081592,Special,Rod Shoot (Fo skill)
+Upper trap,2460168075,Special,Upper trap (Ra skill)
