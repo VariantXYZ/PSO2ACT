@@ -89,7 +89,6 @@ Fomelgion,9380787,Tech,???
 Fomelgion,1671704953,Tech,???
 Zandion,481495314,Tech,???
 Zandion,2644417114,Tech,???
-Burn,2505928584,Status,Burn status
 Hit,1775819901,Melee,Wand
 Hit,1775820734,Melee,Wand
 Hit,1775820799,Melee,Wand
@@ -143,7 +142,7 @@ Sacrifice's Bite,526157945,PA,Sacrifice's bite latch
 Sacrifice's Bite,2275427188,PA,Sacrifice's bite charges
 Sacrifice's Bite,985472180,PA,Sacrifice's bite short-charge
 Sacrifice's Bite,2606728976,PA,Sacrifice's bite smack
-Ignition Parry,3096775537,PA,Ignition Parry first four strikes
+Ignition Parry,3096775537,PA,Ignition Parry first four strikes (parried version uses this as well)
 Ignition Parry,54200585,PA,Ignition Parry final two strikes
 Hit,2285482403,Melee,Partisan 1
 Hit,2226608029,Melee,Partisan 2
@@ -595,20 +594,6 @@ Heel Stab,1163390931,PA,Full gear
 Heel Stab,148870087,PA,Heel Stab (charged volley)
 Heel Stab,148870086,PA,Partial gear
 Heel Stab,148870081,PA,Full gear
-Shift Period,3102409757,PA,SHIFT PERIOD (idk)
-Shift Period,3102409758,PA,Partial gear
-Shift Period,3102409728,PA,Full gear
-Shift Period,2107489028,PA,SHIFT PERIOD (idk)
-Shift Period,2107489029,PA,Partial gear
-Shift Period,2107489031,PA,Full gear
-Shift Period,2928127116,PA,SHIFT PERIOD (idk)
-Shift Period,2928127106,PA,Full gear
-Shift Period,4206265008,PA,SHIFT PERIOD (idk)
-Shift Period,4206265011,PA,Partial gear
-Shift Period,4206265013,PA,Full gear
-Shift Period,2869490729,PA,SHIFT PERIOD (idk)
-Shift Period,2869490728,PA,Partial gear
-Shift Period,2869490902,PA,Full gear
 Grim Barrage,896218141,PA,Grim Barrage
 Grim Barrage,896218140,PA,Partial gear
 Grim Barrage,896218139,PA,Full gear
@@ -810,3 +795,70 @@ DB Snatch step,1317379950,Special,Dual Blade Snatch step ring
 Unarmed Ducking Blow,3085782811,PA,Unarmed Ducking Blow
 Rod Shoot,82081592,Special,Rod Shoot (Fo skill)
 Upper trap,2460168075,Special,Upper trap (Ra skill)
+Burn,2505928570,Status,Burn Status Effect (level 1)
+Burn,2505928505,Status,Burn Status Effect (level 2)
+Burn,2505928696,Status,Burn Status Effect (level 3)
+Burn,2505928584,Status,Burn Status Effect (level 4)
+Burn,2505927753,Status,Burn Status Effect (level 5)
+Poison,1739789695,Status,Poison Status Effect (level 1)
+Poison,1739789694,Status,Poison Status Effect (level 2)
+Poison,1739789665,Status,Poison Status Effect (level 3)
+Poison,1739789664,Status,Poison Status Effect (level 4)
+Poison,1739789667,Status,Poison Status Effect (level 5)
+Elemental Burst,844099599,Special,Fire Elemental Burst (Bo skill)
+Elemental Burst,436531970,Special,Ice Elemental Burst (Bo skill)
+Elemental Burst,3183103116,Special,Lghtning Elemental Burst (Bo skill)
+Elemental Burst,3999693063,Special,Wind Elemental Burst (Bo skill)
+Elemental Burst,1812915089,Special,Light Elemental Burst (Bo skill)
+Elemental Burst,606506553,Special,Dark Elemental Burst (Bo skill)
+Hit,747815998,Special,One More Jump hit (Bo skill)
+Ignition Parry,498184876,PA,Ignition Parry parried first hit
+Ignition Parry,915579056,PA,Ignition Parry parried last 2 hits
+Poison Ignition,2532986093,Special,Poison Ignition (Te skill)
+Freeze Ignition,3533119346,Special,Freeze Ignition (Fo skill)
+Poison Trap,3727926333,Special,Poison Trap (Ra skill)
+Hit,192041748,Special,Bind Bullet (Ra skill)
+Hit,3433218069,Special,Mirage Shot (Ra skill)
+Hit,1201754534,Special,Panic Shot (Ra skill)
+Hit,2734794071,Special,Jellen Shot (Ra skill)
+Aerial Shooting,891590643,PA,Aerial Shooting max gear uncharged
+Aerial Shooting,4004748145,PA,Aerial Shooting max gear charged kick
+Aerial Shooting,4004760224,PA,Aerial Shooting max gear charged first air hit
+Aerial Shooting,4004772375,PA,Aerial Shooting max gear charged second air hit
+Hit,2594009161,Ranged,S-Roll hit max gear
+Bullet Squall,3463411292,PA,Bullet Squall crafted kick max gear
+Bullet Squall,443425898,PA,Bullet Squall crafted shots max gear
+Messiah Time,3991628330,PA,Messiah Time max gear
+Infinite Fire,3134942092,PA,Infinite Fire max gear
+Infinite Fire,879653110,PA,Infinite Fire max gear shotgun
+Satellite Aim,1770510364,PA,Satellite Aim first blast max gear
+Satellite Aim,2273181784,PA,Satellite Aim second blast max gear
+Elder Rebellion,1108337394,PA,Elder Rebellion max gear first 5 hits
+Elder Rebellion,4042421104,PA,Elder Rebellion max gear 2 blasts
+Elder Rebellion,3412194157,PA,Elder Rebellion max gear last blast
+Reverse Tap,1550097805,PA,Reverse Tap max gear
+Heel Stab,2371693861,PA,Heel Stab first kick max gear
+Heel Stab,4134662876,PA,Heel Stab uncharged second kick max gear
+Heel Stab,1163390928,PA,Heel Stab charged second kick max gear
+Heel Stab,148870080,PA,Heel Stab charged Volley max gear
+Shift Period,3102409757,PA,Shift Period no gear
+Shift Period,2107489028,PA,Shift Period no gear
+Shift Period,2928127116,PA,Shift Period no gear
+Shift Period,4206265008,PA,Shift Period no gear
+Shift Period,2869490729,PA,Shift Period no gear
+Shift Period,3102409758,PA,Shift Period 1 gear
+Shift Period,2107489029,PA,Shift Period 1 gear 
+Shift Period,2928127107,PA,Shift Period 1 gear
+Shift Period,4206265011,PA,Shift Period 1 gear
+Shift Period,2869490728,PA,Shift Period 1 gear
+Shift Period,3102409759,PA,Shift Period 2 gear
+Shift Period,2107489030,PA,Shift Period 2 gear
+Shift Period,2928127106,PA,Shift Period 2 gear
+Shift Period,4206265010,PA,Shift Period 2 gear
+Shift Period,2869490902,PA,Shift Period 2 gear
+Shift Period,3102409728,PA,Shift Period max gear
+Shift Period,2107489031,PA,Shift Period max gear
+Shift Period,2928127105,PA,Shift Period max gear
+Shift Period,4206265013,PA,Shift Period max gear
+Grim Barrage,896218138,PA,Grim Barrage max gear first part
+Grim Barrage,1235843183,PA,Grim Barrage max gear second part
