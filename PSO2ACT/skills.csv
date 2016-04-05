@@ -757,9 +757,9 @@ Hit,1893769684,Melee,Twin Daggers 2 gear air third attack
 Hit,3816723349,Melee,Twin Daggers 3 gear air first attack
 Hit,1163229189,Melee,Twin Daggers 3 gear air second attack
 Hit,1893769687,Melee,Twin Daggers 3 gear air third attack
-Bloody Sarabande,1185927985,PA,Bloody Sarabande no gear second part
-Bloody Sarabande,1022160395,PA,Bloody Sarabande 2 gear air first part
-Bloody Sarabande,2745888514,PA,Bloody Sarabande 2 gear air second part
+Bloody Sarabande,1185927985,PA,Bloody Sarabande no gear ground second part
+Bloody Sarabande,1022160395,PA,Bloody Sarabande 2 gear first part
+Bloody Sarabande,2745888514,PA,Bloody Sarabande 2 gear second part
 Orchestra,120509752,PA,Orchestra 3 gear
 Scar Fugue,1193225278,PA,Scar Fugue 3 gear grab
 Scar Fugue,2790036908,PA,Scar Fugue 3 gear second hit
@@ -845,20 +845,22 @@ Shift Period,3102409757,PA,Shift Period no gear
 Shift Period,2107489028,PA,Shift Period no gear
 Shift Period,2928127116,PA,Shift Period no gear
 Shift Period,4206265008,PA,Shift Period no gear
-Shift Period,2869490729,PA,Shift Period no gear
+Shift Period,2869490729,PA,Shift Period no gear final shot
 Shift Period,3102409758,PA,Shift Period 1 gear
 Shift Period,2107489029,PA,Shift Period 1 gear 
 Shift Period,2928127107,PA,Shift Period 1 gear
 Shift Period,4206265011,PA,Shift Period 1 gear
-Shift Period,2869490728,PA,Shift Period 1 gear
+Shift Period,2869490728,PA,Shift Period 1 gear final shot
 Shift Period,3102409759,PA,Shift Period 2 gear
 Shift Period,2107489030,PA,Shift Period 2 gear
 Shift Period,2928127106,PA,Shift Period 2 gear
 Shift Period,4206265010,PA,Shift Period 2 gear
-Shift Period,2869490902,PA,Shift Period 2 gear
+Shift Period,2869490902,PA,Shift Period 2 gear final shot
 Shift Period,3102409728,PA,Shift Period max gear
 Shift Period,2107489031,PA,Shift Period max gear
 Shift Period,2928127105,PA,Shift Period max gear
 Shift Period,4206265013,PA,Shift Period max gear
 Grim Barrage,896218138,PA,Grim Barrage max gear first part
 Grim Barrage,1235843183,PA,Grim Barrage max gear second part
+Starzwei,3169644227,PA,Ranged version (spin)
+Orchestra,1362404327,PA,Orchestra 3 gear finish
