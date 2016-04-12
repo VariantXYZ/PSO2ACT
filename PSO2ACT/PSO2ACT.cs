@@ -140,6 +140,30 @@ namespace PSO2ACT
                 encounterInfo.encounter.CharName = charName;
         }
 
+        bool DetectYOU(Action aAction)
+        {
+            if(
+                aAction.timestamp == 0 &&
+                aAction.instanceID == 0 &&
+                aAction.sourceID == 0 &&
+                aAction.sourceName == "YOU" &&
+                aAction.targetID == 0 &&
+                aAction.targetName == "0" &&
+                aAction.attackID == 0 &&
+                aAction.damage == 0 &&
+                aAction.isJA == false &&
+                aAction.isCrit == false &&
+                aAction.isMultiHit == false &&
+                aAction.isMisc == false &&
+                aAction.isMisc2 == false
+              )
+            {
+                return true;
+            }
+
+            return false;
+        }
+
         void oFormActMain_BeforeLogLineRead(bool isImport, LogLineEventArgs logInfo)
         {
             Action aAction = new Action();
@@ -170,6 +194,10 @@ namespace PSO2ACT
                 return;
             }
 
+            //Eventually do something with this
+            if (DetectYOU(aAction))
+                return;
+
             //TODO: deal with when the first thing they do is counter
             if (aAction.targetID == 0 ||
                 (aAction.instanceID == 0 && currInstID == 0xFFFF))
@@ -181,8 +209,8 @@ namespace PSO2ACT
                 aAction.instanceID = currInstID;
             SwingTypeEnum e;
 
-            string sourceName = aAction.sourceName == "YOU" ? "YOU" : aAction.sourceName + "_" + aAction.sourceID.ToString();
-            string targetName = aAction.targetName == "YOU" ? "YOU" : aAction.targetName + "_" + aAction.targetID.ToString();
+            string sourceName = aAction.sourceName + "_" + aAction.sourceID.ToString();
+            string targetName = aAction.targetName + "_" + aAction.targetID.ToString();
 
             string actionType = aAction.attackID.ToString();
             string damageType = aAction.attackID.ToString();
