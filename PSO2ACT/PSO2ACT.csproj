@@ -30,7 +30,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Advanced Combat Tracker">
+    <Reference Include="Advanced Combat Tracker, Version=3.2.2.252, Culture=neutral, PublicKeyToken=a946b61e93d97868, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\ACT\Advanced Combat Tracker.exe</HintPath>
     </Reference>
     <Reference Include="System" />
