@@ -272,10 +272,10 @@ Kreisenschlag,3235361631,PA,Kreisenschlag (other hits)
 Regenschlag,74469442,PA,Regenschlag strike one
 Regenschlag,74466659,PA,Regenschlag strike two
 Regenschlag,74468002,PA,Regenschlag triple shot
-Starzwei,3169780679,PA,Starzwei melee startup
-Starzwei,3169781527,PA,Starzwei melee hits (+range twirl)
-Starzwei,3169781648,PA,Starzwei melee finisher
-Starzwei,3169644227,PA,Ranged version (spin)
+Strezwei,3169780679,PA,Starzwei melee startup
+Strezwei,3169781527,PA,Starzwei melee hits (+range twirl)
+Strezwei,3169781648,PA,Starzwei melee finisher
+Strezwei,3169644227,PA,Ranged version (spin)
 DS hit,778603760,Melee,Double Saber 1
 DS hit,2169426261,Melee,Double Saber 2
 DS hit,1915920209,Melee,Double Saber 3
@@ -451,32 +451,32 @@ Counter,2700168092,Special,something Katana Counter related?
 Tsukimi-sazanka,3148575588,PA,Tsukimi-sazanka
 Gekka-zakuro,215665118,PA,Gekka-zakuro downswing
 Gekka-zakuro,2160628938,PA,Gekka upswing
-Kanran Kikyou,3148575462,PA,Kanran uncharged
-Kanran Kikyou,206856796,PA,Kanran charged
-Sakura Endo,3148575399,PA,Sakura uncharged
-Sakura Endo,206860877,PA,Sakura charged
-Hien Tsubaki,3148574817,PA,Hien
-Asagiri Rendan,3148574752,PA,Asagiri
-Hatou Rindou,106956039,PA,Hatou Rindou charged first hit
-Hatou Rindou,168167719,PA,Hatou Rindou charged second hit
-Hatou Rindou,3651508774,PA,Hatou uncharged
-Hatou Rindou,2325733367,PA,Hatou uncharged doublehit
-Hatou Rindou,273071015,PA,Hatou charged close
-Hatou Rindou,2209628291,PA,Hatou charged medium
-Hatou Rindou,1651702934,PA,Hatou charged SWEET SPOOOOT
-Shunka Shunran,2585461118,PA,Shunka uncharged
-Shunka Shunran,3513096229,PA,Shunka charged start
-Shunka Shunran,2264839669,PA,Shunka charged main combo
-Shunka Shunran,1309789969,PA,Shunka megaslash 1 of 2
-Shunka Shunran,2017360610,PA,Shunka megaslash 2 of 2
-Kazan,3148578174,PA,Kazan (uncrafted)
-Kazan,2323234226,PA,Kazan (crafted) uncharged
-Kazan,2323234289,PA,Kazan (crafted) stage 1 charge
-Kazan,2323233840,PA,Kazan (crafted) stage 2 charge
-Fuduo,206850016,PA,Fuduo
+Kanran-kikyou,3148575462,PA,Kanran uncharged
+Kanran-likyou,206856796,PA,Kanran charged
+Sakura-endo,3148575399,PA,Sakura uncharged
+Sakura-endo,206860877,PA,Sakura charged
+Hien-tsubaki,3148574817,PA,Hien
+Asagiri-rendan,3148574752,PA,Asagiri
+Hatou-rindou,106956039,PA,Hatou Rindou charged first hit
+Hatou-rindou,168167719,PA,Hatou Rindou charged second hit
+Hatou-rindou,3651508774,PA,Hatou uncharged
+Hatou-rindou,2325733367,PA,Hatou uncharged doublehit
+Hatou-rindou,273071015,PA,Hatou charged close
+Hatou-rindou,2209628291,PA,Hatou charged medium
+Hatou-rindou,1651702934,PA,Hatou charged SWEET SPOOOOT
+Shunka-shunran,2585461118,PA,Shunka uncharged
+Shunka-shunran,3513096229,PA,Shunka charged start
+Shunka-shunran,2264839669,PA,Shunka charged main combo
+Shunka-shunran,1309789969,PA,Shunka megaslash 1 of 2
+Shunka-shunran,2017360610,PA,Shunka megaslash 2 of 2
+Kazan-nadeshiko,3148578174,PA,Kazan (uncrafted)
+Kazan-nadeshiko (C),2323234226,PA,Kazan (crafted) uncharged
+Kazan-nadeshiko (C),2323234289,PA,Kazan (crafted) stage 1 charge
+Kazan-nadeshiko (C),2323233840,PA,Kazan (crafted) stage 2 charge
+Fuduo-kuchinashi,206850016,PA,Fuduo
+Guren-tessen,1776976279,PA,Guren dash
+Guren-tessen,1522008442,PA,Guren slash
 Katana Combat,156270665,Special,Katana finish slash
-Guren,1776976279,PA,Guren dash
-Guren,1522008442,PA,Guren slash
 Katana Combat,4259442013,Special,Katana finish megaslash
 DB hit,990294516,Melee,Dual Blades first normal attack
 DB hit,990294325,Melee,Dual Blades second normal attack
@@ -766,7 +766,7 @@ Elemental Burst,3183103116,Special,Lightning Elemental Burst (Bo skill)
 Elemental Burst,3999693063,Special,Wind Elemental Burst (Bo skill)
 Elemental Burst,1812915089,Special,Light Elemental Burst (Bo skill)
 Elemental Burst,606506553,Special,Dark Elemental Burst (Bo skill)
-Tact hit,4065469038,Melee,Baton attack
+Takt hit,4065469038,Melee,Baton attack
 Torim Stab,4093858806,PA,Torim Stab
 Torim Spiral,2211899418,PA,Torim Spiral (uncharged)
 Torim Spiral,2211899483,PA,Torim Spiral (charge lv.1)
