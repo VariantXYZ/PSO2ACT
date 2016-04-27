@@ -223,13 +223,13 @@ Heavenly Fall,1713894514,PA,Heavenly Fall fall
 Other Cyclone,1850125110,PA,Other Cyclone grab
 Other Cyclone,1871999855,PA,Other Cyclone cyclone
 Other Cyclone,455829749,PA,Other Cyclone fling
-Other spin,781364083,PA,Other spin start
-Other spin,516963559,PA,Other spin spin
-Other spin,1667539754,PA,Other spin end
-Holding current,3976609677,PA,Holding current latch
-Holding current,4083023452,PA,Holding current spamclick ticks
-Holding current,604066823,PA,Holding current auto ticks
-Holding current,1667539691,PA,Holding current detatch
+Other Spin,781364083,PA,Other spin start
+Other Spin,516963559,PA,Other spin spin
+Other Spin,1667539754,PA,Other spin end
+Holding Current,3976609677,PA,Holding current latch
+Holding Current,4083023452,PA,Holding current spamclick ticks
+Holding Current,604066823,PA,Holding current auto ticks
+Holding Current,1667539691,PA,Holding current detatch
 Air Pocket Swing,1667539880,PA,Air Pocket Swing
 Cerberus Dance,1667539817,PA,Cerberus Dance
 Cerberus Dance,185880800,PA,Cerberus Dance finish
@@ -237,7 +237,7 @@ Cerberus Dance (C),4083015423,,Cerberus Dance (crafted)
 Cerberus Dance (C),1181894001,,Cerberus Dance finish (crafted)
 Wild Round,1667539503,PA,Wild Round
 Kaiser Rise,4083089437,PA,Kaiser Rise
-Adapting spin ,4083089500,PA,Adapting spin 
+Adapting Spin ,4083089500,PA,Adapting spin 
 Gunslash hit,3318968327,Melee,Gunslash M1
 Gunslash hit,1408075886,Melee,Gunslash M2
 Gunslash hit,2364486899,Melee,Gunslash M3
@@ -248,11 +248,11 @@ Gunslash hit,2125202658,Ranged,Gunslash R1
 Gunslash hit,4276570552,Ranged,Gunslash R2
 Gunslash hit,2867139739,Ranged,Gunslash R3
 Gunslash Step Attack,2277392279,Melee,Gunslash Step
-Tri Impact,3316645180,PA,Tri Impact first two hits
-Tri Impact,1956354608,PA,Tri Impact third impact
-Tri Impact (C),4121081309,PA,Tri Impact Crafted hit
-Tri Impact (C),3770139908,PA,Tri Impact Crafted hit
-Tri Impact (C),1585984604,PA,Tri Impact Crafted hit
+Tri-Impact,3316645180,PA,Tri Impact first two hits
+Tri-Impact,1956354608,PA,Tri Impact third impact
+Tri-Impact (C),4121081309,PA,Tri Impact Crafted hit
+Tri-Impact (C),3770139908,PA,Tri Impact Crafted hit
+Tri-Impact (C),1585984604,PA,Tri Impact Crafted hit
 Rage Dance,4069575100,PA,Rage dance stabs
 Rage Dance,2375995786,PA,Rage dance shot
 Ein Raketen,1803337451,PA,Ein Raketen swing
@@ -262,9 +262,9 @@ Serpent Air,3959349048,PA,Serpent Air final hit
 Aiming Shot,1657878962,PA,Aiming Shot (uncharged)
 Aiming Shot,1657879790,PA,Aiming shot (charged)
 Thrillsplosion,3912567547,PA,Thrillsplosion
-Slash rave,799003079,PA,Slash rave combo hits
-Slash rave,799003014,PA,Slash rave finishing shot part 1
-Slash rave,1159428500,PA,Slash rave finishing shot part 2
+Slash Rave,799003079,PA,Slash rave combo hits
+Slash Rave,799003014,PA,Slash rave finishing shot part 1
+Slash Rave,1159428500,PA,Slash rave finishing shot part 2
 Additional Bullet,2250284406,PA,Additional Bullet kick
 Additional Bullet,2775356067,PA,Additional Bullet shot
 Kreisenschlag,4071330996,PA,Kreisenschlag (some hits)
@@ -381,15 +381,15 @@ Orchestra,120509751,PA,OOOOOOOOOOOO
 Orchestra,1362404326,PA,RCHESTRA!
 Orchestra,120509752,PA,Orchestra 3 gear
 Orchestra,1362404327,PA,Orchestra 3 gear finish
-Bloody Saranbande,1022160397,PA,Bloody Saranbande pt1
-Bloody Saranbande,2745888524,PA,Bloody Saranbande pt2
-Bloody Saranbande,1185927985,PA,Bloody Saranbande no gear ground second part
-Bloody Saranbande,1022160396,PA,Bloody Saranbande pt1 partial g
-Bloody Saranbande,2745888515,PA,Bloody Saranbande pt2 partial g
-Bloody Saranbande,1022160395,PA,Bloody Saranbande 2 gear first part
-Bloody Saranbande,2745888514,PA,Bloody Saranbande 2 gear second part
-Bloody Saranbande,1022160394,PA,Bloody Saranbande pt1 full g
-Bloody Saranbande,2745888513,PA,Bloody Saranbande pt2 full g
+Bloody Sarabande,1022160397,PA,Bloody Saranbande pt1
+Bloody Sarabande,2745888524,PA,Bloody Saranbande pt2
+Bloody Sarabande,1185927985,PA,Bloody Saranbande no gear ground second part
+Bloody Sarabande,1022160396,PA,Bloody Saranbande pt1 partial g
+Bloody Sarabande,2745888515,PA,Bloody Saranbande pt2 partial g
+Bloody Sarabande,1022160395,PA,Bloody Saranbande 2 gear first part
+Bloody Sarabande,2745888514,PA,Bloody Saranbande 2 gear second part
+Bloody Sarabande,1022160394,PA,Bloody Saranbande pt1 full g
+Bloody Sarabande,2745888513,PA,Bloody Saranbande pt2 full g
 Facet Folia,2569859798,PA,Facet Folia start
 Facet Folia,3225817327,PA,Facet Folia combo
 Facet Folia,1460149680,PA,Facet Folia finish
@@ -492,10 +492,10 @@ Distraction Wing,2674942872,PA,Distraction Wing
 Distraction Wing,2674942873,PA,- One gear bar
 Distraction Wing,2674942854,PA,- Two gear bars
 Distraction Wing,2674942855,PA,- Three gear bars
-Dispersion Strike,1077400737,PA,Dispersion Strike
-Dispersion Strike,1077400736,PA,- One gear bar
-Dispersion Strike,1077400739,PA,- Two gear bars
-Dispersion Strike,1077400738,PA,- Three gear bars
+Dispersion Shrike,1077400737,PA,Dispersion Strike
+Dispersion Shrike,1077400736,PA,- One gear bar
+Dispersion Shrike,1077400739,PA,- Two gear bars
+Dispersion Shrike,1077400738,PA,- Three gear bars
 Heavenly Kite,1536765733,PA,Heavenly Kite (start)
 Heavenly Kite,1536765732,PA,- One gear bar
 Heavenly Kite,1536765735,PA,- Two gear bars
@@ -767,21 +767,9 @@ Elemental Burst,3999693063,Special,Wind Elemental Burst (Bo skill)
 Elemental Burst,1812915089,Special,Light Elemental Burst (Bo skill)
 Elemental Burst,606506553,Special,Dark Elemental Burst (Bo skill)
 Takt hit,4065469038,Melee,Baton attack
-Torim Stab,4093858806,PA,Torim Stab
-Torim Spiral,2211899418,PA,Torim Spiral (uncharged)
-Torim Spiral,2211899483,PA,Torim Spiral (charge lv.1)
-Torim Spiral,926005986,PA,Torim Spiral Charge 1 (Torim Shout version)
-Torim Spiral,2211900312,PA,Torim Spiral (charge lv.2)
-Torim Spiral,926861457,PA,Torim Spiral Charge 2 (Torim Shout version)
-Torim Bullet,672081019,PA,Torim Bullet first hit
-Torim Bullet,4238918539,PA,Torim Bullet poison/burnlike damage
-Torim Bullet,4238918472,PA,Torim Bullet poison/burnlike damage (Torim Shout version)
-Torim Shout,4093858743,PA,Torim Shout
-Torim Slash,4093858613,PA,Torim Slash
-Torim Slash,672024361,PA,Torim Slash (Torim Shout version)
-Torim hit,487482498,Melee,Torim auto-attack 1
-Torim hit,487482435,Melee,Torim auto-attack 2
-Torim hit,487489051,Melee,Torim auto-attack 3
+Wanda hit,2785585589,Melee,Wanda auto-attack 1
+Wanda hit,2785585652,Melee,Wanda auto-attack 2
+Wanda hit,2785585714,Melee,Wanda auto-attack 3
 Wanda Assault,933681441,PA,Wanda Assault
 Wanda Break,3960069561,PA,Wanda Break
 Wanda Shock,3960069496,PA,Wanda Shock
@@ -789,16 +777,28 @@ Wanda Pulsar,933701936,PA,Wanda Pulsar
 Wanda Pulsar,4223323079,PA,Wanda Pulsar
 Wanda Slicer,2918501417,PA,Wanda Slicer
 Wanda Slicer,2918501480,PA,Wanda Slicer
-Wanda hit,2785585589,Melee,Wanda auto-attack 1
-Wanda hit,2785585652,Melee,Wanda auto-attack 2
-Wanda hit,2785585714,Melee,Wanda auto-attack 3
+Sally hit,639929291,Melee,Sally auto-attack 1
 Sally Plode,2156897712,PA,Sally Plode
 Sally Territory,493814577,PA,Sally Territory
 Sally Territory,493814640,PA,Sally Territory
 Sally Curse,3581010262,PA,Sally Curse
 Sally Fall,385030021,PA,Sally Fall
 Sally Chaser,385050960,PA,Sally Chaser
-Sally hit,639929291,Melee,Sally auto-attack 1
+Trim hit,487482498,Melee,Torim auto-attack 1
+Trim hit,487482435,Melee,Torim auto-attack 2
+Trim hit,487489051,Melee,Torim auto-attack 3
+Trim Stab,4093858806,PA,Torim Stab
+Trim Spiral,2211899418,PA,Torim Spiral (uncharged)
+Trim Spiral,2211899483,PA,Torim Spiral (charge lv.1)
+Trim Spiral,926005986,PA,Torim Spiral Charge 1 (Torim Shout version)
+Trim Spiral,2211900312,PA,Torim Spiral (charge lv.2)
+Trim Spiral,926861457,PA,Torim Spiral Charge 2 (Torim Shout version)
+Trim Bullet,672081019,PA,Torim Bullet first hit
+Trim Bullet,4238918539,PA,Torim Bullet poison/burnlike damage
+Trim Bullet,4238918472,PA,Torim Bullet poison/burnlike damage (Torim Shout version)
+Trim Shout,4093858743,PA,Torim Shout
+Trim Slash,4093858613,PA,Torim Slash
+Trim Slash,672024361,PA,Torim Slash (Torim Shout version)
 Maron hit,2944355330,Melee,Maron first normal attack
 Maron hit,2944352598,Melee,Maron second normal attack
 Maron hit,2944352663,Melee,Maron third normal attack
