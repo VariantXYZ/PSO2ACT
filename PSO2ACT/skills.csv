@@ -88,6 +88,7 @@ Ramegid,1346510043,Tech,
 Ramegid,2458729274,Tech,
 Samegid,757530403,Tech,
 Samegid,3731229904,Tech,
+Megiverse,893379015,Tech,
 Namegid,803375681,Tech,
 Namegid,2368738938,Tech,
 Ilmegid,3791794807,Tech,
@@ -135,8 +136,12 @@ Rising Edge,1227622308,PA,Start
 Rising Edge,1224723795,PA,Spin
 Twister Fall,1224723730,PA,Spin
 Twister Fall,3096797813,PA,Slam
+Twister Fall,3096804787,PA,Twister Fall second slam part
+Twister Fall,3096805226,PA,Twister Fall third slam part
 Twister Fall (C),3096804398,PA,Crafted spin
 Twister Fall (C),1227789065,PA,Crafted slam
+Twister Fall (C),1227789258,PA,Twister Fall crafted second slam part
+Twister Fall (C),1227788826,PA,Twister Fall crafted third slam part
 Nova Strike,3096784224,PA,1st
 Nova Strike,3096784697,PA,2nd
 Nova Strike,3034360175,PA,3rd
@@ -760,6 +765,7 @@ Vinto Gigue,4124802045,PA,Vinto (explode)
 Vinto Gigue,2398433897,PA,Vinto (explode any gear)
 Vinto Gigue,3958422470,PA,Vinto (kick)
 Vinto Gigue,1528400162,PA,Vinto (kick half gear)
+Vinto Gigue,3849186397,PA,Vinto Gigue (full gear explosion)
 Vinto Gigue,598735040,PA,Vinto (kick full gear)
 Elemental Burst,844099599,Special,Fire Elemental Burst (Bo skill)
 Elemental Burst,436531970,Special,Ice Elemental Burst (Bo skill)
@@ -785,21 +791,22 @@ Sally Territory,493814640,PA,Sally Territory
 Sally Curse,3581010262,PA,Sally Curse
 Sally Fall,385030021,PA,Sally Fall
 Sally Chaser,385050960,PA,Sally Chaser
-Trim hit,487482498,Melee,Torim auto-attack 1
-Trim hit,487482435,Melee,Torim auto-attack 2
-Trim hit,487489051,Melee,Torim auto-attack 3
-Trim Stab,4093858806,PA,Torim Stab
-Trim Spiral,2211899418,PA,Torim Spiral (uncharged)
-Trim Spiral,2211899483,PA,Torim Spiral (charge lv.1)
-Trim Spiral,926005986,PA,Torim Spiral Charge 1 (Torim Shout version)
-Trim Spiral,2211900312,PA,Torim Spiral (charge lv.2)
-Trim Spiral,926861457,PA,Torim Spiral Charge 2 (Torim Shout version)
-Trim Bullet,672081019,PA,Torim Bullet first hit
-Trim Bullet,4238918539,PA,Torim Bullet poison/burnlike damage
-Trim Bullet,4238918472,PA,Torim Bullet poison/burnlike damage (Torim Shout version)
-Trim Shout,4093858743,PA,Torim Shout
-Trim Slash,4093858613,PA,Torim Slash
-Trim Slash,672024361,PA,Torim Slash (Torim Shout version)
+Trim hit,487482498,Melee,Trim auto-attack 1
+Trim hit,487482435,Melee,Trim auto-attack 2
+Trim hit,487489051,Melee,Trim auto-attack 3
+Trim Stab,4093858806,PA,Trim Stab
+Trim Spiral,2211899418,PA,Trim Spiral (uncharged)
+Trim Spiral,2211899483,PA,Trim Spiral (charge lv.1)
+Trim Spiral,926005986,PA,Trim Spiral (charge lv.1 & Trim Shout version)
+Trim Spiral,2211900312,PA,Trim Spiral (charge lv.2)
+Trim Spiral,926861457,PA,Trim Spiral (charge lv.2 & Trim Shout version)
+Trim Bullet,672081019,PA,Trim Bullet first hit
+Trim Bullet,2052351310,PA,Trim Bullet wing melee hit
+Trim Bullet,4238918539,PA,Trim Bullet poison/burnlike damage
+Trim Bullet,4238918472,PA,Trim Bullet poison/burnlike damage (Trim Shout version)
+Trim Shout,4093858743,PA,Trim Shout
+Trim Slash,4093858613,PA,Trim Slash
+Trim Slash,672024361,PA,Trim Slash (Trim Shout version)
 Maron hit,2944355330,Melee,Maron first normal attack
 Maron hit,2944352598,Melee,Maron second normal attack
 Maron hit,2944352663,Melee,Maron third normal attack
@@ -823,6 +830,14 @@ Melon Break,3771080959,PA,Melon Break
 Melon Slicer,3771080766,PA,Melon Chaser
 Melon Curse,745748621,PA,Melon Curse first hit
 Melon Curse,745791480,PA,Melon Curse
+Rappy(Pet) hit,2042365716,Melee,Rappy (pet) normal attack
+Rappy Melody,12316684,PA,Rappy Melody (pet)
+Rappy Drop,1380676151,PA,Rappy Drop (pet)
+Rappy Cannon,1380677110,PA,Rappy Cannon (pet)
+Rappy Sonic,401389881,PA,Rappy Sonic (pet)
+Rappy End,1793658679,PA,Rappy End stage 1 (pet)
+Rappy End,1793658742,PA,Rappy End stage 2 (pet)
+Rappy End,1793658549,PA,Rappy End stage 3 (pet)
 Viola hit,1596394370,Melee,Viola first normal attack
 Viola hit,1596394307,Melee,Viola second normal attack
 Viola hit,1596393984,Melee,Viola third normal attack
@@ -847,10 +862,28 @@ BOOSTO KICKU,85303031,Special,Tokyo speed-pad kick level 3 on cars
 Mag (Attack),2667138551,Special,Mag action (S-ATK Attack)
 Mag (Blow),3296842070,Special,Mag action (S-ATK Blow)
 Mag (Upper),546125641,Special,Mag action (S-ATK Upper)
+Mag (Fire Bullet),1810252617,Special,Mag action (R-ATK Fire Bullet)
+Mag (Ice Bullet),1509329819,Special,Mag action (R-ATK Ice Bullet)
+Mag (Lightning Bullet),887429903,Special,Mag action (R-ATK Lightning Bullet)
+Mag (Wind Bullets),1747262548,Special,Mag action (R-ATK Wind Bullets)
+Mag (Light Bullet),3303318723,Special,Mag action (R-ATK Light Bullet)
+Mag (Dark Bullet)1811866223,Special,Mag action (R-ATK Dark Bullet)
+Mag (Piercing Fire Bullet),183890233,Special,Mag action (R-ATK Piercing Fire Bullet)
+Mag (Piercing Ice Bullet),3146527639,Special,Mag action (R-ATK Piercing Ice Bullet)
+Mag (Piercing Lightning Bullet),2042405421,Special,Mag action (R-ATK Piercing Lightning Bullet)
+Mag (Piercing Wind Bullet),195905495,Special,Mag action (R-ATK Piercing Wind Bullet)
+Mag (Piercing Light Bullet),2373460025,Special,Mag action (R-ATK Piercing Light Bullet)
+Mag (Piercing Dark Bullet),196570118,Special,Mag action (R-ATK Piercing Dark Bullet)
 Mag (Exploding Fire Bullet),867373469,Special,Mag action (R-ATK Exploding Fire Bullet)
 Mag (Exploding Ice Bullet),1542931456,Special,Mag action (R-ATK Exploding Ice Bullet)
 Mag (Exploding Lightning Bullet),3126711672,Special,Mag action (R-ATK Exploding Lightning Bullet)
+Mag (Exploding Wind Bullet),1687392375,Special,Mag action (R-ATK Exploding Wind Bullet)
+Mag (Exploding Light Bullet),649064981,Special,Mag action (R-ATK Exploding Light Bullet)
+Mag (Exploding Dark Bullet),2364012448,Special,Mag action (R-ATK Exploding Dark Bullet)
 Mag (Foie),1049123664,Special,Mag action (T-ATK Foie)
+Mag (Barta),3760306129,Special,Mag action (T-ATK Barta)
+Mag (Zonde),4075390095,Special,Mag action (T-ATK Zonde)
+Mag (Zan),912617849,Special,Mag action (T-ATK Zan)
 Mag (Grants),1886571787,Special,Mag action (T-ATK Grants)
 Mag (Megid),1059126347,Special,Mag action (T-ATK Megid)
 Mag (Clobber),3104220402,Special,Mag action (SP S-ATK Clobber)
@@ -873,6 +906,12 @@ Poison,1739789694,Status,Poison Status Effect (level 2)
 Poison,1739789665,Status,Poison Status Effect (level 3)
 Poison,1739789664,Status,Poison Status Effect (level 4)
 Poison,1739789667,Status,Poison Status Effect (level 5)
+Monomate,2925757257,Special,Monomate
+Dimate,2925757256,Special,Dimate
+Trimate,2925757259,Special,Trimate
+Star Atomizer,2925757249,Special,Star Atomzier
+Recovery Pod,633660526,Special,Recovery Pod
+Just Reversal Cover,2440029502,Special,Just Reversal Cover (Br skill)
 Turret,1852253343,Special,Normal Turret
 Rodos Grapple Turret,1358461404,Special,Rodos Grapple Turret
 Cannon,2414748436,Special,Facility Cannon
