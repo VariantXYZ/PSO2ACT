@@ -15,6 +15,7 @@ for row in reader:
         status = status + 1
     if rowi != 1 and not row[1].isdigit():
         print("Issue at row %d, No ID: %s" % (rowi, row) )
+        status = status + 1
     skills_id.add(row[1])
 
 if status != 0:
