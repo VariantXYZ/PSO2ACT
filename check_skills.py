@@ -11,8 +11,10 @@ reader = csv.reader(f, delimiter=',')
 for row in reader:
     rowi = rowi + 1
     if row[1] in skills_id:
-        print("Issue in row %d: %s" % (rowi, row) )
+        print("Issue at row %d, Dup ID: %s" % (rowi, row) )
         status = status + 1
+    if rowi != 1 and not row[1].isdigit():
+        print("Issue at row %d, No ID: %s" % (rowi, row) )
     skills_id.add(row[1])
 
 if status != 0:
