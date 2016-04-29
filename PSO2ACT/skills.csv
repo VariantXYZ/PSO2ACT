@@ -1,3 +1,4 @@
+Type,ID,Kind,Name
 Rod hit,1698836726,Melee,Rod first normal attack
 Rod hit,1698835954,Melee,Rod second normal attack
 Rod hit,1698835891,Melee,Rod third normal attack
@@ -12,10 +13,10 @@ Rafoie,3727832945,Tech,Uncharged
 Rafoie,3160663286,Tech,Charged
 Safoie,992062163,Tech,Uncharged
 Safoie,1313506350,Tech,Charged
-Nafoie,3050042460,Tech,Ground, Uncharged
-Nafoie,4054265489,Tech,Ground, Charged
-Nafoie,828617961,Tech,Direct, Uncharged
-Nafoie,840836682,Tech,Direct, Charged
+Nafoie,3050042460,Tech,Ground_ Uncharged
+Nafoie,4054265489,Tech,Ground_ Charged
+Nafoie,828617961,Tech,Direct_ Uncharged
+Nafoie,840836682,Tech,Direct_ Charged
 Ilfoie,753131125,Tech,Uncharged
 Ilfoie,3465265553,Tech,Charged
 Barta,266516230,Tech,Uncharged
@@ -124,9 +125,9 @@ Unarmed Ducking Blow,3085782811,PA,Unarmed Ducking Blow
 Just Guard,1612949165,Special,Hunter Weapon JG
 Snatch Step,3943870236,Melee,Braver Snatch Step
 Sword Step Attack,1216456228,Melee,Sword
-Sword hit,1215379240,Melee,Sword, 1st
-Sword hit,1215379433,Melee,Sword, 2nd
-Sword hit,1215367338,Melee,Sword, 3rd
+Sword hit,1215379240,Melee,Sword_ 1st
+Sword hit,1215379433,Melee,Sword_ 2nd
+Sword hit,1215367338,Melee,Sword_ 3rd
 Sword hit,1331225593,Melee,Sword air first normal attack 
 Sword hit,1331225146,Melee,Sword air second normal attack
 Sword hit,1331225211,Melee,Sword air third normal attack
@@ -334,10 +335,10 @@ TD Step Attack,2767975965,Melee,TD Step
 Raging Waltz,238277154,PA,Raging Waltz 0 gear
 Raging Waltz,238277155,PA,Raging Waltz 1 gear
 Raging Waltz,238277152,PA,Raging Waltz 2 gear
-Shoot Polka,2053605232,PA,Shoot Polka "stage 0" gear
-Shoot Polka,2053605233,PA,Shoot Polka "stage 1" gear
-Shoot Polka,2053605246,PA,Shoot Polka "stage 2" gear
-Shoot Polka,2053605247,PA,Shoot Polka "stage 3" gear
+Shoot Polka,2053605232,PA,Shoot Polka 'stage 0' gear
+Shoot Polka,2053605233,PA,Shoot Polka 'stage 1' gear
+Shoot Polka,2053605246,PA,Shoot Polka 'stage 2' gear
+Shoot Polka,2053605247,PA,Shoot Polka 'stage 3' gear
 Scar Fugue,1193225277,PA,Scar Fugue first hit 0 gear
 Scar Fugue,2790036905,PA,Scar Fugue second hit 0 gear
 Scar Fugue,721495005,PA,Scar Fugue third hit 0 gear
@@ -350,10 +351,10 @@ Scar Fugue,721495003,PA,Scar Fugue third full gear
 Scar Fugue,1193225278,PA,Scar Fugue 3 gear grab
 Scar Fugue,2790036908,PA,Scar Fugue 3 gear second hit
 Scar Fugue,721495002,PA,Scar Fugue 3 gear last hit
-Wild Rhapsody,3998547224,PA,Wild Rhapsody "stage 0" gear
-Wild Rhapsody,3998547225,PA,Wild Rhapsody "stage 1" gear
-Wild Rhapsody,3998547226,PA,Wild Rhapsody "stage 2" gear
-Wild Rhapsody,3998547227,PA,Wild Rhapsody "stage 3" gear
+Wild Rhapsody,3998547224,PA,Wild Rhapsody 'stage 0' gear
+Wild Rhapsody,3998547225,PA,Wild Rhapsody 'stage 1' gear
+Wild Rhapsody,3998547226,PA,Wild Rhapsody 'stage 2' gear
+Wild Rhapsody,3998547227,PA,Wild Rhapsody 'stage 3' gear
 Dark Scherzo,2711968273,PA,Dark Scherzo first two hits 0 gear
 Dark Scherzo,2115627931,PA,Dark Scherzo final 0 gear
 Dark Scherzo,2711968272,PA,Dark Scherzo first two hits partial
