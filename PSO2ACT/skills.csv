@@ -135,8 +135,12 @@ Rising Edge,1227622308,PA,Start
 Rising Edge,1224723795,PA,Spin
 Twister Fall,1224723730,PA,Spin
 Twister Fall,3096797813,PA,Slam
+Twister Fall,3096804787,PA,Twister Fall second slam part
+Twister Fall,3096805226,PA,Twister Fall third slam part
 Twister Fall (C),3096804398,PA,Crafted spin
 Twister Fall (C),1227789065,PA,Crafted slam
+Twister Fall (C),1227789258,PA,Twister Fall crafted second slam part
+Twister Fall (C),1227788826,PA,Twister Fall crafted third slam part
 Nova Strike,3096784224,PA,1st
 Nova Strike,3096784697,PA,2nd
 Nova Strike,3034360175,PA,3rd
@@ -760,6 +764,7 @@ Vinto Gigue,4124802045,PA,Vinto (explode)
 Vinto Gigue,2398433897,PA,Vinto (explode any gear)
 Vinto Gigue,3958422470,PA,Vinto (kick)
 Vinto Gigue,1528400162,PA,Vinto (kick half gear)
+Vinto Gigue,3849186397,PA,Vinto Gigue (full gear explosion)
 Vinto Gigue,598735040,PA,Vinto (kick full gear)
 Elemental Burst,844099599,Special,Fire Elemental Burst (Bo skill)
 Elemental Burst,436531970,Special,Ice Elemental Burst (Bo skill)
@@ -886,6 +891,7 @@ Dimate,2925757256,Special,Dimate
 Trimate,2925757259,Special,Trimate
 Star Atomizer,2925757249,Special,Star Atomzier
 Recovery Pod,633660526,Special,Recovery Pod
+Just Reversal Cover,2440029502,Special,Just Reversal Cover (Br skill)
 Turret,1852253343,Special,Normal Turret
 Rodos Grapple Turret,1358461404,Special,Rodos Grapple Turret
 Cannon,2414748436,Special,Facility Cannon
