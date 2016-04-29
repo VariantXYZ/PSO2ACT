@@ -790,21 +790,22 @@ Sally Territory,493814640,PA,Sally Territory
 Sally Curse,3581010262,PA,Sally Curse
 Sally Fall,385030021,PA,Sally Fall
 Sally Chaser,385050960,PA,Sally Chaser
-Trim hit,487482498,Melee,Torim auto-attack 1
-Trim hit,487482435,Melee,Torim auto-attack 2
-Trim hit,487489051,Melee,Torim auto-attack 3
-Trim Stab,4093858806,PA,Torim Stab
-Trim Spiral,2211899418,PA,Torim Spiral (uncharged)
-Trim Spiral,2211899483,PA,Torim Spiral (charge lv.1)
-Trim Spiral,926005986,PA,Torim Spiral Charge 1 (Torim Shout version)
-Trim Spiral,2211900312,PA,Torim Spiral (charge lv.2)
-Trim Spiral,926861457,PA,Torim Spiral Charge 2 (Torim Shout version)
-Trim Bullet,672081019,PA,Torim Bullet first hit
-Trim Bullet,4238918539,PA,Torim Bullet poison/burnlike damage
-Trim Bullet,4238918472,PA,Torim Bullet poison/burnlike damage (Torim Shout version)
-Trim Shout,4093858743,PA,Torim Shout
-Trim Slash,4093858613,PA,Torim Slash
-Trim Slash,672024361,PA,Torim Slash (Torim Shout version)
+Trim hit,487482498,Melee,Trim auto-attack 1
+Trim hit,487482435,Melee,Trim auto-attack 2
+Trim hit,487489051,Melee,Trim auto-attack 3
+Trim Stab,4093858806,PA,Trim Stab
+Trim Spiral,2211899418,PA,Trim Spiral (uncharged)
+Trim Spiral,2211899483,PA,Trim Spiral (charge lv.1)
+Trim Spiral,926005986,PA,Trim Spiral Charge 1 (Torim Shout version)
+Trim Spiral,2211900312,PA,Trim Spiral (charge lv.2)
+Trim Spiral,926861457,PA,Trim Spiral Charge 2 (Torim Shout version)
+Trim Bullet,672081019,PA,Trim Bullet first hit
+Trim Bullet,2052351310,PA,Trim Bullet wing melee hit
+Trim Bullet,4238918539,PA,Trim Bullet poison/burnlike damage
+Trim Bullet,4238918472,PA,Trim Bullet poison/burnlike damage (Torim Shout version)
+Trim Shout,4093858743,PA,Trim Shout
+Trim Slash,4093858613,PA,Trim Slash
+Trim Slash,672024361,PA,Trim Slash (Torim Shout version)
 Maron hit,2944355330,Melee,Maron first normal attack
 Maron hit,2944352598,Melee,Maron second normal attack
 Maron hit,2944352663,Melee,Maron third normal attack
