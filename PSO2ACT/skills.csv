@@ -183,8 +183,11 @@ Partizan hit,689132866,Melee,Partizan air first normal attack
 Partizan hit,2984060434,Melee,Partizan air second normal attack
 Partizan hit,3685709820,Melee,Partizan air third normal attack
 Partizan Step Attack,998183821,Melee,Partisan Step
+Slide Shaker,636978853,PA,Slide Shaker spin no gear
+Slide Shaker,1520282204,PA,Slide Shaker final hit no gear
 Slide Shaker,3227905532,PA,Spin
 Slide Shaker,2058300958,PA,Final
+Speed Rain,2526158104,PA,Speed Rain no gear
 Speed Rain,2059941313,PA,
 Rising Flag,2304899440,PA,Rising Flag first hit no gear
 Rising Flag,1539563132,PA,Rising Flag second hit no gear
@@ -912,6 +915,7 @@ Trimate,2925757259,Special,Trimate
 Star Atomizer,2925757249,Special,Star Atomzier
 Recovery Pod,633660526,Special,Recovery Pod
 Just Reversal Cover,2440029502,Special,Just Reversal Cover (Br skill)
+Healing Guard,662646057,Special,Healing Guard (Hu skill)
 Turret,1852253343,Special,Normal Turret
 Rodos Grapple Turret,1358461404,Special,Rodos Grapple Turret
 Cannon,2414748436,Special,Facility Cannon
