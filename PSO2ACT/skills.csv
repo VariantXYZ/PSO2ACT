@@ -27,6 +27,8 @@ Rabarta,2628737071,Tech,Uncharged
 Rabarta,1838809243,Tech,Charged
 Sabarta,1906247115,Tech,Uncharged
 Sabarta,3773240682,Tech,Charged1
+Sabarta,3773212059,Tech,Sabarta charged (crafted?) second hit
+Sabarta,3773297992,Tech,Sabarta charged (crafted?) third hit
 Nabarta,49556873,Tech,Cone
 Ilbarta,3811499950,Tech,Uncharged1
 Ilbarta,1100223160,Tech,Charged1
@@ -891,14 +893,17 @@ Mag (Grants),1886571787,Special,Mag action (T-ATK Grants)
 Mag (Megid),1059126347,Special,Mag action (T-ATK Megid)
 Mag (Clobber),3104220402,Special,Mag action (SP S-ATK Clobber)
 Mag (Vulcan),4205203418,Special,Mag action (SP R-ATK Vulcan)
+Helix Proi,2004640116,Special,PB Helix Proi no-chain+1-chain+2-chain
+Helix Proi,1792224906,Special,PB Helix Proi 4-chain
+Ajax Imera,4274907792,Special,PB Ajax Imera no-chain+1-chain+2-chain
+Ajax Imera,2379589576,Special,PB Ajax Imera 4-chain
+Ketos Proi,4277784487,Special,PB Ketos Proi no-chain+1-chain
+Julius Proi,2074769727,Special,PB Julius Proi no-chain
+Julius Proi,2074769724,Special,PB Julius Proi 1-chain
 Julius Nifta,764702094,Special,PB Julius Nifta no-chain
 Julius Nifta,764702093,Special,PB Julius Nifta 2-chain
 Julius Nifta,764702092,Special,PB Julius Nifta 3-chain
 Julius Nifta,764702091,Special,PB Julius Nifta 4-chain
-Ajax Imera,4274907792,Special,PB Ajax Imera no-chain+1-chain+2-chain
-Ajax Imera,2379589576,Special,PB Ajax Imera 4-chain
-Helix Proi,2004640116,Special,PB Helix Proi no-chain+1-chain+2-chain
-Helix Proi,1792224906,Special,PB Helix Proi 4-chain
 Burn,2505928570,Status,Burn Status Effect (level 1)
 Burn,2505928505,Status,Burn Status Effect (level 2)
 Burn,2505928696,Status,Burn Status Effect (level 3)
