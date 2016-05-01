@@ -217,10 +217,10 @@ Sacred Skewer,978114411,PA,Sacred Skewer
 Sacred Skewer,3090311227,PA,Sacred Skewer (gear)
 Vol Graptor,936938020,PA,Vol Graptor
 Vol Graptor,925141705,PA,Vol Graptor charged
-Tear Grind,3331228937,PA,Tear Grid combo hits
-Tear Grind,195498830,PA,Tear Grid final hit
-Tear Grind,3630719180,PA,Tear Grid combo hits(g)
-Tear Grind,3226393072,PA,Tear Grid final hit (g)
+Tear Grid,3331228937,PA,Tear Grid combo hits
+Tear Grid,195498830,PA,Tear Grid final hit
+Tear Grid,3630719180,PA,Tear Grid combo hits(g)
+Tear Grid,3226393072,PA,Tear Grid final hit (g)
 WL hit,1667827810,Melee,Wired Lance 1
 WL hit,1667827875,Melee,Wired Lance 2
 WL hit,1667828192,Melee,Wired Lance 3
@@ -463,11 +463,12 @@ Tsukimi-sazanka,3148575588,PA,Tsukimi-sazanka
 Gekka-zakuro,215665118,PA,Gekka-zakuro downswing
 Gekka-zakuro,2160628938,PA,Gekka upswing
 Kanran-kikyou,3148575462,PA,Kanran uncharged
-Kanran-likyou,206856796,PA,Kanran charged
+Kanran-kikyou,206856796,PA,Kanran charged
 Sakura-endo,3148575399,PA,Sakura uncharged
 Sakura-endo,206860877,PA,Sakura charged
 Hien-tsubaki,3148574817,PA,Hien
 Asagiri-rendan,3148574752,PA,Asagiri
+Asagiri-rendan,3341396290,PA,Asagiri-rendan final hit
 Hatou-rindou,106956039,PA,Hatou Rindou charged first hit
 Hatou-rindou,168167719,PA,Hatou Rindou charged second hit
 Hatou-rindou,3651508774,PA,Hatou uncharged
@@ -478,6 +479,7 @@ Hatou-rindou,1651702934,PA,Hatou charged SWEET SPOOOOT
 Shunka-shunran,2585461118,PA,Shunka uncharged
 Shunka-shunran,3513096229,PA,Shunka charged start
 Shunka-shunran,2264839669,PA,Shunka charged main combo
+Shunka-shunran,1450022218,PA,Shunka-shunran left/right slash
 Shunka-shunran,1309789969,PA,Shunka megaslash 1 of 2
 Shunka-shunran,2017360610,PA,Shunka megaslash 2 of 2
 Kazan-nadeshiko,3148578174,PA,Kazan (uncrafted)
