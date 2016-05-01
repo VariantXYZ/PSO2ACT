@@ -43,10 +43,12 @@ Gizonde,3022246617,Tech,Uncharged
 Razonde,3676394406,Tech,Charged
 Razonde,1182047893,Tech,Uncharged
 Sazonde,3103634595,Tech,Charged
+Sazonde,577772084,Tech,Sazonde ignition burn/poisonlike damage? (charged)
 Sazonde,3004803920,Tech,Uncharged
 Zondeel,3588292375,Tech,Charged
 Zondeel,2651268955,Tech,Uncharged
 Nazonde,2789601843,Tech,Charged
+Nazonde,1343119479,Tech,Nazonde no spam ignition? what is sega thinking
 Nazonde,4278420419,Tech,Uncharged
 Ilzonde,1756866220,Tech,Charged
 Ilzonde,2398664728,Tech,Uncharged
@@ -899,6 +901,7 @@ Mag (Clobber),3104220402,Special,Mag action (SP S-ATK Clobber)
 Mag (Vulcan),4205203418,Special,Mag action (SP R-ATK Vulcan)
 Helix Proi,2004640116,Special,PB Helix Proi no-chain+1-chain+2-chain
 Helix Proi,1792224906,Special,PB Helix Proi 4-chain
+Helix Imera,206860877,Special,PB Helix Imera no-chain
 Ajax Imera,4274907792,Special,PB Ajax Imera no-chain+1-chain+2-chain
 Ajax Imera,2379589576,Special,PB Ajax Imera 4-chain
 Ketos Proi,4277784487,Special,PB Ketos Proi no-chain+1-chain
