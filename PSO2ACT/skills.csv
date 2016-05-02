@@ -250,7 +250,7 @@ Cerberus Dance (C),4083015423,,Cerberus Dance (crafted)
 Cerberus Dance (C),1181894001,,Cerberus Dance finish (crafted)
 Wild Round,1667539503,PA,Wild Round
 Kaiser Rise,4083089437,PA,Kaiser Rise
-Adapting Spin ,4083089500,PA,Adapting spin 
+Adapting Spin,4083089500,PA,Adapting spin 
 Gunslash hit,3318968327,Melee,Gunslash M1
 Gunslash hit,1408075886,Melee,Gunslash M2
 Gunslash hit,2364486899,Melee,Gunslash M3
@@ -328,9 +328,9 @@ Huricane Sender,524782271,PA,Hurricane detonate (*level 3 gear)
 TD hit,2378312327,Melee,
 TD hit,2378312320,Melee,
 TD hit,2378312321,Melee,
-TD hit,3816723344,Melee,Twin Daggers air first normal attack
-TD hit,1163229184,Melee,Twin Daggers air second normal attack
-TD hit,1893769682,Melee,Twin Daggers air third normal attack
+TD hit,3816723344,Melee,Twin Daggers 0 gear air first normal attack
+TD hit,1163229184,Melee,Twin Daggers 0 gear air second normal attack
+TD hit,1893769682,Melee,Twin Daggers 0 gear air third normal attack
 TD hit,3816723347,Melee,Twin Daggers 1 gear air first attack
 TD hit,1163229191,Melee,Twin Daggers 1 gear air second attack
 TD hit,1893769685,Melee,Twin Daggers 1 gear air third attack
@@ -340,13 +340,15 @@ TD hit,1893769684,Melee,Twin Daggers 2 gear air third attack
 TD hit,3816723349,Melee,Twin Daggers 3 gear air first attack
 TD hit,1163229189,Melee,Twin Daggers 3 gear air second attack
 TD hit,1893769687,Melee,Twin Daggers 3 gear air third attack
-TD Spin,3115487274,Special,Spin 0 gear
-TD Spin,3115487275,Special,Spin partial gear
-TD Spin,3115487272,Special,Spin full gear
 TD Step Attack,2767975965,Melee,TD Step
-Raging Waltz,238277154,PA,Raging Waltz 0 gear
-Raging Waltz,238277155,PA,Raging Waltz 1 gear
-Raging Waltz,238277152,PA,Raging Waltz 2 gear
+TD Spin,3115487285,Special,TD Spin 0 gear
+TD Spin,3115487274,Special,TD Spin 1 gear
+TD Spin,3115487275,Special,TD Spin 2 gear
+TD Spin,3115487272,Special,TD Spin 3 gear
+Raging Waltz,238277165,PA,Raging Waltz 0 gear
+Raging Waltz,238277154,PA,Raging Waltz 1 gear
+Raging Waltz,238277155,PA,Raging Waltz 2 gear
+Raging Waltz,238277152,PA,Raging Waltz 3 gear
 Shoot Polka,2053605232,PA,Shoot Polka 'stage 0' gear
 Shoot Polka,2053605233,PA,Shoot Polka 'stage 1' gear
 Shoot Polka,2053605246,PA,Shoot Polka 'stage 2' gear
@@ -354,12 +356,12 @@ Shoot Polka,2053605247,PA,Shoot Polka 'stage 3' gear
 Scar Fugue,1193225277,PA,Scar Fugue first hit 0 gear
 Scar Fugue,2790036905,PA,Scar Fugue second hit 0 gear
 Scar Fugue,721495005,PA,Scar Fugue third hit 0 gear
-Scar Fugue,1193225276,PA,Scar Fugue first partial gear
-Scar Fugue,2790036906,PA,Scar Fugue second partial gear
-Scar Fugue,721495004,PA,Scar Fugue third partial gear
-Scar Fugue,1193225279,PA,Scar Fugue full gear
-Scar Fugue,2790036907,PA,Scar Fugue second full gear
-Scar Fugue,721495003,PA,Scar Fugue third full gear
+Scar Fugue,1193225276,PA,Scar Fugue first 1 gear
+Scar Fugue,2790036906,PA,Scar Fugue second 1 gear
+Scar Fugue,721495004,PA,Scar Fugue third 1 gear
+Scar Fugue,1193225279,PA,Scar Fugue 2 gear
+Scar Fugue,2790036907,PA,Scar Fugue second 2 gear
+Scar Fugue,721495003,PA,Scar Fugue third 2 gear
 Scar Fugue,1193225278,PA,Scar Fugue 3 gear grab
 Scar Fugue,2790036908,PA,Scar Fugue 3 gear second hit
 Scar Fugue,721495002,PA,Scar Fugue 3 gear last hit
@@ -369,51 +371,56 @@ Wild Rhapsody,3998547226,PA,Wild Rhapsody 'stage 2' gear
 Wild Rhapsody,3998547227,PA,Wild Rhapsody 'stage 3' gear
 Dark Scherzo,2711968273,PA,Dark Scherzo first two hits 0 gear
 Dark Scherzo,2115627931,PA,Dark Scherzo final 0 gear
-Dark Scherzo,2711968272,PA,Dark Scherzo first two hits partial
-Dark Scherzo,2115627930,PA,Dark Scherzo final partial
-Dark Scherzo,2711968287,PA,Dark Scherzo first two full gear
-Dark Scherzo,2115627909,PA,Dark Scherzo final full gear
-Dark Scherzo,2711968286,PA,Dark Scherzo max gear first two hits
-Dark Scherzo,2115627908,PA,Dark Scherzo max gear final hit
-Quick March,3438453623,PA,Quick March
-Quick March,3438453622,PA,Quick March
-Quick March,751181369,PA,Quick March
-Quick March,751181368,PA,Quick March
-Quick March,3438453621,PA,Quick March
-Symphonic Drive,2764513442,PA,Symphonic Drive kick 1
-Symphonic Drive,167868455,PA,Symphonic Drive kick 2
-Symphonic Drive,2764513443,PA,Symph kick 1 partial gear
-Symphonic Drive,167868448,PA,Symph kick 2 partial gear
-Symphonic Drive,2764513444,PA,Symph kick 1 full gear
-Symphonic Drive,167868449,PA,Symph kick 2 full gear
-Orchestra,120509749,PA,ooooo
-Orchestra,1362404324,PA,rchestra
-Orchestra,120509750,PA,Oooooooooooo
-Orchestra,1362404325,PA,rchestra
-Orchestra,120509751,PA,OOOOOOOOOOOO
-Orchestra,1362404326,PA,RCHESTRA!
+Dark Scherzo,2711968272,PA,Dark Scherzo first two hits 1 gear
+Dark Scherzo,2115627930,PA,Dark Scherzo final 1 gear
+Dark Scherzo,2711968287,PA,Dark Scherzo first two 2 gear
+Dark Scherzo,2115627909,PA,Dark Scherzo final 2 gear
+Dark Scherzo,2711968286,PA,Dark Scherzo 3 gear first two hits
+Dark Scherzo,2115627908,PA,Dark Scherzo 3 gear final hit
+Quick March,3438453616,PA,Quick March 2 kicks no gear
+Quick March,751181375,PA,Quick March final no gear
+Quick March,3438453623,PA,Quick March 2 kicks 1 gear
+Quick March,751181369,PA,Quick March final 1 gear
+Quick March,3438453622,PA,Quick March 2 kicks 2 gear
+Quick March,751181368,PA,Quick March final 2 gear
+Quick March,3438453621,PA,Quick March 2 kicks 3 gear
+Symphonic Drive,2764513441,PA,Symphonic Drive first kick 0 gear
+Symphonic Drive,167868454,PA,Symphonic Drive second kick 0 gear
+Symphonic Drive,2764513442,PA,Symphonic Drive first kick 1 gear
+Symphonic Drive,167868455,PA,Symphonic Drive second kick 1 gear
+Symphonic Drive,2764513443,PA,Symphonic Drive first kick 2 gear
+Symphonic Drive,167868448,PA,Symphonic Drive second kick 2 gear
+Symphonic Drive,2764513444,PA,Symphonic Drive first kick 3 gear
+Symphonic Drive,167868449,PA,Symphonic Drive second kick 3 gear
+Orchestra,120509749,PA,ooooo 0 gear
+Orchestra,1362404324,PA,rchestra 0 gear finish
+Orchestra,120509750,PA,Oooooooooooo 1 gear
+Orchestra,1362404325,PA,rchestra 1 gear finish
+Orchestra,120509751,PA,OOOOOOOOOOOO 2 gear
+Orchestra,1362404326,PA,RCHESTRA! 2 gear finish
 Orchestra,120509752,PA,Orchestra 3 gear
 Orchestra,1362404327,PA,Orchestra 3 gear finish
-Bloody Sarabande,1022160397,PA,Bloody Saranbande pt1
-Bloody Sarabande,2745888524,PA,Bloody Saranbande pt2
+Bloody Sarabande,1022160397,PA,Bloody Saranbande pt1 0 gear
+Bloody Sarabande,2745888524,PA,Bloody Saranbande pt2 0 gear
 Bloody Sarabande,1185927985,PA,Bloody Saranbande no gear ground second part
-Bloody Sarabande,1022160396,PA,Bloody Saranbande pt1 partial g
-Bloody Sarabande,2745888515,PA,Bloody Saranbande pt2 partial g
+Bloody Sarabande,1022160396,PA,Bloody Saranbande pt1 1 g
+Bloody Sarabande,2745888515,PA,Bloody Saranbande pt2 1 g
 Bloody Sarabande,1022160395,PA,Bloody Saranbande 2 gear first part
 Bloody Sarabande,2745888514,PA,Bloody Saranbande 2 gear second part
-Bloody Sarabande,1022160394,PA,Bloody Saranbande pt1 full g
-Bloody Sarabande,2745888513,PA,Bloody Saranbande pt2 full g
-Facet Folia,2569859798,PA,Facet Folia start
-Facet Folia,3225817327,PA,Facet Folia combo
-Facet Folia,1460149680,PA,Facet Folia finish
-Facet Folia,2569859799,PA,FF start partial gear
-Facet Folia,3225817324,PA,FF combo partial gear
-Facet Folia,1460149681,PA,FF finish partial gear
-Facet Folia,2569859796,PA,FF start full gear
-Facet Folia,3225817325,PA,FF combo full gear
-Facet Folia,1460149686,PA,FF finish full gear
-Facet Folia,2569859797,PA,Facet Folia max gear grab
-Facet Folia,3225817234,PA,Facet Folia max gear second part
+Bloody Sarabande,1022160394,PA,Bloody Saranbande pt1 3 g
+Bloody Sarabande,2745888513,PA,Bloody Saranbande pt2 3 g
+Facet Folia,2569859798,PA,Facet Folia start 0 gear
+Facet Folia,3225817327,PA,Facet Folia combo 0 gear 
+Facet Folia,1460149683,PA,Facet Folia finish 0 gear
+Facet Folia,2569859799,PA,Facet Folia start 1 gear
+Facet Folia,3225817324,PA,Facet Folia combo 1 gear
+Facet Folia,1460149681,PA,Facet Folia finish 1 gear
+Facet Folia,2569859796,PA,Facet Folia start 2 gear
+Facet Folia,3225817325,PA,Facet Folia combo 2 gear
+Facet Folia,1460149686,PA,Facet Folia finish 2 gear
+Facet Folia,2569859797,PA,Facet Folia 3 gear grab
+Facet Folia,3225817234,PA,Facet Folia 3 gear second part
+Facet Folia,1460149680,PA,Facet Folia finish 3 gear
 Fall Nocturne,1622238417,PA,Fall Nocturne partial gear
 Fall Nocturne,1622238480,PA,Fall Nocturne full gear
 Fall Nocturne,1622238547,PA,Fall Nocturne max gear
@@ -621,6 +628,7 @@ Cracker Bullet,2219649314,PA,Cracker Bullet (multihit)
 Cracker Bullet,2709161566,PA,Cracker Bullet (final)
 Zero Distance,2709161503,PA,Zero Distance
 Rodeo Drive,2219642677,PA,Rodeo Drive
+Rodeo Drive,2219641904,PA,Rodeo Drive air start hit
 Crazy Smash,2709161368,PA,Crazy Smash (direct enemy)
 Fake Silhouette,2219699734,PA,Fake Silhouette
 Flame Bullet,2709161242,PA,Flame Bullet
@@ -855,12 +863,14 @@ Viola hit,1596393984,Melee,Viola third normal attack
 Viola Slicer,4259075413,PA,Viola Slicer first hit
 Viola Slicer,4259075094,PA,Viola Slicer second hit
 Viola Stamp,555203454,PA,Viola Stamp
+Viola Stamp,4244643339,PA,Viola Stamp hard hit
 Viola Pulsar,555201434,PA,Viola Pulsar first hit
 Viola Pulsar,201300655,PA,Viola Pulsar burn/poisonlike damage
 Viola Assault,555201499,PA,Viola Assault
 Viola Slicer,2643918256,PA,Viola Slicer first hit (Viola Change'd version)
 Viola Slicer,2643918193,PA,Viola Slicer second hit (Viola Change'd version)
 Viola Stamp,4259879100,PA,Viola Stamp (Viola Change'd version)
+Viola Stamp,375503608,PA,Viola Stamp hard hit (Viola Change'd version)
 Viola Pulsar,4234893896,PA,Viola Pulsar first hit (Viola Change'd version)
 Viola Pulsar,444146511,PA,Viola Pulsar burn/poisonlike damage (Viola Change'd version)
 Viola Assault,4235149933,PA,Viola Assault (Viola Change'd version)
