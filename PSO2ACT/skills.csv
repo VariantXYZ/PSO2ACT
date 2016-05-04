@@ -92,7 +92,6 @@ Ramegid,1346510043,Tech,
 Ramegid,2458729274,Tech,
 Samegid,757530403,Tech,
 Samegid,3731229904,Tech,
-Megiverse,893379015,Tech,
 Namegid,803375681,Tech,
 Namegid,2368738938,Tech,
 Ilmegid,3791794807,Tech,
@@ -945,7 +944,8 @@ Healing Guard,662646057,Special,Healing Guard (Hu skill)
 Limit Break,140040,Special,Limit Break end (Fi skill)
 Just Reversal Cover,2440029502,Special,Just Reversal Cover (Br skill)
 Heal Share,2616315751,Special,Heal Share (Bo skill)
-Vampiric Blade/Celestial Bullet,893379015,Special,Vampiric Blade/Celestial Bullet (Weapon Potential)
+Vampiric Blade/Celestial Bullet/Megiverse,893379015,Special,Vampiric Blade/Celestial Bullet/Megiverse (Weapon Potential, Tech)
+Relief Supplies,458852839,Special,Relief Supplies (random spawn on maps)
 Lunar Eclipse,2608912395,Special,Lunar Eclipse (Weapon Potential)
 Tokyo Style Hamburger,585389849,Special,Tokyo Style Hamburger (Cuisine)
 Turret,1852253343,Special,Normal Turret
