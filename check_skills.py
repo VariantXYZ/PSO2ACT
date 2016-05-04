@@ -22,8 +22,10 @@ for row in reader:
     rowi = rowi + 1
     if len(row) != 4:
         print("row %d, wrong column size: %s" % (rowi, row) )
+        status = status + 1
     elif rowi != 1 and ID == None:
         print("row %d, Invaild ID: %s" % (rowi, row) )
+        status = status + 1
     if ID in skills_id:
         print("row %d, Dup ID: %s" % (rowi, row) )
         status = status + 1
