@@ -767,8 +767,12 @@ JB hit,2778548652,Melee,Second Attack
 JB hit,3614558463,Melee,Third Attack
 JB Step Attack,798466786,Melee,Step Attack
 JB hit,2184540187,Melee,Shift Action
-JB hit,1853582271,Special,Jump hit
-JB hit,747815998,Special,One More Jump hit (Bo skill)
+JB hit,747815998,Special,Jump hit (Fire)
+JB hit,1254493977,Special,Jump hit (Ice)
+JB hit,3280158646,Special,Jump hit (Lightning)
+JB hit,2954183594,Special,Jump hit (Wind)
+JB hit,1853582271,Special,Jump hit (Light)
+JB hit,580662444,Special,Jump hit (Dark)
 Strike Gust,2440471691,PA,Strike Gust (uncharged first two)
 Strike Gust,3982071982,PA,Strike Gust (uncharged final)
 Strike Gust,2049018178,PA,Strike Gust (half charge first three)
