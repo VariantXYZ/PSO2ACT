@@ -92,7 +92,6 @@ Ramegid,1346510043,Tech,
 Ramegid,2458729274,Tech,
 Samegid,757530403,Tech,
 Samegid,3731229904,Tech,
-Megiverse,893379015,Tech,
 Namegid,803375681,Tech,
 Namegid,2368738938,Tech,
 Ilmegid,3791794807,Tech,
@@ -939,10 +938,17 @@ Poison,1739789667,Status,Poison Status Effect (level 5)
 Monomate,2925757257,Special,Monomate
 Dimate,2925757256,Special,Dimate
 Trimate,2925757259,Special,Trimate
-Star Atomizer,2925757249,Special,Star Atomzier
-Recovery Pod,633660526,Special,Recovery Pod
-Just Reversal Cover,2440029502,Special,Just Reversal Cover (Br skill)
+Star Atomizer,2925757249,Special,Star Atomizer
+Recovery Pod,633660526,Special,Recovery Pod (found before bosses, リカバリーポッド)
+Restoration Pod,458852839,Special,Restoration Pod (random spawn on maps, 回復ポッド)
 Healing Guard,662646057,Special,Healing Guard (Hu skill)
+Limit Break,140040,Special,Limit Break end (Fi skill)
+Just Reversal Cover,2440029502,Special,Just Reversal Cover (Br skill)
+Heal Share,2616315751,Special,Heal Share (Bo skill)
+Vampiric Blade/Celestial Bullet/Megiverse,893379015,Special,Vampiric Blade/Celestial Bullet/Megiverse (Weapon Potential, Tech)
+Lunar Eclipse,2608912395,Special,Lunar Eclipse (Weapon Potential)
+Tokyo Style Hamburger,585389849,Special,Tokyo Style Hamburger (Cuisine)
+Magnetic Needle,2370429206,Special,Magnetic Needle (Skyscape areas)
 Turret,1852253343,Special,Normal Turret
 Rodos Grapple Turret,1358461404,Special,Rodos Grapple Turret
 Cannon,2414748436,Special,Facility Cannon
