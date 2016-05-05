@@ -278,6 +278,7 @@ Thrillsplosion,3912567547,PA,Thrillsplosion
 Slash Rave,799003079,PA,Slash rave combo hits
 Slash Rave,799003014,PA,Slash rave finishing shot part 1
 Slash Rave,1159428500,PA,Slash rave finishing shot part 2
+Slash Rave,3180075746,PA,Slash Rave finishing shot part 2 no stagger
 Additional Bullet,2250284406,PA,Additional Bullet kick
 Additional Bullet,2775356067,PA,Additional Bullet shot
 Kreisenschlag,4071330996,PA,Kreisenschlag (some hits)
@@ -935,17 +936,17 @@ Poison,1739789694,Status,Poison Status Effect (level 2)
 Poison,1739789665,Status,Poison Status Effect (level 3)
 Poison,1739789664,Status,Poison Status Effect (level 4)
 Poison,1739789667,Status,Poison Status Effect (level 5)
-Monomate,2925757257,Special,Monomate
-Dimate,2925757256,Special,Dimate
-Trimate,2925757259,Special,Trimate
+Monomate,2925757257,Special,Monomate (Automate Halfline/Deadline also uses this)
+Dimate,2925757256,Special,Dimate (Automate Halfline/Deadline also uses this)
+Trimate,2925757259,Special,Trimate (Automate Halfline/Deadline also uses this)
 Star Atomizer,2925757249,Special,Star Atomizer
 Recovery Pod,633660526,Special,Recovery Pod (found before bosses & 'リカバリーポッド')
 Restoration Pod,458852839,Special,Restoration Pod (random spawn on maps & '回復ポッド')
 Healing Guard,662646057,Special,Healing Guard (Hu skill)
-Limit Break,140040,Special,Limit Break end (Fi skill)
+'Wound' state end,140040,Special,'Wound' state ending (Limit Break/PP Convert & Bayaribbles/Guar-Zigmorde/Hunar/Blu Ringahda/Viel all inflict this)
 Just Reversal Cover,2440029502,Special,Just Reversal Cover (Br skill)
 Heal Share,2616315751,Special,Heal Share (Bo skill)
-Vampiric Blade/Celestial Bullet/Megiverse,893379015,Special,Vampiric Blade/Celestial Bullet/Megiverse (Weapon Potential & Tech)
+Damage Absorbed,893379015,Special,Vampiric Blade/Celestial Bullet/Megiverse all belong here
 Lunar Eclipse,2608912395,Special,Lunar Eclipse (Weapon Potential)
 Tokyo Style Hamburger,585389849,Special,Tokyo Style Hamburger (Cuisine)
 Magnetic Needle,2370429206,Special,Magnetic Needle (Skyscape areas)
