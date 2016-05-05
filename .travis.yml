@@ -13,4 +13,4 @@ script:
   - python check_skills.py | tee ~/buildout.txt ; test ${PIPESTATUS[0]} -eq 0
 
 after_failure:
-  - '[ "${TRAVIS_PULL_REQUEST}" == "false" ] || gh pr $TRAVIS_PULL_REQUEST --comment `cat ~/buildout.txt`'
+  - '[ "${TRAVIS_PULL_REQUEST}" == "false" ] || gh pr $TRAVIS_PULL_REQUEST --comment "`cat ~/buildout.txt`"'
