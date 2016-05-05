@@ -1,15 +1,13 @@
 language: python
-#sudo: required
 
-#addons:
-#   apt:
-#     packages:
-#     - npm
+before_install:
+  - openssl aes-256-cbc -K $encrypted_91bdf47b9392_key -iv $encrypted_91bdf47b9392_iv -in gh.json.enc -out ~/.gh.json -d
 
 before_script:
   - npm install -g gh
 
-script: python check_skills.py | tee ~/buildout.txt
+script:
+  - python check_skills.py | tee ~/buildout.txt
 
 after_failure:
-  - '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && gh pr $TRAVIS_PULL_REQUEST --comment `cat ~/buildout.txt` || false'
+  - '[ "${TRAVIS_PULL_REQUEST}" != "false" ] && gh pr $TRAVIS_PULL_REQUEST --comment `cat ~/buildout.txt` || false'
