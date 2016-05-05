@@ -1,6 +1,11 @@
 language: python
 sudo: required
 
+addons:
+   apt:
+     packages:
+     - npm
+
 before_install:
   - openssl aes-256-cbc -K $encrypted_91bdf47b9392_key -iv $encrypted_91bdf47b9392_iv -in gh.json.enc -out ~/.gh.json -d
 
