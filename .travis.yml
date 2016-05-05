@@ -1,4 +1,6 @@
 language: python
 
+install:
+
 script:
   - python check_skills.py
