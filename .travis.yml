@@ -1,3 +1,15 @@
 language: python
+#sudo: required
 
-script: python check_skills.py
+#addons:
+#   apt:
+#     packages:
+#     - npm
+
+before_script:
+  - npm install -g gh
+
+script: python check_skills.py | tee ~/buildout.txt
+
+after_failure:
+  - '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && gh pr $TRAVIS_PULL_REQUEST --comment `cat ~/buildout.txt` || false'
