@@ -914,18 +914,60 @@ Mag (Grants),1886571787,Special,Mag action (T-ATK Grants)
 Mag (Megid),1059126347,Special,Mag action (T-ATK Megid)
 Mag (Clobber),3104220402,Special,Mag action (SP S-ATK Clobber)
 Mag (Vulcan),4205203418,Special,Mag action (SP R-ATK Vulcan)
-Helix Proi,2004640116,Special,PB Helix Proi no-chain+1-chain+2-chain
-Helix Proi,1792224906,Special,PB Helix Proi 4-chain
-Helix Imera,1075221526,Special,PB Helix Imera no-chain
-Ajax Imera,4274907792,Special,PB Ajax Imera no-chain+1-chain+2-chain
-Ajax Imera,2379589576,Special,PB Ajax Imera 4-chain
-Ketos Proi,4277784487,Special,PB Ketos Proi no-chain+1-chain
-Julius Proi,2074769727,Special,PB Julius Proi no-chain
+Helix Proi,2004640116,Special,PB Helix Proi 0+1+2-chain
+Helix Proi,1792224906,Special,PB Helix Proi 3-chain
+Helix Imera,1075221526,Special,PB Helix Imera aoe attack 0-chain
+Helix Imera,1817839236,Special,PB Helix Imera first hit 1++-chain
+Helix Imera,3826344072,Special,PB Helix Imera aoe attack 1+2-chain
+Helix Imera,4211237222,Special,PB Helix Imera aoe attack 3-chain           
+Helix Nykta,3903398021,Special,PB Helix Nykta horn hit 0+1-chain
+Helix Nykta,823402941,Special,PB Helix Nykta horn hit 2+3-chain
+Helix Nykta,3627456031,Special,PB Helix Nykta landing hit 0+1-chain
+Helix Nykta,2415309454,Special,PB Helix Nykta landing hit 2+3-chain
+Ajax Proi,718460570,Special,PB Ajax Proi 0+1+2-chain
+Ajax Proi,498592293,Special,PB Ajax Proi 3-chain
+Ajax Imera,4274907792,Special,PB Ajax Imera 0+1+2-chain
+Ajax Imera,2379589576,Special,PB Ajax Imera 3-chain
+Ajax Nykta,3512301214,Special,PB Ajax Nykta first hit 0+1-chain
+Ajax Nykta,1846509854,Special,PB Ajax Nykta first hit 2+3-chain
+Ajax Nykta,3625928312,Special,PB Ajax Nykta second hit 0+1-chain
+Ajax Nykta,2811060000,Special,PB Ajax Nykta second hit 2+3-chain
+Ketos Proi,4277784487,Special,PB Ketos Proi 0+1+2+3-chain
+Ketos Imera,430308113,Special,PB Ketos Imera 0-chain
+Ketos Imera,413582417,Special,PB Ketos Imera 1-chain
+Ketos Imera,4017106933,Special,PB Ketos Imera 2-chain
+Ketos Imera,380422613,Special,PB Ketos Imera 3-chain
+Ketos Nykta,1161221232,Special,PB Ketos Nykta 0+1-chain
+Ketos Nykta,320287461,Special,PB Ketos Nykta 2-chain
+Ketos Nykta,3929437971,Special,PB Ketos Nykta 3-chain
+Julius Proi,2074769727,Special,PB Julius Proi 0-chain
 Julius Proi,2074769724,Special,PB Julius Proi 1-chain
-Julius Nifta,764702094,Special,PB Julius Nifta no-chain
-Julius Nifta,764702093,Special,PB Julius Nifta 2-chain
-Julius Nifta,764702092,Special,PB Julius Nifta 3-chain
-Julius Nifta,764702091,Special,PB Julius Nifta 4-chain
+Julius Proi,2074769725,Special,PB Julius Proi 2-chain
+Julius Proi,2074769722,Special,PB Julius Proi 3-chain
+Julius Proi,2224628886,Special,PB Julius Proi final blast 0-chain
+Julius Proi,2224628885,Special,PB Julius Proi final blast 1-chain
+Julius Proi,2224628884,Special,PB Julius Proi final blast 2-chain
+Julius Proi,2224628883,Special,PB Julius Proi final blast 3-chain
+Julius Imera,3412523140,Special,PB Julius Imera 0-chain
+Julius Imera,3412523139,Special,PB Julius Imera 1-chain
+Julius Imera,3412523138,Special,PB Julius Imera 2-chain
+Julius Imera,3412523137,Special,PB Julius Imera 3-chain
+Julius Nykta,764702094,Special,PB Julius Nykta 0-chain
+Julius Nykta,764702093,Special,PB Julius Nykta 1-chain
+Julius Nykta,764702092,Special,PB Julius Nykta 2-chain
+Julius Nykta,764702091,Special,PB Julius Nykta 3-chain
+Ilios Proi,2814861617,Special,PB Ilios Proi 0-chain
+Ilios Proi,2814861618,Special,PB Ilios Proi 1-chain
+Ilios Proi,2814861619,Special,PB Ilios Proi 2-chain
+Ilios Proi,2814861772,Special,PB Ilios Proi 3-chain
+Ilios Imera,2207342095,Special,PB Ilios Imera 0-chain
+Ilios Imera,2207342092,Special,PB Ilios Imera 1-chain
+Ilios Imera,2207342093,Special,PB Ilios Imera 2-chain
+Ilios Imera,2207342090,Special,PB Ilios Imera 3-chain
+Ilios Nykta,4037912096,Special,PB Ilios Nykta 0-chain
+Ilios Nykta,4037912097,Special,PB Ilios Nykta 1-chain
+Ilios Nykta,4037912102,Special,PB Ilios Nykta 2-chain
+Ilios Nykta,4037912103,Special,PB Ilios Nykta 3-chain
 Burn,2505928570,Status,Burn Status Effect (level 1)
 Burn,2505928505,Status,Burn Status Effect (level 2)
 Burn,2505928696,Status,Burn Status Effect (level 3)
