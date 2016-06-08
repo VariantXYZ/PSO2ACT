@@ -38,6 +38,9 @@ Ilbarta,3811409918,Tech,Uncharged3
 Ilbarta,1097489198,Tech,Charged3
 Zonde,1715327776,Tech,Charged
 Zonde,554054867,Tech,Uncharged
+Zonde (C),553845451,Tech,Zonde (type-0 craft) uncharged
+Zonde (C),3325804278,Tech,charged
+Zonde (C),3480669127,Tech,charged final blast
 Gizonde,71596560,Tech,Charged
 Gizonde,3022246617,Tech,Uncharged
 Razonde,3676394406,Tech,Charged
@@ -64,6 +67,11 @@ Sazan,3946162743,Tech,Uncharged
 Zanverse,2106601422,Tech,
 Nazan,1233164694,Tech,Charged
 Nazan,1497197786,Tech,Uncharged
+Nazan (C),3917512316,Tech,Nazan (type-0 craft) uncharged
+Nazan (C),1490526560,Tech,second
+Nazan (C),3510056594,Tech,Nazan charged first hit
+Nazan (C),2994867107,Tech,second hit
+Nazan (C),1437435851,Tech,loads of hits
 Ilzan,2891550606,Tech,Charged
 Ilzan,1944592516,Tech,Uncharged
 Grants,696766223,Tech,Charged
@@ -235,6 +243,9 @@ Heavenly Fall,1713894514,PA,Heavenly Fall fall
 Other Cyclone,1850125110,PA,Other Cyclone grab
 Other Cyclone,1871999855,PA,Other Cyclone cyclone
 Other Cyclone,455829749,PA,Other Cyclone fling
+Other Cyclone (C),1370775705,PA,Other Cyclone craft grab
+Other Cyclone (C),3838831464,PA,spin
+Other Cyclone (C),3070400580,PA,throw
 Other Spin,781364083,PA,Other spin start
 Other Spin,516963559,PA,Other spin spin
 Other Spin,1667539754,PA,Other spin end
@@ -317,6 +328,7 @@ Surprise Dunk,129472838,PA,Surprise Dunk (dunk portion)
 Deadly Archer,4243814605,PA,Deadly Archer
 Acro Effect,2726424864,PA,Acro Effect
 Deadly Circle,1319999679,PA,Deadly Circle
+Deadly Circle (C),1215958429,PA,Deadly Circle craft
 Chaos Riser,3025396833,PA,Chaos Riser (no gear)
 Chaos Riser,3025396896,PA,Chaos Riser (Level 2 gear)
 Chaos Riser,3025396960,PA,Chaos Riser
@@ -547,6 +559,10 @@ Kestral Rampage,2840651037,PA,Kestral rampage
 Kestral Rampage,2840651036,PA,- One gear bar
 Kestral Rampage,2840651039,PA,- Two gear bars
 Kestral Rampage,2840651038,PA,- Three gear bars
+Kestrel Rampage (C),4277013577,PA,Kestrel Rampage craft no gear
+Kestrel Rampage (C),4277013576,PA,1 gear
+Kestrel Rampage (C),4277013623,PA,2 gear
+Kestrel Rampage (C),4277013622,PA,3 gear
 Immortal Dove,823939487,PA,Immortal Dove (ground hit part 1)
 Immortal Dove,823939486,PA,- One gear bar
 Immortal Dove,823939485,PA,- Two gear bars
@@ -694,6 +710,18 @@ Infinite Fire,879653107,PA,Infinite Fire (final volley) 0 gear
 Infinite Fire,879653104,PA,1 gear
 Infinite Fire,879653105,PA,2 gear
 Infinite Fire,879653110,PA,3 gear
+Infinite Fire (C),1612843143,PA,Infinite Fire craft 0 gear shots
+Infinite Fire (C),2004097432,PA,kick
+Infinite Fire (C),1345025835,PA,final blast
+Infinite Fire (C),1612843192,PA,1 gear shots
+Infinite Fire (C),2004097433,PA,kick
+Infinite Fire (C),1345025834,PA,final blast
+Infinite Fire (C),1612843193,PA,2 gear shots
+Infinite Fire (C),2004097434,PA,kick
+Infinite Fire (C),1345025833,PA,blast
+Infinite Fire (C),1612843194,PA,3 gear shots
+Infinite Fire (C),2004097435,PA,kick
+Infinite Fire (C),1345025832,PA,final blast
 Satellite Aim,1770510361,PA,Satellite Aim (hit 1) 0 gear
 Satellite Aim,1770510366,PA,1 gear
 Satellite Aim,1770510367,PA,2 gear
