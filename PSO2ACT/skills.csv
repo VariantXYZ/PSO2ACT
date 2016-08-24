@@ -605,8 +605,8 @@ Million Storm,294264661,PA,Million Storm
 Chase Arrow,294264342,PA,Chase Arrow
 Assault Rifle hit,1856399071,Ranged,Rifle shot
 Assault Rifle hit,220156466,Ranged,Rifle Diveroll shoot
-Assault Rifle hit,713142898,Special,Weak bullet hit
-Assault Rifle hit,192041748,Special,Bind Bullet (Ra skill)
+Weak Bullet,713142898,Special,Weak bullet hit
+Bind Bullet,192041748,Special,Bind Bullet (Ra skill)
 Piercing Shell,220056925,PA,Piercing Shell
 Grenade Shell,220057357,PA,Grenade Shell
 One Point,220057548,PA,One Point
@@ -633,9 +633,9 @@ Launcher hit,594271163,Ranged,First
 Launcher hit,594271098,Ranged,Second
 Launcher hit,594270780,Ranged,Third
 Launcher hit,2731320054,Ranged,Dive roll shoot
-Launcher hit,3433218069,Special,Mirage Shot (Ra skill)
-Launcher hit,1201754534,Special,Panic Shot (Ra skill)
-Launcher hit,2734794071,Special,Jellen Shot (Ra skill)
+Mirage Shot,3433218069,Special,Mirage Shot (Ra skill)
+Panic Shot,1201754534,Special,Panic Shot (Ra skill)
+Jellen Shot,2734794071,Special,Jellen Shot (Ra skill)
 Divine Launcher,2709160760,PA,Divine Launcher
 Divine Launcher (C),1445952978,PA,uncharged
 Divine Launcher (C),1445953294,PA,charged
@@ -908,6 +908,14 @@ Viola Stamp,375503608,PA,Viola Stamp hard hit (Viola Change'd version)
 Viola Pulsar,4234893896,PA,Viola Pulsar first hit (Viola Change'd version)
 Viola Pulsar,444146511,PA,Viola Pulsar burn/poisonlike damage (Viola Change'd version)
 Viola Assault,4235149933,PA,Viola Assault (Viola Change'd version)
+Shinkirou hit,1147655708,Melee,Shinkirou first normal hit
+Shinkirou hit,1147655711,Melee,Shinkirou second normal hit
+Shinkirou hit,1147655710,Melee,Shinkirou third normal hit
+Synchro Slice,2368496396,PA,Synchro Slice
+Synchro Kick,2368496330,PA,Synchro Kick
+Synchro Punch,2368496267,PA,Synchro Punch
+Synchro Shot,2368496200,PA,Synchro Shot
+Synchro Strike,2905893090,PA,Synchro Strike
 BOOSTO KICKU,85301614,Special,Tokyo speed-pad kick level 1
 BOOSTO KICKU,85302964,Special,Tokyo speed-pad kick level 2 
 BOOSTO KICKU,85303029,Special,Tokyo speed-pad kick level 3
@@ -1039,5 +1047,11 @@ AIS Photon Grenade,434705298,Special,A.I.S rockets (Photon Grenade)
 AIS Photon Rush,79964675,Special,A.I.S gap closer PA attack (Photon Rush)
 AIS Photon Blaster,1460054769,Special,A.I.S cannon (Photon Blaster)
 AIS Photon Blizzard,4081218683,Special,A.I.S mob freezing attack (Photon Blizzard)
-AIS Solid Vulcan,3298256598,Special,A.I.S Weak Bullet
+AIS Weak Bullet,3298256598,Special,A.I.S Weak Bullet
 AIS Area Heal,2826401717,Special,A.I.S Area Heal
+Rideroid,3491866260,Special,Rideroid throw
+Rideroid,2056025809,Special,Rideroid hit forward slow
+Rideroid,2534881408,Special,Rideroid hit forward stop
+Rideroid,1247666429,Special,Rideroid hit forward fast
+Rideroid,2600476838,Special,Rideroid hit dodge
+Rideroid heal ring,645891880,Special,Rideroid heal ring
