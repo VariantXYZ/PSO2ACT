@@ -13,6 +13,10 @@ Rafoie,3727832945,Tech,Uncharged
 Rafoie,3160663286,Tech,Charged
 Safoie,992062163,Tech,Uncharged
 Safoie,1313506350,Tech,Charged
+Safoie (C),2566461378,Tech,Safoie (Type-0) uncharged first hit
+Safoie (C),1314363598,Tech,Safoie (Type-0) uncharged 
+Safoie (C),2588035419,Tech,Safoie (Type-0) charged first hit
+Safoie (C),166001586,Tech,Safoie (Type-0) charged
 Nafoie,3050042460,Tech,Ground_ Uncharged
 Nafoie,4054265489,Tech,Ground_ Charged
 Nafoie,828617961,Tech,Direct_ Uncharged
@@ -98,6 +102,8 @@ Gimegid,2362873256,Tech,
 Gimegid,2076503293,Tech,
 Ramegid,1346510043,Tech,
 Ramegid,2458729274,Tech,
+Ramgeid (C),1488338153,Tech,Ramegid (Type-0) uncharged
+Ramegid (C),3108138604,Tech,Ramegid (Type-0) charged
 Samegid,757530403,Tech,
 Samegid,3731229904,Tech,
 Namegid,803375681,Tech,
@@ -143,6 +149,13 @@ Sword hit,1215367338,Melee,Sword_ 3rd
 Sword hit,1331225593,Melee,Sword air first normal attack 
 Sword hit,1331225146,Melee,Sword air second normal attack
 Sword hit,1331225211,Melee,Sword air third normal attack
+Sword Step Attack (C),1279043576,Melee,Sword Step Attack (Sacrifice's Bite ver)
+Sword hit (C),2001359545,Melee,Sword first normal attack (Sacrifice's Bite ver)
+Sword hit (C),2002747972,Melee,Sword second normal attack (Sacrifice's Bite ver)
+Sword hit (C),2084739075,Melee,Sword third normal attack (Sacrifice's Bite ver)
+Sword hit (C),1351584013,Melee,Sword air first normal attack (Sacrifice's Bite ver)
+Sword hit (C),1353244642,Melee,Sword air second normal attack (Sacrifice's Bite ver)
+Sword hit (C),1354018567,Melee,Sword air third normal attack (Sacrifice's Bite ver)
 Rising Edge,1227622308,PA,Start
 Rising Edge,1224723795,PA,Spin
 Twister Fall,1224723730,PA,Spin
@@ -179,6 +192,10 @@ Sacrifice's Bite,526157945,PA,Sacrifice's bite latch
 Sacrifice's Bite,2275427188,PA,Sacrifice's bite charges
 Sacrifice's Bite,985472180,PA,Sacrifice's bite short-charge
 Sacrifice's Bite,2606728976,PA,Sacrifice's bite smack
+Sacrifice's Bite (C),1040118139,PA,Sacrifice's Bite (Type-0) latch
+Sacrifice's Bite (C),179195970,PA,Sacrifice's Bite (Type-0) charge
+Sacrifice's Bite (C),3909378260,PA,Sacrifice's Bite (Type-0) quick-charge
+Sacrifice's Bite (C),3040541025,PA,Sacrifice's Bite (Type-0) hit
 Ignition Parry,3096775537,PA,Ignition Parry first four strikes (parried version uses this as well)
 Ignition Parry,54200585,PA,Ignition Parry final two strikes
 Ignition Parry,498184876,PA,Ignition Parry parried first hit
@@ -593,6 +610,8 @@ Kamikaze Arrow,3439973719,PA,Kamikaze Arrow rebound
 Kamikaze Arrow,3470042646,PA,Kamikaze Arrow fling (charged)
 Kamikaze Arrow,3439973654,PA,Kamikaze Arrow rebound (charged)
 Sharp Bomber,294311563,PA,Sharp Bomber
+Sharp Bomber (C),3671759171,PA,Sharp Bomber (Type-0) uncharged
+Sharp Bomber (C),3671760384,PA,Sharp Bomber (Type-0) charged
 Final Nemesis,3765323771,PA,Final Nemesis
 Tritt Shooter,294299758,PA,Tritt Shooter kicks
 Tritt Shooter,294300276,PA,Tritt Shooter shot
@@ -619,6 +638,7 @@ Sneak Shooter,220056777,PA,Sneak Shooter
 Glorious Rain,1190704694,PA,Glorious Rain 'start'
 Glorious Rain,220056714,PA,Glorious Rain
 Parallel Slider,220057419,PA,Parallel Slider
+Parallel Slider (C),3857649477,PA,Parallel Slider (Type-0)
 Satellite Cannon,2295790933,PA,Satellite Cannon (no charge)
 Satellite Cannon,2295790868,PA,Satellite Cannon (half charge)
 Satellite Cannon,2295790295,PA,Satellite Cannon (full charge)
@@ -808,6 +828,11 @@ Strike Gust,2476784422,PA,Strike Gust (half charge final)
 Strike Gust,1301043509,PA,Strike Gust (charged first four)
 Strike Gust,3955365271,PA,Strike Gust (final)
 Strike Gust,3088217635,PA,Strike Gust (interrupt)
+Strike Gust (C),1462163353,PA,Strike Gust (Type-0) first charge
+Strike Gust (C),2869687889,PA,Strike Gust (Type-0) first charge shift action
+Strike Gust (C),1071365573,PA,Strike Gust (Type-0) second charge
+Strike Gust (C),452976794,PA,Strike Gust (Type-0) second charge shift action first hit
+Strike Gust (C),1808168665,PA,Strike Gust (Type-0) second charge shift action
 Gran Wave,424716447,PA,Gran Wave (first kick)
 Gran Wave,3764244857,PA,Gran Wave (kick volle)
 Gran Wave,147222821,PA,Gran Wave (interrupt)
@@ -838,8 +863,8 @@ Wanda Slicer,2918501417,PA,Wanda Slicer
 Wanda Slicer,2918501480,PA,Wanda Slicer
 Sally hit,639929291,Melee,Sally auto-attack 1
 Sally Plode,2156897712,PA,Sally Plode
-Sally Territory,493814577,PA,Sally Territory
-Sally Territory,493814640,PA,Sally Territory
+Sally/Popple Territory,493814577,PA,Sally/Popple Territory
+Sally/Popple Territory,493814640,PA,Sally/Popple Territory
 Sally Curse,3581010262,PA,Sally Curse
 Sally Fall,385030021,PA,Sally Fall
 Sally Chaser,385050960,PA,Sally Chaser
@@ -916,6 +941,41 @@ Synchro Kick,2368496330,PA,Synchro Kick
 Synchro Punch,2368496267,PA,Synchro Punch
 Synchro Shot,2368496200,PA,Synchro Shot
 Synchro Strike,2905893090,PA,Synchro Strike
+Jinga hit,2981353400,Melee,Jinga first normal attack
+Jinga hit,2981353465,Melee,Jinga second normal attack
+Jinga hit,2981351487,Melee,Jinga third normal attack
+Jinga Slicer,3467827123,PA,Jinga Slicer first hit
+Jinga Slicer,3467827186,PA,Jinga Slicer second hit
+Jinga Shock,2252116314,PA,Jinga Shock
+Jinga Break,2252115978,PA,Jinga Break
+Jinga Pulsar,3369486556,PA,Jinga Pulsar
+Jinga Pulsar,3606184590,PA,Jinga Pulsar hard hit
+Jinga Assault,3369572495,PA,Jinga Assault
+Popple hit,578161427,Melee,Popple normal attack
+Popple Splode,2622073432,PA,Popple Splode uncharged
+Popple Splode,850642716,PA,Popple Splode charged
+Popple Fall,1711861634,PA,Popple Fall
+Popple Chaser,1711859717,PA,Popple Chaser
+Popple Curse,3737792897,PA,Popple Curse
+Aero hit,37070160,Melee,Aero first normal attack
+Aero hit,37070227,Melee,Aero second normal attack
+Aero hit,37070290,Melee,Aero third normal attack
+Aero Shout,772156432,PA,Aero Shout
+Aero Stab,772155588,PA,Aero Stab
+Aero Slash,772155525,PA,Aero Slash
+Aero Slash,88413264,PA,Aero Slash (Aero Shout version)
+Aero Spiral,4119800976,PA,Aero Spiral uncharged
+Aero Spiral,4119798486,PA,Aero Spiral first charge
+Aero Spiral,2888644253,PA,Aero Spiral first charge (Aero Shout version)
+Aero Spiral,4119798295,PA,Aero Spiral second charge
+Aero Spiral,3404513889,PA,Aero Spiral second charge (Aero Shout version)
+Aero Bullet,88471088,PA,Aero Bullet first hit
+Aero Bullet,3446126836,PA,Aero Bullet
+Aero Bullet,3446127031,PA,Aero Bullet (Aero Shout version)
+Aero Bullet,2572277765,PA,Aero Bullet melee hit
+Dissipating Wave,3065779197,Special,Dissipating Wave (Form series) (Weapon Potential)
+Dissipating Wave,3065779131,Special,Dissipating Wave (Form series) (Weapon Potential)
+Dissipating Wave,3065778236,Special,Dissipating Wave (Form series) (Weapon Potential)
 BOOSTO KICKU,85301614,Special,Tokyo speed-pad kick level 1
 BOOSTO KICKU,85302964,Special,Tokyo speed-pad kick level 2 
 BOOSTO KICKU,85303029,Special,Tokyo speed-pad kick level 3
