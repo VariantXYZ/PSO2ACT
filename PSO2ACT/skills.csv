@@ -935,9 +935,9 @@ Viola Stamp,375503608,PA,Viola Stamp hard hit (Viola Change'd version)
 Viola Pulsar,4234893896,PA,Viola Pulsar first hit (Viola Change'd version)
 Viola Pulsar,444146511,PA,Viola Pulsar burn/poisonlike damage (Viola Change'd version)
 Viola Assault,4235149933,PA,Viola Assault (Viola Change'd version)
-Shinkurou hit,1147655708,Melee,Shinkurou first normal hit
-Shinkurou hit,1147655711,Melee,Shinkurou second normal hit
-Shinkurou hit,1147655710,Melee,Shinkurou third normal hit
+Synchro hit,1147655708,Melee,Synchro first normal hit
+Synchro hit,1147655711,Melee,Synchro second normal hit
+Synchro hit,1147655710,Melee,Synchro third normal hit
 Synchro Slice,2368496396,PA,Synchro Slice
 Synchro Kick,2368496330,PA,Synchro Kick
 Synchro Punch,2368496267,PA,Synchro Punch
@@ -979,6 +979,12 @@ Aero Bullet,88471088,PA,Aero Bullet first hit
 Aero Bullet,3446126836,PA,Aero Bullet
 Aero Bullet,3446127031,PA,Aero Bullet (Aero Shout version)
 Aero Bullet,2572277765,PA,Aero Bullet melee hit
+Ledran hit,2131775436,Melee,Ledran normal attack
+Ledran Laser,1219413769,PA,Ledran Laser
+Ledran Slash,4244805011,PA,Ledran Slash
+Ledran Mine,4244805205,PA,Ledran Mine hit
+Ledran Mine,1312015390,PA,Ledran Mine explosion
+Ledran Burst,1282005173,PA,Ledran Burst
 Dissipating Wave,3065779197,Special,Dissipating Wave (Form series) (Weapon Potential)
 Dissipating Wave,3065779131,Special,Dissipating Wave (Form series) (Weapon Potential)
 Dissipating Wave,3065778236,Special,Dissipating Wave (Form series) (Weapon Potential)
@@ -1127,3 +1133,7 @@ Rideroid,2452463220,Special,something relating to big ufo and rideroid
 Rideroid,1732461796,Special,something relating to big ufo and rideroid 
 Rideroid,3809261131,Special,something relating to big ufo and rideroid 
 Rideroid heal ring,645891880,Special,Rideroid heal ring
+Rideroid,1876785244,Special,Rideroid auto-attack (Mother phase 1)
+Rideroid,3765765641,Special,Rideroid rockets (Mother phase 1)
+Rideroid,3642969286,Special,Rideroid barrel roll (Mother phase 1)
+Rideroid,1258041436,Special,Rideroid Mother's wall spun back (Mother phase 1)
