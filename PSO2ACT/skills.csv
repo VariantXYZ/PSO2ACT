@@ -34,6 +34,7 @@ Sabarta,3773240682,Tech,Charged1
 Sabarta,3773212059,Tech,Sabarta charged (crafted?) second hit
 Sabarta,3773297992,Tech,Sabarta charged (crafted?) third hit
 Nabarta,49556873,Tech,Cone
+Nabarta (C),2952624225,Tech,Nabarta (type-0)
 Ilbarta,3811499950,Tech,Uncharged1
 Ilbarta,1100223160,Tech,Charged1
 Ilbarta,3813876239,Tech,Uncharged2
@@ -85,6 +86,8 @@ Gigrants,1530463953,Tech,
 Gigrants,1436931332,Tech,
 Gigrants,2514551176,Tech,
 Gigrants,2514506879,Tech,
+Gigrants (C),3628407015,Tech,Gigrants (type-0) spin
+Gigrants (C),3801422187,Tech,Gigrants (type-0) final spin
 Ragrants,1533572763,Tech,Charged
 Ragrants,3561438056,Tech,Uncharged
 Resta,142771121,Tech,
@@ -242,6 +245,10 @@ Bandersnatch,3904258146,PA,Bandersnatch
 Bandersnatch,4105316267,PA,Bandersnatch (gear)
 Sacred Skewer,978114411,PA,Sacred Skewer
 Sacred Skewer,3090311227,PA,Sacred Skewer (gear)
+Sacred Skewer (C),1194865789,PA,Sacred Skewer (type-0) no gear uncharged
+Sacred Skewer (C),458263249,PA,Sacred Skewer (type-0) gear uncharged
+Sacred Skewer (C),2210359068,PA,Sacred Skewer (type-0) no gear charged
+Sacred Skewer (C),2391746623,PA,Sacred Skewer (type-0) gear charged
 Vol Graptor,936938020,PA,Vol Graptor
 Vol Graptor,925141705,PA,Vol Graptor charged
 Tear Grid,3331228937,PA,Tear Grid combo hits
@@ -299,6 +306,9 @@ Rage Dance,4069575100,PA,Rage dance stabs
 Rage Dance,2375995786,PA,Rage dance shot
 Ein Raketen,1803337451,PA,Ein Raketen swing
 Ein Raketen,4080719295,PA,Ein Raketen shot
+Ein Raketen (C),867419120,PA,Ein Raketen (type-0) hit
+Ein Raketen (C),2879859001,PA,Ein Raketen (type-0) slash stationary
+Ein Raketen (C),2001154192,PA,Ein Raketen (type-0) slash
 Serpent Air,3780905363,PA,Serpent Air hits
 Serpent Air,3959349048,PA,Serpent Air final hit
 Aiming Shot,1657878962,PA,Aiming Shot (uncharged)
@@ -380,6 +390,9 @@ Raging Waltz,238277165,PA,Raging Waltz 0 gear
 Raging Waltz,238277154,PA,Raging Waltz 1 gear
 Raging Waltz,238277155,PA,Raging Waltz 2 gear
 Raging Waltz,238277152,PA,Raging Waltz 3 gear
+Raging Waltz (C),1205859348,PA,Raging Waltz (type-0) 1(?) gear
+Raging Waltz (C),1205859349,PA,Raging Waltz (type-0) 2(?) gear
+Raging Waltz (C),1205859350,PA,Raging Waltz (type-0) 3(?) gear
 Shoot Polka,2053605232,PA,Shoot Polka 'stage 0' gear
 Shoot Polka,2053605233,PA,Shoot Polka 'stage 1' gear
 Shoot Polka,2053605246,PA,Shoot Polka 'stage 2' gear
@@ -508,6 +521,8 @@ Kanran-kikyou,3148575462,PA,Kanran uncharged
 Kanran-kikyou,206856796,PA,Kanran charged
 Sakura-endo,3148575399,PA,Sakura uncharged
 Sakura-endo,206860877,PA,Sakura charged
+Sakura-endo (C),3124578212,PA,Sakura-endo (type-0) first hit
+Sakura-endo (C),18135230,PA,Sakura-endo (type-0) second hit
 Hien-tsubaki,3148574817,PA,Hien
 Asagiri-rendan,3148574752,PA,Asagiri
 Asagiri-rendan,3341396290,PA,Asagiri-rendan final hit
@@ -669,6 +684,9 @@ Cracker Bullet,2709161566,PA,Cracker Bullet (final)
 Zero Distance,2709161503,PA,Zero Distance
 Rodeo Drive,2219642677,PA,Rodeo Drive
 Rodeo Drive,2219641904,PA,Rodeo Drive air start hit
+Rodeo Drive (C),2419129261,PA,Rodeo Drive (type-0) ride 
+Rodeo Drive (C),3817341497,PA,Rodeo Drive (type-0) finisher uncharged
+Rodeo Drive (C),3817342330,PA,Rodeo Drive (type-0) finisher charged
 Crazy Smash,2709161368,PA,Crazy Smash (direct enemy)
 Fake Silhouette,2219699734,PA,Fake Silhouette
 Flame Bullet,2709161242,PA,Flame Bullet
