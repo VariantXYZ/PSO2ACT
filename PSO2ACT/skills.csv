@@ -1007,7 +1007,8 @@ Aero Bullet,3446127031,PA,Aero Bullet (Aero Shout version)
 Aero Bullet,2572277765,PA,Aero Bullet melee hit
 Ledran hit,2131775436,Melee,Ledran normal attack
 Ledran Laser,1219413769,PA,Ledran Laser 1-3 lock-on
-Ledran Laser,1219413832,PA,Ledran Laser 4+ lock-on
+Ledran Laser,1219413832,PA,Ledran Laser 4-7 lock-on
+Ledran Laser,1219413643,PA,Ledran Laser 8 lock-on
 Ledran Slash,4244805011,PA,Ledran Slash
 Ledran Mine,4244805205,PA,Ledran Mine hit
 Ledran Mine,1312015390,PA,Ledran Mine explosion
