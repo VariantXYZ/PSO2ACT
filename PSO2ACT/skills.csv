@@ -1018,6 +1018,56 @@ Ledran Mine,1312015390,PA,Ledran Mine explosion
 Ledran Burst,1282005173,PA,Ledran Burst 1-3 balls
 Ledran Burst,1282005238,PA,Ledran Burst 4-7 balls
 Ledran Burst,1282005047,PA,Ledran Burst 8 balls
+Sword hit (Hero),2444771520,Melee,Hero Sword first normal attack
+Sword hit (Hero),2444771715,Melee,Hero Sword second normal attack
+Sword hit (Hero),2832347180,Melee,Hero Sword third normal attack first hit
+Sword hit (Hero),2832347245,Melee,Hero Sword third normal attack second hit
+Sword hit (Hero),2441204331,Melee,Hero Sword first normal attack air
+Sword hit (Hero),2441204394,Melee,Hero Sword second normal attack air
+Sword hit (Hero),3756260250,Melee,Hero Sword third normal attack first hit air
+Sword hit (Hero),3756260700,Melee,Hero Sword third normal attack second hit air
+Sword Step Attack (Hero),2448594388,Melee,Hero Sword Step Attack
+Sword Step Attack (Hero),2094998893,Melee,Hero Sword Step Attack after dodge
+Sword Weapon Action (Hero),3043390195,Special,Hero Sword Weapon Action no charge
+Sword Weapon Action (Hero),4293352220,Special,Hero Sword Weapon Action charge lv.1
+Sword Weapon Action (Hero),669993200,Special,Hero Sword Weapon Action charge lv.2
+Rising Slash,717168700,PA,Rising Slash start
+Rising Slash,1830196905,PA,Rising Slash slashes
+Rising Slash,3710313763,PA,Rising Slash final part first hit
+Rising Slash,3710313824,PA,Rising Slash final part second hit
+Rising Slash,2089764912,PA,Rising Slash final part final hit
+Rising Slash,718899304,PA,Rising Slash start air
+Brightness End,718820347,PA,Brightness End first hit
+Brightness End,346766635,PA,Brightness End slash
+Flash Trick,715425742,PA,Flash Trick weapon hit
+Flash Trick,715424670,PA,Flash Trick finish
+Vapor Bullet,673837877,PA,Vapor Bullet
+Talis hit (Hero),3317919827,Ranged,Hero Talis first normal attack
+Talis hit (Hero),3317921051,Ranged,Hero Talis second normal attack
+Talis hit (Hero),3317921242,Ranged,Hero Talis third normal attack
+Talis Weapon Action (Hero),1159592166,Ranged,Hero Talis Weapon Action hit
+Talis Step Attack (Hero),3318755300,Ranged,Hero Talis Step Attack
+Talis Step Attack (Hero),4105920492,Ranged,Hero Talis Step Attack after dodge
+Jet Wheel,1736785343,PA,Jet Wheel talis hit(s)
+Jet Wheel,3161437904,PA,Jet Wheel aoe
+Wise Hound,209487851,PA,Wise Hound
+Dive of Bullet,1342643252,PA,Dive of Bullet
+Racer Edge,1422891855,PA,Racer Edge
+TMG hit (Hero),1403081519,Ranged,Hero TMG normal attack
+TMG Step Attack (Hero),2834748182,Ranged,Hero TMG Step Attack
+TMG Step Attack (Hero),1905792389,Ranged,Hero TMG Step Attack after dodge
+Brand New Star,2832005595,PA,Brand New Star
+Final Storm,2832005530,PA,Final Storm
+Second Edge,2832005465,PA,Second Edge
+Moment Trick,2832005400,PA,Moment Trick
+Switch to Sword,2817683590,Melee,Switch to Sword
+Switch to Talis,1591095807,Ranged,Switch to Talis
+Switch to TMG,2461200579,Ranged,Switch to TMG
+Hero Time (Sword),2268332858,Special,Hero Time Sword slashes
+Hero Time (Sword),170999070,Special,Hero Time Sword finish
+Hero Time (Talis),1266101764,Special,Hero Time Talis pull-in
+Hero Time (Talis),11556353,Special,Hero Time Talis slashes
+Hero Time (TMG),3480338695,Special,Hero Time TMG burst
 Dissipating Wave,3065779197,Special,Dissipating Wave (Form series) (Weapon Potential)
 Dissipating Wave,3065779131,Special,Dissipating Wave (Form series) (Weapon Potential)
 Dissipating Wave,3065778236,Special,Dissipating Wave (Form series) (Weapon Potential)
