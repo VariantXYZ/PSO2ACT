@@ -1048,9 +1048,14 @@ Talis hit (Hero),3317921242,Ranged,Hero Talis third normal attack
 Talis Weapon Action (Hero),1159592166,Ranged,Hero Talis Weapon Action hit
 Talis Step Attack (Hero),3318755300,Ranged,Hero Talis Step Attack
 Talis Step Attack (Hero),1089593935,Ranged,Hero Talis Step Attack after dodge
+Talis Step Attack (Hero),4105920492,Ranged,Hero Talis Step Attack after dodge
 Jet Wheel,1736785343,PA,Jet Wheel talis hit(s)
 Jet Wheel,3161437904,PA,Jet Wheel aoe
+Jet Wheel,2852176964,PA,Jet Wheel when switched to Sword
+Jet Wheel,2852180670,PA,Jet Wheel when switched to TMG
 Wise Hound,209487851,PA,Wise Hound
+Wise Hound,507041974,PA,Wise Hound when switched to Sword
+Wise Hound,507041839,PA,Wise Hound when switched to TMG
 Dive of Bullet,1342643252,PA,Dive of Bullet
 Racer Edge,1422891855,PA,Racer Edge
 TMG hit (Hero),1403081519,Ranged,Hero TMG normal attack
