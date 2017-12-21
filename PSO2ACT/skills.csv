@@ -1265,6 +1265,6 @@ Laconium Sword hit,2235773608,Melee,Laconium Sword second normal attack hard hit
 Laconium Sword hit,2235773944,Melee,Laconium Sword third normal attack
 Laconium Sword hit,2235773611,Melee,Laconium Sword third normal attack hard hit (weak point?)
 Laconium Sword Step Attack,2619614461,Melee,Laconium Sword Step Attack
-Laconium Sword Step Attack,2618804663,Melee,Laconium Sword Step Attack hard hit (weak point?)
 Laconium Sword slash,3607718359,Special,Laconium Sword slash
 Buster Divide,2235773818,PA,Buster Divide (Laconium Sword)
+Buster Divide,2618804663,PA,Buster Divide (Laconium Sword) charged
