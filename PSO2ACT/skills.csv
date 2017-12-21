@@ -1259,11 +1259,11 @@ Rideroid Homing Missiles,3765765641,Special,Rideroid rockets (Mother phase 1)
 Rideroid Spin,3642969286,Special,Rideroid barrel roll (Mother phase 1)
 Rideroid Spin,1258041436,Special,Rideroid Mother's wall spun back (Mother phase 1)
 Laconium Sword hit,2235773927,Melee,Laconium Sword first normal attack
-Laconium Sword hit,2235773610,Melee,Laconium Sword first normal attack hard hit (weak point?)
 Laconium Sword hit,2235773926,Melee,Laconium Sword second normal attack
-Laconium Sword hit,2235773608,Melee,Laconium Sword second normal attack hard hit (weak point?)
 Laconium Sword hit,2235773944,Melee,Laconium Sword third normal attack
-Laconium Sword hit,2235773611,Melee,Laconium Sword third normal attack hard hit (weak point?)
+Laconium Sword hit,2235773610,Melee,Laconium Sword air first normal attack 
+Laconium Sword hit,2235773608,Melee,Laconium Sword air second normal attack 
+Laconium Sword hit,2235773611,Melee,Laconium Sword air third normal attack
 Laconium Sword Step Attack,2619614461,Melee,Laconium Sword Step Attack
 Laconium Sword slash,3607718359,Special,Laconium Sword slash
 Buster Divide,2235773818,PA,Buster Divide (Laconium Sword)
