@@ -1087,6 +1087,10 @@ Mysterious Conjurer,4139628318,Special,Mysterious Conjurer (Lavis Cannon) (Weapo
 Thundering Blades,2924634920,Special,Thundering Blades (Jupiter Tullus) (Weapon Potential)
 Elusive Blades,2311811561,Special,Elusive Blades (Bullet Kunai) (Weapon Potential)
 Antique Shot,2482321781,Special,Antique Shot (Spread Needle) (Weapon Potential)
+Double Scarlet Blade,1054020252,Special,Double Scarlet Blade (1 gear) (Quelle Scarlette) (Weapon Potential)
+Double Scarlet Blade,1054020189,Special,Double Scarlet Blade (2 gear) (Quelle Scarlette) (Weapon Potential)
+Double Scarlet Blade,1054023161,Special,Double Scarlet Blade (3 gear) (Quelle Scarlette) (Weapon Potential)
+Glance of Darnkess,2270328498,Special,Glance of Darkness (Rykros Staff) (Weapon Potential)
 BOOSTO KICKU,85301614,Special,Tokyo speed-pad kick level 1
 BOOSTO KICKU,85302964,Special,Tokyo speed-pad kick level 2 
 BOOSTO KICKU,85303029,Special,Tokyo speed-pad kick level 3
@@ -1176,14 +1180,14 @@ Ilios Nykta,4037912096,Special,PB Ilios Nykta 0-chain
 Ilios Nykta,4037912097,Special,PB Ilios Nykta 1-chain
 Ilios Nykta,4037912102,Special,PB Ilios Nykta 2-chain
 Ilios Nykta,4037912103,Special,PB Ilios Nykta 3-chain
-Dark Blast hit,267911699,Melee,Dark Blast first hit
-Dark Blast hit,262346668,Melee,Dark Blast second
-Dark Blast hit,265285249,Melee,Dark Blast third
-Dark Blast hit,264996390,Melee,Dark Blast fourth (kick)
-Dark Blast hit,311089933,Melee,Dark Blast fifth (launcher)
-Dark Blast hit,3988916155,Melee,Dark Blast sixth (pummel)
-Dark Blast hit,265781051,Melee,Dark Blast seventh (pummel pt2)
-Dark Blast Step Attack,3141577094,Melee,Dark Blast Step Attack
+Dark Blast (Hunar) hit,267911699,Melee,Dark Blast (Hunar) first hit
+Dark Blast (Hunar) hit,262346668,Melee,Dark Blast (Hunar) second
+Dark Blast (Hunar) hit,265285249,Melee,Dark Blast (Hunar) third
+Dark Blast (Hunar) hit,264996390,Melee,Dark Blast (Hunar) fourth (kick)
+Dark Blast (Hunar) hit,311089933,Melee,Dark Blast (Hunar) fifth (launcher)
+Dark Blast (Hunar) hit,3988916155,Melee,Dark Blast (Hunar) sixth (pummel)
+Dark Blast (Hunar) hit,265781051,Melee,Dark Blast (Hunar) seventh (pummel pt2)
+Dark Blast (Hunar) Step Attack,3141577094,Melee,Dark Blast (Hunar) Step Attack
 Violence Step,2289473436,Melee,Dark Blast Violence Step
 Physical Dash Attack,517914866,PA,Physical Dash melee
 Physical Dash Attack,517914869,PA,Physical Dash melee wide range
@@ -1195,6 +1199,16 @@ Infinity Rush,395090797,PA,Infinity Rush finish
 Infinity Rush,2429416220,PA,Infinity Rush hits charged
 Infinity Rush,1697271546,PA,Infinity Rush finish charged
 Tyrant Strike,1117313924,PA,Tyrant Strike
+Dark Blast (Loser) hit,2743071591,Ranged,Dark Blast (Loser) hit
+Ortho Sabarta,1783571383,PA,Ortho Sabarta (1-4?)
+Ortho Sabarta,2928504078,PA,Ortho Sabarta (1-4?)
+Convergent Ray,1783571188,PA,Convergent Ray uncharged
+Convergent Ray,2849190450,PA,Convergent Ray charged
+Gamma Burst,1223455602,PA,Gamma Burst
+Wisdom Force,651603449,Special,Wisdom Force
+Dive Assault,2970658149,Special,Dive Assault
+Counter Step,2191939386,Special,Counter Step
+Sharp Glide,4078260742,Special,Sharp Glide
 Burn,2505928570,Status,Burn Status Effect (level 1)
 Burn,2505928505,Status,Burn Status Effect (level 2)
 Burn,2505928696,Status,Burn Status Effect (level 3)
