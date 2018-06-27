@@ -123,6 +123,18 @@ Barantsion,3388489620,Tech,Barantsion
 Barantsion,1163319447,Tech,Barantsion
 Barantsion,2334157934,Tech,Barantsion
 Barantsion,2379907725,Tech,Barantsion
+Ra Zandia,1867811711,Tech,Ra Zandia tornado
+Ra Zandia,1867811774,Tech,Ra Zandia thunder (during tornado)
+Ra Zandia,718208837,Tech,Ra Zandia laser
+Ra Zandia,718207365,Tech,Ra Zandia laser aoe(?)
+Ra Fomelgion,2206442470,Tech,Ra Fomelgia the particle itself hitting(?)
+Ra Fomelgion,2206444891,Tech,Ra Fomelgia physical hit(?)
+Ra Fomelgion,564406075,Tech,Ra Fomelgia finish
+Ra Fomelgion,564406201,Tech,Ra Fomelgia finish
+Ra Barantsia,138892717,Tech,Ra Barantsia right projectile
+Ra Barantsia,4003740182,Tech,Ra Barantsia left projectile
+Ra Barantsia,950481737,Tech,Ra Barantsia finish
+Ra Barantsia,950479247,Tech,Ra Barantsia finish
 Rod Shoot,82081592,Special,Rod Shoot (Fo skill)
 Rod Shoot (ring),102418521,Special,Another Rod Shooting Mode ring
 Freeze Ignition,3533119346,Special,Freeze Ignition (Fo skill)
@@ -136,6 +148,9 @@ Wand Gear,789614525,Tech,Wand Gear (Thunder)
 Wand Gear,3274663457,Tech,Wand Gear (Light)
 Wand Gear,1513048310,Tech,Wand Gear (Dark)
 Wand Gear,3948088357,Tech,Wand Gear (Wind)
+Heavy Hammer,1770469728,PA,Heavy Hammer no charge
+Heavy Hammer,3027256165,PA,Heavy Hammer charge 1
+Heavy Hammer,1393830765,PA,Heavy Hammer charge 2
 Poison Ignition,2532986093,Special,Poison Ignition (Te skill)
 Unarmed hit,3481186334,Melee,Unarmed first normal attack
 Unarmed hit,1578628668,Melee,Unarmed second normal attack
