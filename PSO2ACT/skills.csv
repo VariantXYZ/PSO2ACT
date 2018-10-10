@@ -169,13 +169,13 @@ Sword hit,1215367338,Melee,Sword_ 3rd
 Sword hit,1331225593,Melee,Sword air first normal attack 
 Sword hit,1331225146,Melee,Sword air second normal attack
 Sword hit,1331225211,Melee,Sword air third normal attack
-Sword Step Attack (C),1279043576,Melee,Sword Step Attack (Sacrifice's Bite ver)
-Sword hit (C),2001359545,Melee,Sword first normal attack (Sacrifice's Bite ver)
-Sword hit (C),2002747972,Melee,Sword second normal attack (Sacrifice's Bite ver)
-Sword hit (C),2084739075,Melee,Sword third normal attack (Sacrifice's Bite ver)
-Sword hit (C),1351584013,Melee,Sword air first normal attack (Sacrifice's Bite ver)
-Sword hit (C),1353244642,Melee,Sword air second normal attack (Sacrifice's Bite ver)
-Sword hit (C),1354018567,Melee,Sword air third normal attack (Sacrifice's Bite ver)
+Sword Step Attack (C),1279043576,Melee,Sword Step Attack (Sacrifice's Bite ver) (unused as of Oct 10.)
+Sword hit (C),2001359545,Melee,Sword first normal attack (Sacrifice's Bite ver) (unused as of Oct 10.)
+Sword hit (C),2002747972,Melee,Sword second normal attack (Sacrifice's Bite ver) (unused as of Oct 10.)
+Sword hit (C),2084739075,Melee,Sword third normal attack (Sacrifice's Bite ver) (unused as of Oct 10.)
+Sword hit (C),1351584013,Melee,Sword air first normal attack (Sacrifice's Bite ver) (unused as of Oct 10.)
+Sword hit (C),1353244642,Melee,Sword air second normal attack (Sacrifice's Bite ver) (unused as of Oct 10.)
+Sword hit (C),1354018567,Melee,Sword air third normal attack (Sacrifice's Bite ver) (unused as of Oct 10.)
 Rising Edge,1227622308,PA,Start
 Rising Edge,1224723795,PA,Spin
 Twister Fall,1224723730,PA,Spin
@@ -1265,6 +1265,19 @@ Fortissimo Kick,37504833,PA,Fortissimo Kick (Royal Scorpion)
 Black Queen Arrival,1891210633,Special,Black Queen Arrival
 Sensational Speed,3617357696,Special,Sensational Speed Attack
 Ravishing Step,452272060,Special,Ravishing Step
+Dark Blast (Double) hit,2002943320,Melee,Dark Blast (Double) first hit
+Dark Blast (Double) hit,2000047869,Melee,Dark Blast (Double) second hit
+Dark Blast (Double) hit,2002496834,Melee,Dark Blast (Double) third hit
+Dark Blast (Double) hit,1957174279,Melee,Dark Blast (Double) fourth hit
+Dark Blast (Double) hit,1955884339,Melee,Dark Blast (Double) fifth hit
+Dark Blast (Double) Step Attack,4134333680,Melee,Dark Blast (Double) Step Attack
+Surprise Hammer,4271466373,PA,Surprise Hammer
+Surprise Hammer,305729398,PA,Surprise Hammer second hit
+Waku Waku Go-Kart,682884756,PA,Waku Waku Go-Kart physical hit
+Waku Waku Go-Kart,4271465479,PA,Waku Waku Go-Kart physical hit "2-wheelie mode"
+Waku Waku Go-Kart,3983075073,PA,Waku Waku Go-Kart projectile
+Happy Bazooka,4271465542,PA,Happy Bazooka
+Clutch Step,472092093,Special,Clutch Step
 Burn,2505928570,Status,Burn Status Effect (level 1)
 Burn,2505928505,Status,Burn Status Effect (level 2)
 Burn,2505928696,Status,Burn Status Effect (level 3)
