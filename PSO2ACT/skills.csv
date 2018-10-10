@@ -160,7 +160,8 @@ Unarmed hit,439463649,Melee,Unarmed air second normal attack
 Unarmed hit,2213730805,Melee,Unarmed air third normal attack
 Unarmed Step Attack,2071807444,Melee,Unarmed step attack
 Unarmed Ducking Blow,3085782811,PA,Unarmed Ducking Blow
-Just Guard,1612949165,Special,Hunter Weapon JG
+Just Guard,1612949165,Special,Wired Lances and Partizan Just Guard
+Just Guard,1526762558,Special,Sword Just Guard
 Snatch Step,3943870236,Melee,Braver Snatch Step
 Sword Step Attack,1216456228,Melee,Sword
 Sword hit,1215379240,Melee,Sword_ 1st
@@ -202,6 +203,7 @@ Sonic Arrow,1410023705,PA,???
 Cruel Throw,2150373435,PA,grab
 Cruel Throw,1224724117,PA,thrown
 Enemy Thrown,2164805818,PA,beatdown
+Enemy Thrown (C),1107498562,PA,Enemy Thrown (C)
 Guilty Break,3096967176,PA,no charge 1
 Guilty Break,784836873,PA,no charge 2
 Guilty Break,3096967243,PA,half charge 1
@@ -288,7 +290,6 @@ Other Cyclone (C),1370775705,PA,Other Cyclone craft grab
 Other Cyclone (C),3838831464,PA,spin
 Other Cyclone (C),3070400580,PA,throw
 Other Cyclone (C),4266934922,PA,Other Cyclone (C) thrown into enemy (ground)
-Other Cyclone (C),1107498562,PA,Other Cyclone (C) thrown into enemy (air)
 Other Spin,781364083,PA,Other spin start
 Other Spin,516963559,PA,Other spin spin
 Other Spin,1667539754,PA,Other spin end
@@ -1277,6 +1278,8 @@ Waku Waku Go-Kart,682884756,PA,Waku Waku Go-Kart physical hit
 Waku Waku Go-Kart,4271465479,PA,Waku Waku Go-Kart physical hit "2-wheelie mode"
 Waku Waku Go-Kart,3983075073,PA,Waku Waku Go-Kart projectile
 Happy Bazooka,4271465542,PA,Happy Bazooka
+Flower Carnival,3593316716,Special,Flower Carnival attacks
+Flower Carnival,483639921,Special,Flower Carnival finish
 Clutch Step,472092093,Special,Clutch Step
 Burn,2505928570,Status,Burn Status Effect (level 1)
 Burn,2505928505,Status,Burn Status Effect (level 2)
