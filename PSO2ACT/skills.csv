@@ -660,7 +660,7 @@ Banishing Arrow,348753019,PA,Banishing Arrow
 Million Storm,294264661,PA,Million Storm
 Chase Arrow,294264342,PA,Chase Arrow
 Assault Rifle hit,1856399071,Ranged,Rifle shot
-Assault Rifle hit,220156466,Ranged,Rifle Diveroll shoot
+Dive Roll (Assault Rifle) hit,220156466,Ranged,Rifle Diveroll shoot
 Weak Bullet,713142898,Special,Weak bullet hit
 Bind Bullet,192041748,Special,Bind Bullet (Ra skill)
 Piercing Shell,220056925,PA,Piercing Shell
@@ -691,7 +691,7 @@ Poison Trap,2794244546,Special,Poison Trap (EX Trap) (Ra skill)
 Launcher hit,594271163,Ranged,First
 Launcher hit,594271098,Ranged,Second
 Launcher hit,594270780,Ranged,Third
-Launcher hit,2731320054,Ranged,Dive roll shoot
+Dive Roll (Launcher) hit,2731320054,Ranged,Dive roll shoot
 Mirage Shot,3433218069,Special,Mirage Shot (Ra skill)
 Panic Shot,1201754534,Special,Panic Shot (Ra skill)
 Jellen Shot,2734794071,Special,Jellen Shot (Ra skill)
@@ -725,18 +725,18 @@ TMG hit,1901223401,Ranged,Third attack (5x) 0 gear
 TMG hit,1901223406,Ranged,1 gear
 TMG hit,1901223404,Ranged,2 gear
 TMG hit,1901223407,Ranged,3 gear
-TMG hit,2297353124,Ranged,Dive roll shoot 0 gear
-TMG hit,2297352795,Ranged,1 gear
-TMG hit,2297352794,Ranged,2 gear
-TMG hit,2297352793,Ranged,3 gear
-TMG hit,2594009166,Ranged,S-roll shoot 0 gear
-TMG hit,2594009167,Ranged,1 gear
-TMG hit,2594009160,Ranged,2 gear
-TMG hit,2594009161,Ranged,3 gear
-TMG hit,534488752,Ranged,S-Roll shoot 0 gear (Another S-Roll Arts Mode) (Gu skill)
-TMG hit,2628225583,Ranged,S-Roll shoot 1 gear (Another S-Roll Arts Mode) (Gu skill)
-TMG hit,3710533329,Ranged,S-Roll shoot 2 gear (Another S-Roll Arts Mode) (Gu skill)
-TMG hit,2718316197,Ranged,S-Roll shoot 3 gear (Another S-Roll Arts Mode) (Gu skill)
+Dive Roll (TMG) hit,2297353124,Ranged,Dive roll shoot 0 gear
+Dive Roll (TMG) hit,2297352795,Ranged,1 gear
+Dive Roll (TMG) hit,2297352794,Ranged,2 gear
+Dive Roll (TMG) hit,2297352793,Ranged,3 gear
+Stylish Roll hit,2594009166,Ranged,S-roll shoot 0 gear
+Stylish Roll hit,2594009167,Ranged,1 gear
+Stylish Roll hit,2594009160,Ranged,2 gear
+Stylish Roll hit,2594009161,Ranged,3 gear
+Stylish Roll hit,534488752,Ranged,S-Roll shoot 0 gear (Another S-Roll Arts Mode) (Gu skill)
+Stylish Roll hit,2628225583,Ranged,S-Roll shoot 1 gear (Another S-Roll Arts Mode) (Gu skill)
+Stylish Roll hit,3710533329,Ranged,S-Roll shoot 2 gear (Another S-Roll Arts Mode) (Gu skill)
+Stylish Roll hit,2718316197,Ranged,S-Roll shoot 3 gear (Another S-Roll Arts Mode) (Gu skill)
 Aerial Shooting,891590654,PA,Aerial shooting (uncharged kick) 0 gear
 Aerial Shooting,891590641,PA,1 gear
 Aerial Shooting,891590640,PA,2 gear
@@ -1051,10 +1051,10 @@ Sword hit (Hero),2441204394,Melee,Hero Sword second normal attack air
 Sword hit (Hero),3756260250,Melee,Hero Sword third normal attack first hit air
 Sword hit (Hero),3756260700,Melee,Hero Sword third normal attack second hit air
 Sword Step Attack (Hero),2448594388,Melee,Hero Sword Step Attack
-Sword Step Attack (Hero),2094998893,Melee,Hero Sword Step Attack after dodge
+Hero Counter,2094998893,Melee,Hero Sword Step Attack after dodge (Hero Counter) (Hr skill)
 Sword Weapon Action (Hero),3043390195,Special,Hero Sword Weapon Action no charge
 Sword Weapon Action (Hero),4293352220,Special,Hero Sword Weapon Action charge lv.1
-Sword Weapon Action (Hero),669993200,Special,Hero Sword Weapon Action charge lv.2
+Sword Weapon Action (Hero),669993200,Special,Hero Sword Weapon Action charge lv.2 (Aura High Charge) (Hr skill)
 Rising Slash,717168700,PA,Rising Slash start
 Rising Slash,1830196905,PA,Rising Slash slashes
 Rising Slash,3710313763,PA,Rising Slash final part first hit
@@ -1101,7 +1101,7 @@ Hero Time (Talis),11556353,Special,Hero Time Talis slashes
 Hero Time (Talis),1233721870,Special,Hero Time Talis slashes while switched to Sword
 Hero Time (Talis),1233722348,Special,Hero Time Talis slashes while switched to TMG
 Hero Time (TMG),3480338695,Special,Hero Time TMG burst
-Next Jump,3274240781,Special,Next Jump (Hero's double jump)
+Next Jump,3274240781,Special,Next Jump (Hr skill)
 Dissipating Wave,3065779197,Special,Dissipating Wave (Form series) (Weapon Potential)
 Dissipating Wave,3065779131,Special,Dissipating Wave (Form series) (Weapon Potential)
 Dissipating Wave,3065778236,Special,Dissipating Wave (Form series) (Weapon Potential)
