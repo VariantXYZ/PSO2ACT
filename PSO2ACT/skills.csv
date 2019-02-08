@@ -1280,6 +1280,10 @@ Waku Waku Go-Kart,3983075073,PA,Waku Waku Go-Kart projectile
 Happy Bazooka,4271465542,PA,Happy Bazooka
 Flower Carnival,3593316716,Special,Flower Carnival attacks
 Flower Carnival,483639921,Special,Flower Carnival finish
+Flower Carnival,3113171853,Special,Flower Carnival attacks (2nd time)
+Flower Carnival,2157431709,Special,Flower Carnival finish (2nd time) 
+Flower Carnival,3660851541,Special,Flower Carnival attacks (3rd time) 
+Flower Carnival,3721426675,Special,Flower Carnival finish (3rd time) 
 Clutch Step,472092093,Special,Clutch Step
 Burn,2505928570,Status,Burn Status Effect (level 1)
 Burn,2505928505,Status,Burn Status Effect (level 2)
@@ -1312,7 +1316,8 @@ Turret,1852253343,Special,Normal Turret
 Rodos Grapple Turret,1358461404,Special,Rodos Grapple Turret
 Cannon,2414748436,Special,Facility Cannon
 Photon Cannon,1954812953,Special,Photon Cannon uncharged
-Photon Cannon,2822784832,Special,Photon Cannon charged
+Photon Cannon,1954812934,Special,Photon Cannon charge lv.1
+Photon Cannon,2822784832,Special,Photon Cannon charge lv.2
 Binding Arrow Turret,791327364,Special,Binding Arrow Turret
 Photon Particle Turret,3339644659,Special,Photon Particle Turret
 Photon Laser Cannon,2676260123,Special,Photon Laser Cannon
