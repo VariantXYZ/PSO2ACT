@@ -1127,7 +1127,8 @@ Rose Schwert,3569459369,PA,Rose Schwert
 Rose Schwert,3569459371,PA,Rose Schwert
 Rose Schwert (Shift Action),1398920256,PA,Rose Schwert (Shift Action)
 Rose Schwert (Shift Action),1705644539,PA,Rose Schwert (Shift Action) rift
-Phantom Marker (Katana),2907201045,Special,Phantom Marker (Katana) explosion
+Phantom Marker (Katana),2907201045,Special,Phantom Marker (Katana) explosion charge lv.1
+Phantom Marker (Katana),2907201492,Special,Phantom Marker (Katana) explosion charge lv.2
 Phantom Time (Katana),3695463316,Special,Phantom Time (Katana)
 Phantom Time (Katana),975125104,Special,Phantom Time (Katana) final
 Assault Rifle hit (Phantom),2491562758,Ranged,Phantom Assault Rifle first normal attack
@@ -1149,7 +1150,8 @@ Nachtangriff,3220962310,PA,Nachtangriff projectile
 Nachtangriff (Shift Action),4046511708,PA,Nachtangriff (Shift Action)
 Strafe,3288338193,PA,Strafe
 Strafe (Shift Action),4213673767,PA,Strafe (Shift Action)
-Phantom Time (Assault Rifle),3786184050,Special,Phantom Marker explosion (Ph skill)
+Phantom Marker (Assault Rifle),3786184050,Special,Phantom Marker (Assault Rifle) explosion charge lv.1 (Ph skill)
+Phantom Marker (Assault Rifle),3785421997,Special,Phantom Marker (Assault Rifle) explosion charge lv.2 (Ph skill)
 Phantom Time (Assault Rifle),2243620231,Special,Phantom Time (Assault Rifle) (Ph skill)
 Phantom Time (Assault Rifle),1412080400,Special,Phantom Time (Assault Rifle) final (Ph skill)
 Rod hit (Phantom),2953139672,Melee,Phantom Rod first normal attack
@@ -1189,6 +1191,7 @@ Mysterious Conjurer,4139628319,Special,Heavy Hammer PA Mysterious Conjurer (Lavi
 Thundering Blades,2924634920,Special,Thundering Blades (Jupiter Tullus) (Weapon Potential)
 Elusive Blades,2311811561,Special,Elusive Blades (Bullet Kunai) (Weapon Potential)
 Antique Shot,2482321781,Special,Antique Shot (Spread Needle) (Weapon Potential)
+Antique Shot (Phantom),3918796978,Special,Antique Shot (Phantom) (Spread Needle) (Weapon Potential)
 Double Scarlet Blade,1054020252,Special,Double Scarlet Blade (1 gear) (Quelle Scarlette) (Weapon Potential)
 Double Scarlet Blade,1054020189,Special,Double Scarlet Blade (2 gear) (Quelle Scarlette) (Weapon Potential)
 Double Scarlet Blade,1054023161,Special,Double Scarlet Blade (3 gear) (Quelle Scarlette) (Weapon Potential)
@@ -1199,9 +1202,9 @@ Quadruple Grenade,3191508501,Ranged,Quadruple Grenade (third normal attack) (Yas
 Dive Roll Shoot (Quadruple Grenade),3569343302,Ranged,Quadruple Grenade (Dive Roll Shoot) (Yasminkov 4000FJ) (Weapon Potential)
 Auxiliary Dart,2512505424,Special,Auxiliary Dart (Radius Arca) (Weapon Potential)
 Auxiliary Dart,2512505439,Special,Auxiliary Dart (Radius Arca) (Weapon Potential)
-Hexing Spirit,3555827165,Special,Hexing Spirit (Cursed Slayer Gaen) (Weapon Potential) probably gear related
-Hexing Spirit,3555827167,Special,Hexing Spirit (Cursed Slayer Gaen) (Weapon Potential) probably gear related
-Hexing Spirit,3555827164,Special,Hexing Spirit (Cursed Slayer Gaen) (Weapon Potential) probably gear related
+Hexing Spirit,3555827165,Special,Hexing Spirit (Cursed Slayer Gaen) (Weapon Potential) probably depends on the number of normal attacks
+Hexing Spirit,3555827167,Special,Hexing Spirit (Cursed Slayer Gaen) (Weapon Potential) probably depends on the number of normal attacks
+Hexing Spirit,3555827164,Special,Hexing Spirit (Cursed Slayer Gaen) (Weapon Potential) probably depends on the number of normal attacks
 Divine Protection,2428138007,Special,Divine Protection (Boots of Djibril) (Weapon Potential)
 Bright Silver Flame,2711351862,Special,Bright Silver Flame (Exacrimav) (Weapon Potential)
 BOOSTO KICKU,85301614,Special,Tokyo speed-pad kick level 1
