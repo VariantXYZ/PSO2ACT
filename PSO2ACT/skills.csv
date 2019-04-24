@@ -1113,20 +1113,20 @@ Katana Weapon Action,4188914875,Special,Phantom Katana Weapon Action
 Dodge Counter Shot (Katana),2765954690,Special,Dodge Counter Shot (Katana) (Ph skill)
 Schmetterling,987960113,PA,Schmetterling first 2 hits
 Schmetterling,1599479410,PA,Schmetterling
-Schmetterling,1599478186,PA,Schmetterling (Shift Action)
-Schmetterling,3569709951,PA,Schmetterling (Shift Action) slashes?
+Schmetterling (Shift Action),1599478186,PA,Schmetterling (Shift Action)
+Schmetterling (Shift Action),3569709951,PA,Schmetterling (Shift Action) slashes?
 Wolkenkrazter,1599486311,PA,Wolkenkrazter
 Wolkenkrazter,987960240,PA,Wolkenkrazter aoe
-Wolkenkrazter,2011111966,PA,Wolkenkrazter (Shift Action)
+Wolkenkrazter (Shift Action),2011111966,PA,Wolkenkrazter (Shift Action)
 Folter Zeit,987960176,PA,Folter Zeit
 Folter Zeit,1599475427,PA,Folter Zeit finish
-Folter Zeit,1599473979,PA,Folter Zeit (Shift Action)
+Folter Zeit (Shift Action),1599473979,PA,Folter Zeit (Shift Action)
 Rose Schwert,654363349,PA,Rose Schwert start
 Rose Schwert,3569459368,PA,Rose Schwert
 Rose Schwert,3569459369,PA,Rose Schwert
 Rose Schwert,3569459371,PA,Rose Schwert
-Rose Schwert,1398920256,PA,Rose Schwert (Shift Action)
-Rose Schwert,1705644539,PA,Rose Schwert (Shift Action) rift
+Rose Schwert (Shift Action),1398920256,PA,Rose Schwert (Shift Action)
+Rose Schwert (Shift Action),1705644539,PA,Rose Schwert (Shift Action) rift
 Phantom Marker (Katana),2907201045,Special,Phantom Marker (Katana) explosion
 Phantom Time (Katana),3695463316,Special,Phantom Time (Katana)
 Phantom Time (Katana),975125104,Special,Phantom Time (Katana) final
@@ -1139,16 +1139,16 @@ Assault Rifle Weapon Action,2014302715,Special,Assault Rifle Weapon Action charg
 Dodge Counter Shot (Assault Rifle),2600842557,Special,Dodge Counter Shot (Assault Rifle) (Ph skill)
 Kugelsturm,2215020097,PA,Kugelsturm first volley
 Kugelsturm,2215020162,PA,Kugelsturm
-Kugelsturm,3158383588,PA,Kugelsturm (Shift Action) "lots of hits"
-Kugelsturm,1640997085,PA,Kugelsturm (Shift Action) finish
+Kugelsturm (Shift Action),3158383588,PA,Kugelsturm (Shift Action) "lots of hits"
+Kugelsturm (Shift Action),1640997085,PA,Kugelsturm (Shift Action) finish
 Verbrechen,4290111736,PA,Verbrechen
 Verbrechen,4290111408,PA,Verbrechen sideways
-Verbrechen,3151257398,PA,Verbrechen (Shift Action)
+Verbrechen (Shift Action),3151257398,PA,Verbrechen (Shift Action)
 Nachtangriff,3220962891,PA,Nachtangriff
 Nachtangriff,3220962310,PA,Nachtangriff projectile 
-Nachtangriff,4046511708,PA,Nachtangriff (Shift Action)
+Nachtangriff (Shift Action),4046511708,PA,Nachtangriff (Shift Action)
 Strafe,3288338193,PA,Strafe
-Strafe,4213673767,PA,Strafe (Shift Action)
+Strafe (Shift Action),4213673767,PA,Strafe (Shift Action)
 Phantom Time (Assault Rifle),3786184050,Special,Phantom Marker explosion (Ph skill)
 Phantom Time (Assault Rifle),2243620231,Special,Phantom Time (Assault Rifle) (Ph skill)
 Phantom Time (Assault Rifle),1412080400,Special,Phantom Time (Assault Rifle) final (Ph skill)
@@ -1164,17 +1164,17 @@ Ruf Konzert,1579409293,PA,Ruf Konzert first hit
 Ruf Konzert,1579408972,PA,Ruf Konzert second
 Ruf Konzert,1579408900,PA,Ruf Konzert third
 Ruf Konzert,3522834748,PA,Ruf Konzert slash
-Ruf Konzert,3406878835,PA,Ruf Konzert (Shift Action) hit
-Ruf Konzert,1429241745,PA,Ruf Konzert (Shift Action) slash
+Ruf Konzert (Shift Action),3406878835,PA,Ruf Konzert (Shift Action) hit
+Ruf Konzert (Shift Action),1429241745,PA,Ruf Konzert (Shift Action) slash
 Schwarze Katze,3406887572,PA,Schwarze Katze
-Schwarze Katze,3406887761,PA,Schwarze Katze (Shift Action)
+Schwarze Katze (Shift Action),3406887761,PA,Schwarze Katze (Shift Action)
 Voelkermord,1579594570,PA,Voelkermord ball charge lv.1
 Voelkermord,1579594507,PA,Voelkermord ball charge lv.2
 Voelkermord,2670384126,PA,Voelkermord explosion lv.1
 Voelkermord,1050889844,PA,Voelkermord explosion lv.2
-Voelkermord,1579574174,PA,Voelkermord (Shift Action) AoE
+Voelkermord (Shift Action),1579574174,PA,Voelkermord (Shift Action) AoE
 Eisen Fluegel,3115083023,PA,Eisen Fluegel
-Eisen Fluegel,3413713363,PA,Eisen Fluegel (Shift Action)
+Eisen Fluegel (Shift Action),3413713363,PA,Eisen Fluegel (Shift Action)
 Phantom Marker (Rod),404882650,Special,Phantom Marker (Rod) explosion charge lv.1 (Ph skill)
 Phantom Marker (Rod),404882329,Special,Phantom Marker (Rod) explosion charge lv.2 (Ph skill)
 Phantom Time (Rod),2995855500,Special,Phantom Time (Rod) (Ph skill)
