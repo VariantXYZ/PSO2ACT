@@ -1032,16 +1032,16 @@ Aero Bullet,88471088,PA,Aero Bullet first hit
 Aero Bullet,3446126836,PA,Aero Bullet
 Aero Bullet,3446127031,PA,Aero Bullet (Aero Shout version)
 Aero Bullet,2572277765,PA,Aero Bullet melee hit
-Ledran hit,2131775436,Melee,Ledran normal attack
-Ledran Laser,1219413769,PA,Ledran Laser 1-3 lock-on
-Ledran Laser,1219413832,PA,Ledran Laser 4-7 lock-on
-Ledran Laser,1219413643,PA,Ledran Laser 8 lock-on
-Ledran Slash,4244805011,PA,Ledran Slash
-Ledran Mine,4244805205,PA,Ledran Mine hit
-Ledran Mine,1312015390,PA,Ledran Mine explosion
-Ledran Burst,1282005173,PA,Ledran Burst 1-3 balls
-Ledran Burst,1282005238,PA,Ledran Burst 4-7 balls
-Ledran Burst,1282005047,PA,Ledran Burst 8 balls
+Redran hit,2131775436,Melee,Redran normal attack
+Redran Laser,1219413769,PA,Redran Laser 1-3 lock-on
+Redran Laser,1219413832,PA,Redran Laser 4-7 lock-on
+Redran Laser,1219413643,PA,Redran Laser 8 lock-on
+Redran Slash,4244805011,PA,Redran Slash
+Redran Mine,4244805205,PA,Redran Mine hit
+Redran Mine,1312015390,PA,Redran Mine explosion
+Redran Burst,1282005173,PA,Redran Burst 1-3 balls
+Redran Burst,1282005238,PA,Redran Burst 4-7 balls
+Redran Burst,1282005047,PA,Redran Burst 8 balls
 Sword hit (Hero),2444771520,Melee,Hero Sword first normal attack
 Sword hit (Hero),2444771715,Melee,Hero Sword second normal attack
 Sword hit (Hero),2832347180,Melee,Hero Sword third normal attack first hit
@@ -1071,8 +1071,8 @@ Talis hit (Hero),3317921051,Ranged,Hero Talis second normal attack
 Talis hit (Hero),3317921242,Ranged,Hero Talis third normal attack
 Talis Weapon Action (Hero),1159592166,Ranged,Hero Talis Weapon Action hit
 Talis Step Attack (Hero),3318755300,Ranged,Hero Talis Step Attack
-Hero Counter (Talis),1089593935,Ranged,Hero Talis Step Attack after dodge
-Hero Counter (Talis),4105920492,Ranged,Hero Talis Step Attack after dodge
+Hero Counter (Talis),1089593935,Ranged,Hero Talis Step Attack after dodge (Hero Counter) (Hr skill)
+Hero Counter (Talis),4105920492,Ranged,Hero Talis Step Attack after dodge (Hero Counter) (Hr skill)
 Jet Wheel,1736785343,PA,Jet Wheel talis hit(s)
 Jet Wheel,3161437904,PA,Jet Wheel aoe
 Jet Wheel,2852176964,PA,Jet Wheel when switched to Sword
@@ -1084,7 +1084,7 @@ Dive Bullet,1342643252,PA,Dive Bullet
 Racer Edge,1422891855,PA,Racer Edge
 TMG hit (Hero),1403081519,Ranged,Hero TMG normal attack
 TMG Step Attack (Hero),2834748182,Ranged,Hero TMG Step Attack
-Hero Counter (TMG),1905792389,Ranged,Hero TMG Step Attack after dodge
+Hero Counter (TMG),1905792389,Ranged,Hero TMG Step Attack after dodge (Hero Counter) (Hr skill)
 Brand New Star,2832005595,PA,Brand New Star
 Brand New Star (Counter),1399183080,PA,Brand New Star after dodge
 Final Storm,2832005530,PA,Final Storm
@@ -1093,15 +1093,93 @@ Moment Trick,2832005400,PA,Moment Trick
 Switch to Sword,2817683590,Melee,Switch to Sword
 Switch to Talis,1591095807,Ranged,Switch to Talis
 Switch to TMG,2461200579,Ranged,Switch to TMG
-Hero Time (Sword),2268332858,Special,Hero Time Sword slashes
-Hero Time (Sword),170999070,Special,Hero Time Sword finish
-Hero Time (Sword),2268332813,Special,Hero Time Sword finish hard hit
-Hero Time (Talis),1266101764,Special,Hero Time Talis pull-in
-Hero Time (Talis),11556353,Special,Hero Time Talis slashes
-Hero Time (Talis),1233721870,Special,Hero Time Talis slashes while switched to Sword
-Hero Time (Talis),1233722348,Special,Hero Time Talis slashes while switched to TMG
-Hero Time (TMG),3480338695,Special,Hero Time TMG burst
+Hero Time (Sword),2268332858,Special,Hero Time Sword slashes (Hr skill)
+Hero Time (Sword),170999070,Special,Hero Time Sword finish (Hr skill)
+Hero Time (Sword),2268332813,Special,Hero Time Sword finish hard hit (Hr skill)
+Hero Time (Talis),1266101764,Special,Hero Time Talis pull-in (Hr skill)
+Hero Time (Talis),11556353,Special,Hero Time Talis slashes (Hr skill)
+Hero Time (Talis),1233721870,Special,Hero Time Talis slashes while switched to Sword (Hr skill)
+Hero Time (Talis),1233722348,Special,Hero Time Talis slashes while switched to TMG (Hr skill)
+Hero Time (TMG),3480338695,Special,Hero Time TMG burst (Hr skill)
 Next Jump,3274240781,Special,Next Jump (Hr skill)
+Katana hit (Phantom),973258663,Melee,Phantom Katana first normal attack
+Katana hit (Phantom),973258596,Melee,Phantom Katana second normal attack
+Katana hit (Phantom),973258533,Melee,Phantom Katana third normal attack
+Katana hit (Phantom),840700311,Melee,Phantom Katana air first normal attack
+Katana hit (Phantom),840699985,Melee,Phantom Katana air second normal attack
+Katana hit (Phantom),840699920,Melee,Phantom Katana air third normal attack
+Katana Step Attack (Phantom),980427043,Melee,Phantom Katana Step Attack
+Katana Weapon Action,4188914875,Special,Phantom Katana Weapon Action
+Dodge Counter Shot (Katana),2765954690,Special,Dodge Counter Shot (Katana) (Ph skill)
+Schmetterling,987960113,PA,Schmetterling first 2 hits
+Schmetterling,1599479410,PA,Schmetterling
+Schmetterling,1599478186,PA,Schmetterling (Shift Action)
+Schmetterling,3569709951,PA,Schmetterling (Shift Action) slashes?
+Wolkenkrazter,1599486311,PA,Wolkenkrazter
+Wolkenkrazter,987960240,PA,Wolkenkrazter aoe
+Wolkenkrazter,2011111966,PA,Wolkenkrazter (Shift Action)
+Folter Zeit,987960176,PA,Folter Zeit
+Folter Zeit,1599475427,PA,Folter Zeit finish
+Folter Zeit,1599473979,PA,Folter Zeit (Shift Action)
+Rose Schwert,654363349,PA,Rose Schwert start
+Rose Schwert,3569459368,PA,Rose Schwert
+Rose Schwert,3569459369,PA,Rose Schwert
+Rose Schwert,3569459371,PA,Rose Schwert
+Rose Schwert,1398920256,PA,Rose Schwert (Shift Action)
+Rose Schwert,1705644539,PA,Rose Schwert (Shift Action) rift
+Phantom Marker (Katana),2907201045,Special,Phantom Marker (Katana) explosion
+Phantom Time (Katana),3695463316,Special,Phantom Time (Katana)
+Phantom Time (Katana),975125104,Special,Phantom Time (Katana) final
+Assault Rifle hit (Phantom),2491562758,Ranged,Phantom Assault Rifle first normal attack
+Assault Rifle hit (Phantom),2491562565,Ranged,Phantom Assault Rifle second first normal attack
+Assault Rifle hit (Phantom),2491562628,Ranged,Phantom Assault Rifle third first normal attack
+Assault Rifle Step Attack (Phantom),1999947508,Ranged,Phantom Assault Rifle Step Attack
+Assault Rifle Weapon Action,3089109531,Special,Assault Rifle Weapon Action
+Assault Rifle Weapon Action,2014302715,Special,Assault Rifle Weapon Action charged
+Dodge Counter Shot (Assault Rifle),2600842557,Special,Dodge Counter Shot (Assault Rifle) (Ph skill)
+Kugelsturm,2215020097,PA,Kugelsturm first volley
+Kugelsturm,2215020162,PA,Kugelsturm
+Kugelsturm,3158383588,PA,Kugelsturm (Shift Action) "lots of hits"
+Kugelsturm,1640997085,PA,Kugelsturm (Shift Action) finish
+Verbrechen,4290111736,PA,Verbrechen
+Verbrechen,4290111408,PA,Verbrechen sideways
+Verbrechen,3151257398,PA,Verbrechen (Shift Action)
+Nachtangriff,3220962891,PA,Nachtangriff
+Nachtangriff,3220962310,PA,Nachtangriff projectile 
+Nachtangriff,4046511708,PA,Nachtangriff (Shift Action)
+Strafe,3288338193,PA,Strafe
+Strafe,4213673767,PA,Strafe (Shift Action)
+Phantom Time (Assault Rifle),3786184050,Special,Phantom Marker explosion (Ph skill)
+Phantom Time (Assault Rifle),2243620231,Special,Phantom Time (Assault Rifle) (Ph skill)
+Phantom Time (Assault Rifle),1412080400,Special,Phantom Time (Assault Rifle) final (Ph skill)
+Rod hit (Phantom),2953139672,Melee,Phantom Rod first normal attack
+Rod hit (Phantom),2953139611,Melee,Phantom Rod second normal attack
+Rod hit (Phantom),2953139290,Melee,Phantom Rod third normal attack
+Rod Step Attack (Phantom),2998890418,Melee,Phantom Rod Step Attack
+Rod Weapon Action,1431710595,Special,Phantom Rod Weapon Action
+Rod Weapon Action,421953627,Special,Phantom Rod Weapon Action charged
+Tech Casted (Rod),2999731584,Special,Phantom Tech Casted from Rod
+Dodge Counter Shot (Rod),3301900032,Special,Dodge Counter Shot (Rod) (Ph skill)
+Ruf Konzert,1579409293,PA,Ruf Konzert first hit
+Ruf Konzert,1579408972,PA,Ruf Konzert second
+Ruf Konzert,1579408900,PA,Ruf Konzert third
+Ruf Konzert,3522834748,PA,Ruf Konzert slash
+Ruf Konzert,3406878835,PA,Ruf Konzert (Shift Action) hit
+Ruf Konzert,1429241745,PA,Ruf Konzert (Shift Action) slash
+Schwarze Katze,3406887572,PA,Schwarze Katze
+Schwarze Katze,3406887761,PA,Schwarze Katze (Shift Action)
+Voelkermord,1579594570,PA,Voelkermord ball charge lv.1
+Voelkermord,1579594507,PA,Voelkermord ball charge lv.2
+Voelkermord,2670384126,PA,Voelkermord explosion lv.1
+Voelkermord,1050889844,PA,Voelkermord explosion lv.2
+Voelkermord,1579574174,PA,Voelkermord (Shift Action) AoE
+Eisen Fluegel,3115083023,PA,Eisen Fluegel
+Eisen Fluegel,3413713363,PA,Eisen Fluegel (Shift Action)
+Phantom Marker (Rod),404882650,Special,Phantom Marker (Rod) explosion charge lv.1 (Ph skill)
+Phantom Marker (Rod),404882329,Special,Phantom Marker (Rod) explosion charge lv.2 (Ph skill)
+Phantom Time (Rod),2995855500,Special,Phantom Time (Rod) (Ph skill)
+Phantom Time (Rod),2682739872,Special,Phantom Time (Rod) middle part (Ph skill)
+Phantom Time (Rod),2682739887,Special,Phantom Time (Rod) final lasers (Ph skill)
 Dissipating Wave,3065779197,Special,Dissipating Wave (Form series) (Weapon Potential)
 Dissipating Wave,3065779131,Special,Dissipating Wave (Form series) (Weapon Potential)
 Dissipating Wave,3065778236,Special,Dissipating Wave (Form series) (Weapon Potential)
@@ -1339,7 +1417,7 @@ AIS Photon Grenade,434705298,Special,A.I.S rockets (Photon Grenade)
 AIS Photon Rush,79964675,Special,A.I.S gap closer PA attack (Photon Rush)
 AIS Photon Blaster,1460054769,Special,A.I.S cannon (Photon Blaster)
 AIS Photon Blizzard,4081218683,Special,A.I.S mob freezing attack (Photon Blizzard)
-AIS Weak Bullet,3298256598,Special,A.I.S Weak Bullet
+AIS Weak Buster,3298256598,Special,A.I.S Weak Buster (Weak Bullet)
 AIS Area Heal,2826401717,Special,A.I.S Area Heal
 Rideroid,3491866260,Special,Rideroid throw
 Rideroid,2056025809,Special,Rideroid hit forward slow
