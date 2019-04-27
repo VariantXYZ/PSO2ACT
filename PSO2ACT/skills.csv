@@ -351,19 +351,19 @@ Strezwei,3169780679,PA,Starzwei melee startup
 Strezwei,3169781527,PA,Starzwei melee hits (+range twirl)
 Strezwei,3169781648,PA,Starzwei melee finisher
 Strezwei,3169644227,PA,Ranged version (spin)
-DS hit,778603760,Melee,Double Saber 1
-DS hit,2169426261,Melee,Double Saber 2
-DS hit,1915920209,Melee,Double Saber 3
-DS hit,3587443201,Melee,Double Saber air first normal attack
-DS hit,2489626506,Melee,Double Saber air second normal attack
-DS hit,3086213424,Melee,Double Saber air third normal attack
-DS Step Attack,422538670,Melee,Double Saber Step
-DS Tornado,2620269130,Special,level 1
-DS Tornado,2620268940,Special,level 2
-DS Tornado,2620269005,Special,level 3
+Double Saber hit,778603760,Melee,Double Saber 1
+Double Saber hit,2169426261,Melee,Double Saber 2
+Double Saber hit,1915920209,Melee,Double Saber 3
+Double Saber hit,3587443201,Melee,Double Saber air first normal attack
+Double Saber hit,2489626506,Melee,Double Saber air second normal attack
+Double Saber hit,3086213424,Melee,Double Saber air third normal attack
+Double Saber Step Attack,422538670,Melee,Double Saber Step
+Double Saber Tornado,2620269130,Special,level 1
+Double Saber Tornado,2620268940,Special,level 2
+Double Saber Tornado,2620269005,Special,level 3
+Tornado Dance,1825444869,PA,
 Tornado Dance (C),275226098,PA,
 Tornado Dance (C),3746811944,PA,
-Tornado Dance,1825444869,PA,
 Scissor Edge,1652495452,PA,Scissor Edge initial hit
 Scissor Edge,2998595631,PA,Scissor Edge additional hits
 Rumbling Moon,4252278068,PA,Rumbling moon first four hits
@@ -717,22 +717,22 @@ Fake Silhouette,2219699734,PA,Fake Silhouette
 Flame Bullet,2709161242,PA,Flame Bullet
 Cosmos Breaker,2219596384,PA,Cosmos Breaker
 Sphere Eraser,2219595324,PA,Sphere Eraser
-TMG hit,3132894402,Ranged,First attack (4x) 0 gear
-TMG hit,3132894403,Ranged,1 gear
-TMG hit,3132894401,Ranged,2 gear
-TMG hit,3132894400,Ranged,3 gear
-TMG hit,1923738865,Ranged,Second attack (4x) 0 gear
-TMG hit,1923738870,Ranged,1 gear
-TMG hit,1923738868,Ranged,2 gear
-TMG hit,1923738871,Ranged,3 gear
-TMG hit,1901223401,Ranged,Third attack (5x) 0 gear
-TMG hit,1901223406,Ranged,1 gear
-TMG hit,1901223404,Ranged,2 gear
-TMG hit,1901223407,Ranged,3 gear
-Dive Roll (TMG) hit,2297353124,Ranged,Dive roll shoot 0 gear
-Dive Roll (TMG) hit,2297352795,Ranged,1 gear
-Dive Roll (TMG) hit,2297352794,Ranged,2 gear
-Dive Roll (TMG) hit,2297352793,Ranged,3 gear
+Twin Machine Guns hit,3132894402,Ranged,First attack (4x) 0 gear
+Twin Machine Guns hit,3132894403,Ranged,1 gear
+Twin Machine Guns hit,3132894401,Ranged,2 gear
+Twin Machine Guns hit,3132894400,Ranged,3 gear
+Twin Machine Guns hit,1923738865,Ranged,Second attack (4x) 0 gear
+Twin Machine Guns hit,1923738870,Ranged,1 gear
+Twin Machine Guns hit,1923738868,Ranged,2 gear
+Twin Machine Guns hit,1923738871,Ranged,3 gear
+Twin Machine Guns hit,1901223401,Ranged,Third attack (5x) 0 gear
+Twin Machine Guns hit,1901223406,Ranged,1 gear
+Twin Machine Guns hit,1901223404,Ranged,2 gear
+Twin Machine Guns hit,1901223407,Ranged,3 gear
+Dive Roll (Twin Machine Guns) hit,2297353124,Ranged,Dive roll shoot 0 gear
+Dive Roll (Twin Machine Guns) hit,2297352795,Ranged,1 gear
+Dive Roll (Twin Machine Guns) hit,2297352794,Ranged,2 gear
+Dive Roll (Twin Machine Guns) hit,2297352793,Ranged,3 gear
 Stylish Roll hit,2594009166,Ranged,S-roll shoot 0 gear
 Stylish Roll hit,2594009167,Ranged,1 gear
 Stylish Roll hit,2594009160,Ranged,2 gear
@@ -861,17 +861,17 @@ Grim Barrage,1235843178,PA,Grim Barrage (part 2) 0 gear
 Grim Barrage,1235843181,PA,1 gear
 Grim Barrage,1235843180,PA,2 gear
 Grim Barrage,1235843183,PA,3 gear
-JB hit,3540874879,Melee,First Attack
-JB hit,2778548652,Melee,Second Attack
-JB hit,3614558463,Melee,Third Attack
-JB Step Attack,798466786,Melee,Step Attack
-JB hit,2184540187,Melee,Shift Action
-JB hit,747815998,Special,Jump hit (Fire)
-JB hit,1254493977,Special,Jump hit (Ice)
-JB hit,3280158646,Special,Jump hit (Lightning)
-JB hit,2954183594,Special,Jump hit (Wind)
-JB hit,1853582271,Special,Jump hit (Light)
-JB hit,580662444,Special,Jump hit (Dark)
+Jet Boots hit,3540874879,Melee,First Attack
+Jet Boots hit,2778548652,Melee,Second Attack
+Jet Boots hit,3614558463,Melee,Third Attack
+Jet Boots Step Attack,798466786,Melee,Step Attack
+Jet Boots jump hit,2184540187,Melee,Shift Action
+Jet Boots jump hit,747815998,Special,Jump hit (Fire)
+Jet Boots jump hit,1254493977,Special,Jump hit (Ice)
+Jet Boots jump hit,3280158646,Special,Jump hit (Lightning)
+Jet Boots jump hit,2954183594,Special,Jump hit (Wind)
+Jet Boots jump hit,1853582271,Special,Jump hit (Light)
+Jet Boots jump hit,580662444,Special,Jump hit (Dark)
 Strike Gust,2440471691,PA,Strike Gust (uncharged first two)
 Strike Gust,3982071982,PA,Strike Gust (uncharged final)
 Strike Gust,2049018178,PA,Strike Gust (half charge first three)
@@ -1086,9 +1086,9 @@ Wise Hound,507041974,PA,Wise Hound when switched to Sword
 Wise Hound,507041839,PA,Wise Hound when switched to TMG
 Dive Bullet,1342643252,PA,Dive Bullet
 Racer Edge,1422891855,PA,Racer Edge
-TMG hit (Hero),1403081519,Ranged,Hero TMG normal attack
-TMG Step Attack (Hero),2834748182,Ranged,Hero TMG Step Attack
-Hero Counter (TMG),1905792389,Ranged,Hero TMG Step Attack after dodge (Hero Counter) (Hr skill)
+Twin Machine Guns hit (Hero),1403081519,Ranged,Hero TMG normal attack
+Twin Machine Guns Step Attack (Hero),2834748182,Ranged,Hero TMG Step Attack
+Hero Counter (Twin Machine Guns),1905792389,Ranged,Hero TMG Step Attack after dodge (Hero Counter) (Hr skill)
 Brand New Star,2832005595,PA,Brand New Star
 Brand New Star (Counter),1399183080,PA,Brand New Star after dodge
 Final Storm,2832005530,PA,Final Storm
@@ -1096,15 +1096,15 @@ Second Edge,2832005465,PA,Second Edge
 Moment Trick,2832005400,PA,Moment Trick
 Switch to Sword,2817683590,Melee,Switch to Sword
 Switch to Talis,1591095807,Ranged,Switch to Talis
-Switch to TMG,2461200579,Ranged,Switch to TMG
+Switch to Twin Machine Guns,2461200579,Ranged,Switch to Twin Machine Guns
 Hero Time (Sword),2268332858,Special,Hero Time Sword slashes (Hr skill)
 Hero Time (Sword),170999070,Special,Hero Time Sword finish (Hr skill)
 Hero Time (Sword),2268332813,Special,Hero Time Sword finish hard hit (Hr skill)
 Hero Time (Talis),1266101764,Special,Hero Time Talis pull-in (Hr skill)
 Hero Time (Talis),11556353,Special,Hero Time Talis slashes (Hr skill)
 Hero Time (Talis),1233721870,Special,Hero Time Talis slashes while switched to Sword (Hr skill)
-Hero Time (Talis),1233722348,Special,Hero Time Talis slashes while switched to TMG (Hr skill)
-Hero Time (TMG),3480338695,Special,Hero Time TMG burst (Hr skill)
+Hero Time (Talis),1233722348,Special,Hero Time Talis slashes while switched to Twin Machine Guns (Hr skill)
+Hero Time (Twin Machine Guns),3480338695,Special,Hero Time Twin Machine Guns burst (Hr skill)
 Next Jump,3274240781,Special,Next Jump (Hr skill)
 Katana hit (Phantom),973258663,Melee,Phantom Katana first normal attack
 Katana hit (Phantom),973258596,Melee,Phantom Katana second normal attack
@@ -1187,9 +1187,9 @@ Phantom Time (Rod),2995855500,Special,Phantom Time (Rod) (Ph skill)
 Phantom Time (Rod),2682739872,Special,Phantom Time (Rod) 2nd part (Ph skill)
 Phantom Time (Rod),2682739887,Special,Phantom Time (Rod) 3rd part (Ph skill)
 Phantom Time (Rod),2682739886,Special,Phantom Time (Rod) final lasers (Ph skill)
-Dissipating Wave,3065779197,Special,Dissipating Wave (Form series) (Weapon Potential)
-Dissipating Wave,3065779131,Special,Dissipating Wave (Form series) (Weapon Potential)
-Dissipating Wave,3065778236,Special,Dissipating Wave (Form series) (Weapon Potential)
+Dissipating Wave,3065779131,Special,Dissipating Wave first normal attack (Form/Vades series) (Weapon Potential)
+Dissipating Wave,3065779197,Special,Dissipating Wave second normal attack (Form/Vades series) (Weapon Potential)
+Dissipating Wave,3065778236,Special,Dissipating Wave third normal attack (Form/Vades series) (Weapon Potential)
 Mysterious Conjurer,4139628318,Special,Mysterious Conjurer (Lavis Cannon) (Weapon Potential)
 Mysterious Conjurer,4139628288,Special,Heavy Hammer PA Mysterious Conjurer (Lavis Cannon) (Weapon Potential)
 Mysterious Conjurer,4139628319,Special,Heavy Hammer PA Mysterious Conjurer (Lavis Cannon) (Weapon Potential)
@@ -1210,6 +1210,9 @@ Auxiliary Dart,2512505439,Special,Auxiliary Dart (Radius Arca) (Weapon Potential
 Hexing Spirit,3555827165,Special,Hexing Spirit (Cursed Slayer Gaen) (Weapon Potential) probably depends on the number of normal attacks
 Hexing Spirit,3555827167,Special,Hexing Spirit (Cursed Slayer Gaen) (Weapon Potential) probably depends on the number of normal attacks
 Hexing Spirit,3555827164,Special,Hexing Spirit (Cursed Slayer Gaen) (Weapon Potential) probably depends on the number of normal attacks
+Hexing Spirit (Phantom),859457298,Special,Hexing Spirit (Phantom) (Cursed Slayer Gaen) (Weapon Potential) probably depends on the number of normal attacks
+Hexing Spirit (Phantom),859457299,Special,Hexing Spirit (Phantom) (Cursed Slayer Gaen) (Weapon Potential) probably depends on the number of normal attacks
+Hexing Spirit (Phantom),859457301,Special,Hexing Spirit (Phantom) (Cursed Slayer Gaen) (Weapon Potential) probably depends on the number of normal attacks
 Divine Protection,2428138007,Special,Divine Protection (Boots of Djibril) (Weapon Potential)
 Bright Silver Flame,2711351862,Special,Bright Silver Flame (Exacrimav) (Weapon Potential)
 Bright Silver Flame (Phantom),923779696,Special,Bright Silver Flame (Phantom) (Exacrimav) (Weapon Potential)
