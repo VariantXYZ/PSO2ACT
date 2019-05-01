@@ -1196,7 +1196,7 @@ Mysterious Conjurer,4139628319,Special,Heavy Hammer PA Mysterious Conjurer (Lavi
 Thundering Blades,2924634920,Special,Thundering Blades (Jupiter Tullus) (Weapon Potential)
 Elusive Blades,2311811561,Special,Elusive Blades (Bullet Kunai) (Weapon Potential)
 Antique Shot,2482321781,Special,Antique Shot (Spread Needle) (Weapon Potential)
-Antique Shot (Phantom),3918796978,Special,Antique Shot (Phantom) (Spread Needle) (Weapon Potential)
+Antique Shot,3918796978,Special,Antique Shot (Phantom) (Spread Needle) (Weapon Potential)
 Double Scarlet Blade,1054020252,Special,Double Scarlet Blade (1 gear) (Quelle Scarlette) (Weapon Potential)
 Double Scarlet Blade,1054020189,Special,Double Scarlet Blade (2 gear) (Quelle Scarlette) (Weapon Potential)
 Double Scarlet Blade,1054023161,Special,Double Scarlet Blade (3 gear) (Quelle Scarlette) (Weapon Potential)
@@ -1210,14 +1210,14 @@ Auxiliary Dart,2512505439,Special,Auxiliary Dart (Radius Arca) (Weapon Potential
 Hexing Spirit,3555827165,Special,Hexing Spirit (Cursed Slayer Gaen) (Weapon Potential) probably depends on the number of normal attacks
 Hexing Spirit,3555827167,Special,Hexing Spirit (Cursed Slayer Gaen) (Weapon Potential) probably depends on the number of normal attacks
 Hexing Spirit,3555827164,Special,Hexing Spirit (Cursed Slayer Gaen) (Weapon Potential) probably depends on the number of normal attacks
-Hexing Spirit (Phantom),859457298,Special,Hexing Spirit (Phantom) (Cursed Slayer Gaen) (Weapon Potential) probably depends on the number of normal attacks
-Hexing Spirit (Phantom),859457299,Special,Hexing Spirit (Phantom) (Cursed Slayer Gaen) (Weapon Potential) probably depends on the number of normal attacks
-Hexing Spirit (Phantom),859457301,Special,Hexing Spirit (Phantom) (Cursed Slayer Gaen) (Weapon Potential) probably depends on the number of normal attacks
+Hexing Spirit,859457298,Special,Hexing Spirit (Phantom) (Cursed Slayer Gaen) (Weapon Potential) probably depends on the number of normal attacks
+Hexing Spirit,859457299,Special,Hexing Spirit (Phantom) (Cursed Slayer Gaen) (Weapon Potential) probably depends on the number of normal attacks
+Hexing Spirit,859457301,Special,Hexing Spirit (Phantom) (Cursed Slayer Gaen) (Weapon Potential) probably depends on the number of normal attacks
 Divine Protection,2428138007,Special,Divine Protection (Boots of Djibril) (Weapon Potential)
 Bright Silver Flame,2711351862,Special,Bright Silver Flame (Exacrimav) (Weapon Potential)
-Bright Silver Flame (Phantom),923779696,Special,Bright Silver Flame (Phantom) (Exacrimav) (Weapon Potential)
-疾駆奮迅,3438460459,Special,Stopping dash wave (RA Stinger) (Weapon Potential)
-疾駆奮迅,3333338057,Special,Dash collision (RA Stinger) (Weapon Potential)
+Bright Silver Flame,923779696,Special,Bright Silver Flame (Phantom) (Exacrimav) (Weapon Potential)
+疾駆奮迅,3438460459,Special,疾駆奮迅 (Stopping dash wave) (RA Stinger) (Weapon Potential)
+疾駆奮迅,3333338057,Special,疾駆奮迅 (Dash collision) (RA Stinger) (Weapon Potential)
 BOOSTO KICKU,85301614,Special,Tokyo speed-pad kick level 1
 BOOSTO KICKU,85302964,Special,Tokyo speed-pad kick level 2 
 BOOSTO KICKU,85303029,Special,Tokyo speed-pad kick level 3
