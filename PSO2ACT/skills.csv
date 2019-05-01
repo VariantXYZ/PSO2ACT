@@ -276,10 +276,10 @@ Tear Grid,3331228937,PA,Tear Grid combo hits
 Tear Grid,195498830,PA,Tear Grid final hit
 Tear Grid,3630719180,PA,Tear Grid combo hits(g)
 Tear Grid,3226393072,PA,Tear Grid final hit (g)
-WL hit,1667827810,Melee,Wired Lance 1
-WL hit,1667827875,Melee,Wired Lance 2
-WL hit,1667828192,Melee,Wired Lance 3
-WL Step Attack,1667395446,Melee,WL Step
+Wired Lances hit,1667827810,Melee,Wired Lance 1
+Wired Lances hit,1667827875,Melee,Wired Lance 2
+Wired Lances hit,1667828192,Melee,Wired Lance 3
+Wired Lances Step Attack,1667395446,Melee,Wired Lances Step Attack
 Bind Through,2996928382,PA,Bind Through pickup
 Bind Through,377627045,PA,Bind Through slam
 Grapple Charge,1615246036,PA,Grapple Charge grapple
@@ -388,26 +388,26 @@ Huricane Sender,1523926426,PA,Hurricane sender send (level2 gear)
 Huricane Sender,524782206,PA,Hurricane detonate (level 2 gear)
 Huricane Sender,1523926105,PA,Hurricane send (level 2 gear)
 Huricane Sender,524782271,PA,Hurricane detonate (*level 3 gear)
-TD hit,2378312327,Melee,
-TD hit,2378312320,Melee,
-TD hit,2378312321,Melee,
-TD hit,3816723344,Melee,0 gear air first normal attack
-TD hit,3816723347,Melee,1 gear
-TD hit,3816723346,Melee,2 gear
-TD hit,3816723349,Melee,3 gear
-TD hit,1163229184,Melee,0 gear air second normal attack
-TD hit,1163229191,Melee,1 gear
-TD hit,1163229190,Melee,2 gear
-TD hit,1163229189,Melee,3 gear
-TD hit,1893769682,Melee,0 gear air third normal attack
-TD hit,1893769685,Melee,1 gear
-TD hit,1893769684,Melee,2 gear
-TD hit,1893769687,Melee,3 gear
-TD Step Attack,2767975965,Melee,TD Step
-TD Spin,3115487285,Special,0 gear TD Spin
-TD Spin,3115487274,Special,1 gear
-TD Spin,3115487275,Special,2 gear
-TD Spin,3115487272,Special,3 gear
+Twin Daggers hit,2378312327,Melee,
+Twin Daggers hit,2378312320,Melee,
+Twin Daggers hit,2378312321,Melee,
+Twin Daggers hit,3816723344,Melee,0 gear air first normal attack
+Twin Daggers hit,3816723347,Melee,1 gear
+Twin Daggers hit,3816723346,Melee,2 gear
+Twin Daggers hit,3816723349,Melee,3 gear
+Twin Daggers hit,1163229184,Melee,0 gear air second normal attack
+Twin Daggers hit,1163229191,Melee,1 gear
+Twin Daggers hit,1163229190,Melee,2 gear
+Twin Daggers hit,1163229189,Melee,3 gear
+Twin Daggers hit,1893769682,Melee,0 gear air third normal attack
+Twin Daggers hit,1893769685,Melee,1 gear
+Twin Daggers hit,1893769684,Melee,2 gear
+Twin Daggers hit,1893769687,Melee,3 gear
+Twin Daggers Step Attack,2767975965,Melee,Twin Daggers Step
+Twin Daggers Spin,3115487285,Special,0 gear Twin Daggers Spin
+Twin Daggers Spin,3115487274,Special,1 gear
+Twin Daggers Spin,3115487275,Special,2 gear
+Twin Daggers Spin,3115487272,Special,3 gear
 Raging Waltz,238277165,PA,Raging Waltz 0 gear
 Raging Waltz,238277154,PA,Raging Waltz 1 gear
 Raging Waltz,238277155,PA,Raging Waltz 2 gear
@@ -571,14 +571,14 @@ Guren-tessen,1776976279,PA,Guren dash
 Guren-tessen,1522008442,PA,Guren slash
 Katana Combat,156270665,Special,Katana finish slash
 Katana Combat,4259442013,Special,Katana finish megaslash
-DB hit,990294516,Melee,Dual Blades first normal attack
-DB hit,990294325,Melee,Dual Blades second normal attack
-DB hit,990294387,Melee,Dual Blades third normal attack
-DB hit,996054556,Melee,Dual Blades air first normal attack
-DB hit,996054749,Melee,Dual Blades air second normal attack
-DB hit,996054686,Melee,Dual Blades air third normal attack
-DB Step Attack,991363414,Melee,Dual Blades step attack
-DB Snatch Step,1317379950,Special,Dual Blade Snatch step ring
+Dual Blades hit,990294516,Melee,Dual Blades first normal attack
+Dual Blades hit,990294325,Melee,Dual Blades second normal attack
+Dual Blades hit,990294387,Melee,Dual Blades third normal attack
+Dual Blades hit,996054556,Melee,Dual Blades air first normal attack
+Dual Blades hit,996054749,Melee,Dual Blades air second normal attack
+Dual Blades hit,996054686,Melee,Dual Blades air third normal attack
+Dual Blades Step Attack,991363414,Melee,Dual Blades step attack
+Dual Blades Snatch Step,1317379950,Special,Dual Blade Snatch step ring
 Photon Blades,3920319747,Special,Photon blades
 Photon Blades,2866606807,Special,Photon blade fever
 Distraction Wing,2674942872,PA,Distraction Wing
@@ -1080,15 +1080,15 @@ Hero Counter (Talis),4105920492,Ranged,Hero Talis Step Attack after dodge (Hero 
 Jet Wheel,1736785343,PA,Jet Wheel talis hit(s)
 Jet Wheel,3161437904,PA,Jet Wheel aoe
 Jet Wheel,2852176964,PA,Jet Wheel when switched to Sword
-Jet Wheel,2852180670,PA,Jet Wheel when switched to TMG
+Jet Wheel,2852180670,PA,Jet Wheel when switched to Twin Machine Guns
 Wise Hound,209487851,PA,Wise Hound
 Wise Hound,507041974,PA,Wise Hound when switched to Sword
-Wise Hound,507041839,PA,Wise Hound when switched to TMG
+Wise Hound,507041839,PA,Wise Hound when switched to Twin Machine Guns
 Dive Bullet,1342643252,PA,Dive Bullet
 Racer Edge,1422891855,PA,Racer Edge
-Twin Machine Guns hit (Hero),1403081519,Ranged,Hero TMG normal attack
-Twin Machine Guns Step Attack (Hero),2834748182,Ranged,Hero TMG Step Attack
-Hero Counter (Twin Machine Guns),1905792389,Ranged,Hero TMG Step Attack after dodge (Hero Counter) (Hr skill)
+Twin Machine Guns hit (Hero),1403081519,Ranged,Hero Twin Machine Guns normal attack
+Twin Machine Guns Step Attack (Hero),2834748182,Ranged,Hero Twin Machine Guns Step Attack
+Hero Counter (Twin Machine Guns),1905792389,Ranged,Hero Twin Machine Guns Step Attack after dodge (Hero Counter) (Hr skill)
 Brand New Star,2832005595,PA,Brand New Star
 Brand New Star (Counter),1399183080,PA,Brand New Star after dodge
 Final Storm,2832005530,PA,Final Storm
@@ -1196,7 +1196,7 @@ Mysterious Conjurer,4139628319,Special,Heavy Hammer PA Mysterious Conjurer (Lavi
 Thundering Blades,2924634920,Special,Thundering Blades (Jupiter Tullus) (Weapon Potential)
 Elusive Blades,2311811561,Special,Elusive Blades (Bullet Kunai) (Weapon Potential)
 Antique Shot,2482321781,Special,Antique Shot (Spread Needle) (Weapon Potential)
-Antique Shot (Phantom),3918796978,Special,Antique Shot (Phantom) (Spread Needle) (Weapon Potential)
+Antique Shot,3918796978,Special,Antique Shot (Phantom) (Spread Needle) (Weapon Potential)
 Double Scarlet Blade,1054020252,Special,Double Scarlet Blade (1 gear) (Quelle Scarlette) (Weapon Potential)
 Double Scarlet Blade,1054020189,Special,Double Scarlet Blade (2 gear) (Quelle Scarlette) (Weapon Potential)
 Double Scarlet Blade,1054023161,Special,Double Scarlet Blade (3 gear) (Quelle Scarlette) (Weapon Potential)
@@ -1210,12 +1210,14 @@ Auxiliary Dart,2512505439,Special,Auxiliary Dart (Radius Arca) (Weapon Potential
 Hexing Spirit,3555827165,Special,Hexing Spirit (Cursed Slayer Gaen) (Weapon Potential) probably depends on the number of normal attacks
 Hexing Spirit,3555827167,Special,Hexing Spirit (Cursed Slayer Gaen) (Weapon Potential) probably depends on the number of normal attacks
 Hexing Spirit,3555827164,Special,Hexing Spirit (Cursed Slayer Gaen) (Weapon Potential) probably depends on the number of normal attacks
-Hexing Spirit (Phantom),859457298,Special,Hexing Spirit (Phantom) (Cursed Slayer Gaen) (Weapon Potential) probably depends on the number of normal attacks
-Hexing Spirit (Phantom),859457299,Special,Hexing Spirit (Phantom) (Cursed Slayer Gaen) (Weapon Potential) probably depends on the number of normal attacks
-Hexing Spirit (Phantom),859457301,Special,Hexing Spirit (Phantom) (Cursed Slayer Gaen) (Weapon Potential) probably depends on the number of normal attacks
+Hexing Spirit,859457298,Special,Hexing Spirit (Phantom) (Cursed Slayer Gaen) (Weapon Potential) probably depends on the number of normal attacks
+Hexing Spirit,859457299,Special,Hexing Spirit (Phantom) (Cursed Slayer Gaen) (Weapon Potential) probably depends on the number of normal attacks
+Hexing Spirit,859457301,Special,Hexing Spirit (Phantom) (Cursed Slayer Gaen) (Weapon Potential) probably depends on the number of normal attacks
 Divine Protection,2428138007,Special,Divine Protection (Boots of Djibril) (Weapon Potential)
 Bright Silver Flame,2711351862,Special,Bright Silver Flame (Exacrimav) (Weapon Potential)
-Bright Silver Flame (Phantom),923779696,Special,Bright Silver Flame (Phantom) (Exacrimav) (Weapon Potential)
+Bright Silver Flame,923779696,Special,Bright Silver Flame (Phantom) (Exacrimav) (Weapon Potential)
+Torrential Dash,3438460459,Special,Torrential Dash (Stopping dash wave) (RA Stinger) (Weapon Potential)
+Torrential Dash,3333338057,Special,Torrential Dash (Dash collision) (RA Stinger) (Weapon Potential)
 BOOSTO KICKU,85301614,Special,Tokyo speed-pad kick level 1
 BOOSTO KICKU,85302964,Special,Tokyo speed-pad kick level 2 
 BOOSTO KICKU,85303029,Special,Tokyo speed-pad kick level 3
