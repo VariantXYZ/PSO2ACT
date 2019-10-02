@@ -906,6 +906,10 @@ Elemental Burst,3183103116,Special,Lightning Elemental Burst (Bo skill)
 Elemental Burst,3999693063,Special,Wind Elemental Burst (Bo skill)
 Elemental Burst,1812915089,Special,Light Elemental Burst (Bo skill)
 Elemental Burst,606506553,Special,Dark Elemental Burst (Bo skill)
+Tempest Raid,1927231955,Special,Tempest Raid thunder
+Tempest Raid,2141090244,Special,Tempest Raid slashes
+Tempest Raid,3659915973,Special,Tempest Raid final hit
+Tempest Raid,3782877357,Special,Tempest Raid final hit shift action
 Takt hit,4065469038,Melee,Baton attack
 Wanda hit,2785585589,Melee,Wanda auto-attack 1
 Wanda hit,2785585652,Melee,Wanda auto-attack 2
@@ -1230,6 +1234,7 @@ Luminecho Hammer,2547423209,Special,Luminecho Hammer (Acure Charis/Atus Charis) 
 Luminecho Slug,2255706962,Special,Luminecho Slug (Orgei Rancor) (Weapon Potential)
 Luminecho Guillotine,895846384,Special,Luminecho Guillotine (Orgei Malice) (Weapon Potential)
 Variating Redress,3714671926,Special,Variating Redress (Genon series) (Weapon Potential)
+Golden Dragon's Eruption,4005133178,Special,Golden Dragon's Eruption (Sign Burn) (Weapon Potential)
 S1: Reckless Strike,818692292,Special,S1: Reckless Strike (S-Class Special Ability)
 S4: Raising Pursuit,99411394,Special,S4: Raising Pursuit(S-Class Special Ability)
 BOOSTO KICKU,85301614,Special,Tokyo speed-pad kick level 1
