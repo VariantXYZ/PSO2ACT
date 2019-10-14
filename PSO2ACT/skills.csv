@@ -170,13 +170,13 @@ Sword hit,1215367338,Melee,Sword_ 3rd
 Sword hit,1331225593,Melee,Sword air first normal attack 
 Sword hit,1331225146,Melee,Sword air second normal attack
 Sword hit,1331225211,Melee,Sword air third normal attack
-Sword Step Attack (C),1279043576,Melee,Sword Step Attack (Sacrifice's Bite ver) (unused as of Oct 10.)
-Sword hit (C),2001359545,Melee,Sword first normal attack (Sacrifice's Bite ver) (unused as of Oct 10.)
-Sword hit (C),2002747972,Melee,Sword second normal attack (Sacrifice's Bite ver) (unused as of Oct 10.)
-Sword hit (C),2084739075,Melee,Sword third normal attack (Sacrifice's Bite ver) (unused as of Oct 10.)
-Sword hit (C),1351584013,Melee,Sword air first normal attack (Sacrifice's Bite ver) (unused as of Oct 10.)
-Sword hit (C),1353244642,Melee,Sword air second normal attack (Sacrifice's Bite ver) (unused as of Oct 10.)
-Sword hit (C),1354018567,Melee,Sword air third normal attack (Sacrifice's Bite ver) (unused as of Oct 10.)
+Sword Step Attack (C),1279043576,Melee,Sword Step Attack (Sacrifice's Bite ver) (unused as of 2018 Oct 10)
+Sword hit (C),2001359545,Melee,Sword first normal attack (Sacrifice's Bite ver) (unused as of 2018 Oct 10)
+Sword hit (C),2002747972,Melee,Sword second normal attack (Sacrifice's Bite ver) (unused as of 2018 Oct 10)
+Sword hit (C),2084739075,Melee,Sword third normal attack (Sacrifice's Bite ver) (unused as of 2018 Oct 10)
+Sword hit (C),1351584013,Melee,Sword air first normal attack (Sacrifice's Bite ver) (unused as of 2018 Oct 10)
+Sword hit (C),1353244642,Melee,Sword air second normal attack (Sacrifice's Bite ver) (unused as of 2018 Oct 10)
+Sword hit (C),1354018567,Melee,Sword air third normal attack (Sacrifice's Bite ver) (unused as of 2018 Oct 10)
 Rising Edge,1227622308,PA,Start
 Rising Edge,1224723795,PA,Spin
 Twister Fall,1224723730,PA,Spin
@@ -1232,7 +1232,8 @@ Torrential Dash,3333338057,Special,Torrential Dash (Dash collision) (RA Stinger)
 Agonizing Blaze,1353602257,Special,Agonizing Blaze (Rengokuto Guren) (Weapon Potential)
 Luminecho Hammer,2547423209,Special,Luminecho Hammer (Acure Charis/Atus Charis) (Weapon Potential)
 Luminecho Slug,2255706962,Special,Luminecho Slug (Orgei Rancor) (Weapon Potential)
-Luminecho Guillotine,895846384,Special,Luminecho Guillotine (Orgei Malice) (Weapon Potential)
+Luminecho Guillotine,895846384,Special,Luminecho Guillotine (Orgei Malice) (Weapon Potential) (unused as of 2019 October 2)
+Luminecho Guillotine,832000006,Special,Luminecho Guillotine (Orgei Malice) (Weapon Potential)
 Variating Redress,3714671926,Special,Variating Redress (Genon series) (Weapon Potential)
 Golden Dragon's Eruption,4005133178,Special,Golden Dragon's Eruption (Sign Burn) (Weapon Potential)
 S1: Reckless Strike,818692292,Special,S1: Reckless Strike (S-Class Special Ability)
