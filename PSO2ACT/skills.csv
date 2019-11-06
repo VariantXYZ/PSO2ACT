@@ -305,8 +305,8 @@ Holding Current,1667539691,PA,Holding current detatch
 Air Pocket Swing,1667539880,PA,Air Pocket Swing
 Cerberus Dance,1667539817,PA,Cerberus Dance
 Cerberus Dance,185880800,PA,Cerberus Dance finish
-Cerberus Dance (C),4083015423,,Cerberus Dance (crafted)
-Cerberus Dance (C),1181894001,,Cerberus Dance finish (crafted)
+Cerberus Dance (C),4083015423,PA,Cerberus Dance (crafted)
+Cerberus Dance (C),1181894001,PA,Cerberus Dance finish (crafted)
 Wild Round,1667539503,PA,Wild Round
 Kaiser Rise,4083089437,PA,Kaiser Rise
 Adapting Spin,4083089500,PA,Adapting spin 
@@ -719,6 +719,8 @@ Fake Silhouette,2219699734,PA,Fake Silhouette
 Flame Bullet,2709161242,PA,Flame Bullet
 Cosmos Breaker,2219596384,PA,Cosmos Breaker
 Sphere Eraser,2219595324,PA,Sphere Eraser
+Prominence Assail,2751377556,Special,Prominence Assail hits
+Prominence Assail,2751377621,Special,Prominence Assail final hit
 Twin Machine Guns hit,3132894402,Ranged,First attack (4x) 0 gear
 Twin Machine Guns hit,3132894403,Ranged,1 gear
 Twin Machine Guns hit,3132894401,Ranged,2 gear
