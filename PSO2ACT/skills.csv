@@ -360,9 +360,9 @@ Double Saber hit,3587443201,Melee,Double Saber air first normal attack
 Double Saber hit,2489626506,Melee,Double Saber air second normal attack
 Double Saber hit,3086213424,Melee,Double Saber air third normal attack
 Double Saber Step Attack,422538670,Melee,Double Saber Step
-Double Saber Tornado,2620269130,Special,level 1
-Double Saber Tornado,2620268940,Special,level 2
-Double Saber Tornado,2620269005,Special,level 3
+Double Saber Gear,2620269130,Special,Double Saber Gear level 1 (Kamaitachi) (Fi skill)
+Double Saber Gear,2620268940,Special,Double Saber Gear level 2 (Kamaitachi) (Fi skill)
+Double Saber Gear,2620269005,Special,Double Saber Gear level 3 (Kamaitachi) (Fi skill)
 Tornado Dance,1825444869,PA,
 Tornado Dance (C),275226098,PA,
 Tornado Dance (C),3746811944,PA,
@@ -1198,16 +1198,93 @@ Phantom Time (Rod),2995855500,Special,Phantom Time (Rod) (Ph skill)
 Phantom Time (Rod),2682739872,Special,Phantom Time (Rod) 2nd part (Ph skill)
 Phantom Time (Rod),2682739887,Special,Phantom Time (Rod) 3rd part (Ph skill)
 Phantom Time (Rod),2682739886,Special,Phantom Time (Rod) final lasers (Ph skill)
+Double Saber hit (Etoile),3919241663,Melee,Etoile Double Saber first normal attack
+Double Saber hit (Etoile),169524061,Melee,Etoile Double Saber second normal attack
+Double Saber hit (Etoile),3511369619,Melee,Etoile Double Saber third normal attack
+Double Saber hit (Etoile),601312782,Melee,Etoile Double Saber air first normal attack
+Double Saber hit (Etoile),2524726786,Melee,Etoile Double Saber air second normal attack
+Double Saber Step Attack (Etoile),1877753403,Melee,Etoile Double Saber Step Attack
+Double Saber Weapon Action (Etoile),3703502919,Special,Etoile Double Saber Weapon Action first-in-a-row
+Double Saber Weapon Action (Etoile),1299126211,Special,Etoile Double Saber Weapon Action second-in-a-row
+Double Saber Weapon Action (Etoile),2505461367,Special,Etoile Double Saber Weapon Action small swords
+Double Saber Weapon Action (Etoile),3703475885,Special,Etoile Double Saber PA to Weapon Action
+Double Saber Gear (Etoile),3674749665,Special,Etoile Double Saber Gear (Et skill)
+Double Saber Step Slide Attack,3668847214,Special,Double Saber Step Slide Attack (Et skill)
+Double Saber Step Guard,3668848108,Special,Double Saber Step Guard (Et skill)
+Absolute Quasar,3023957695,PA,Absolute Quasar dash hit
+Absolute Quasar,3023957886,PA,Absolute Quasar lots of hits
+Absolute Quasar,3023959320,PA,Absolute Quasar final AoE
+Saber Destruction,2697421743,PA,Saber Destruction
+Saber Destruction,2697421419,PA,Saber Destruction second
+Saber Destruction,2697421354,PA,Saber Destruction final
+Shooting Star,3186989454,PA,Shooting Star
+Shooting Star,3186990914,PA,Shooting Star swords
+Celestial Collide,3016370354,PA,Celestial Collide
+Celestial Collide,3016370673,PA,Celestial Collide sword
+Dual Blades hit (Etoile),634701582,Melee,Etoile Dual Blades  first normal attack
+Dual Blades hit (Etoile),3591995488,Melee,Etoile Dual Blades second normal attack
+Dual Blades hit (Etoile),3591995809,Melee,Etoile Dual Blades second normal attack kick
+Dual Blades hit (Etoile),634701708,Melee,Etoile Dual Blades third normal attack hit
+Dual Blades Step Attack (Etoile),3216339272,Melee,Etoile Dual Blades Step Attack second hit
+Dual Blades Weapon Action (Etoile),762625001,Special,Etoile Dual Blades Weapon Action thrown sword
+Dual Blades Weapon Action (Etoile),2717596840,Special,Etoile Dual Blades Weapon Action guard
+Dual Blades Gear (Etoile),2848757556,Special,Etoile Dual Blades Gear (Connect) first 3 hits (Et skill)
+Dual Blades Gear (Etoile),3689006720,Special,Etoile Dual Blades Gear (Connect) semi-final hit (Et skill)
+Dual Blades Gear (Etoile),3689006745,Special,Etoile Dual Blades Gear (Connect) final hit (Et skill)
+Dual Blades Gear (Etoile),2511501523,Special,Etoile Dual Blades Gear (Full Connect) (Et skill)
+Distortion Piece,2146020536,PA,Distortion Piece first hit
+Distortion Piece,2146020473,PA,Distortion Piece second hit
+Distortion Piece,2146021178,PA,Distortion Piece final hit
+Distortion Piece,3346332164,PA,Distortion Piece side swords
+Radiant Sting,1463728380,PA,Radiant Sting first hit
+Radiant Sting,1463728189,PA,Radiant Sting second hit
+Radiant Sting,3117418431,PA,Radiant Sting third hit
+Radiant Sting,2350220858,PA,Radiant Sting side swords
+Radiant Sting,1624837806,PA,Radiant Sting final hit
+Vertical Flow,1625099890,PA,Vertical Flow jump hit
+Vertical Flow,1625099760,PA,Vertical Flow downward hit
+Vertical Flow,2419211090,PA,Vertical Flow X slash
+Vertical Flow,1609610974,PA,Vertical Flow left side sword
+Vertical Flow,1609610314,PA,Vertical Flow right side sword
+Light Wave,1624366591,PA,Light Wave first slash
+Light Wave,3350106872,PA,Light Wave second slash
+Light Wave,3350106162,PA,Light Wave third slash
+Light Wave,1624365942,PA,Light Wave final (X) slash
+Light Wave,712251032,PA,Light Wave left side sword
+Light Wave,712272135,PA,Light Wave right side sword
+Wand hit (Etoile),4018085752,Melee,Etoile Wand first normal attack
+Wand hit (Etoile),4018085689,Melee,Etoile Wand second normal attack
+Wand hit (Etoile),4018085882,Melee,Etoile Wand third normal attack
+Wand Step Attack (Etoile),3968236707,Melee,Etoile Wand Step Attack 
+Wand Gear (Etoile),3381519387,Special,Etoile Wand Gear 1st charge explosion
+Wand Gear (Etoile),3381519386,Special,Etoile Wand Gear 2nd charge first explosion
+Wand Gear (Etoile),3099099080,Special,Etoile Wand Gear 2nd charge big explosion
+Prism Circular,88841907,PA,Prism Circular first hit
+Prism Circular,288338327,PA,Prism Circular slash
+Prism Circular,88842224,PA,Prism Circular (Focus/Weapon Action)
+Glitter Stripe,4020026781,PA,Glitter Stripe
+Glitter Stripe,785560393,PA,Glitter Stripe explosion
+Glitter Stripe,785561722,PA,Glitter Stripe explosion (Focus/Weapon Action)
+Black Hole Rupture,2723321977,PA,Black Hole Rupture
+Black Hole Rupture,2286047535,PA,Black Hole Rupture AoE field
+Black Hole Rupture,2286047593,PA,Black Hole Rupture AoE field (Focus/Weapon Action)
+Luminous Flare,5834299,PA,Luminous Flare
+Luminous Flare,2338828957,PA,Luminous Flare (Focus/Weapon Action)
 Dissipating Wave,3065779131,Special,Dissipating Wave first normal attack (Form/Vades series) (Weapon Potential)
 Dissipating Wave,3065779197,Special,Dissipating Wave second normal attack (Form/Vades series) (Weapon Potential)
 Dissipating Wave,3065778236,Special,Dissipating Wave third normal attack (Form/Vades series) (Weapon Potential)
-Dissipating Wave,1195472353,Special,Dissipating Wave　(Rod?) (Form/Vades series) (Weapon Potential)
-Dissipating Wave,1195472288,Special,Dissipating Wave　(Rod?) (Form/Vades series) (Weapon Potential)
-Dissipating Wave,1195474500,Special,Dissipating Wave　(Rod?) (Form/Vades series) (Weapon Potential)
+Dissipating Wave,1195472353,Special,Dissipating Wave first normal attack (and Step Attack)　(Phantom) (Form/Vades series) (Weapon Potential)
+Dissipating Wave,1195472288,Special,Dissipating Wave second normal attack (Phantom) (Form/Vades series) (Weapon Potential)
+Dissipating Wave,1195474500,Special,Dissipating Wave third normal attack　(Phantom) (Form/Vades series) (Weapon Potential)
+Dissipating Wave,2738251077,Special,Dissipating Wave (Etoile) first normal attack (Form/Vades series) (Weapon Potential)
+Dissipating Wave,2924000350,Special,Dissipating Wave (Etoile) second normal attack (Form/Vades series) (Weapon Potential)
+Dissipating Wave,2029349838,Special,Dissipating Wave (Etoile) third normal attack (Form/Vades series) (Weapon Potential)
 Mysterious Conjurer,4139628318,Special,Mysterious Conjurer (Lavis Cannon) (Weapon Potential)
 Mysterious Conjurer,4139628288,Special,Heavy Hammer PA Mysterious Conjurer (Lavis Cannon) (Weapon Potential)
 Mysterious Conjurer,4139628319,Special,Heavy Hammer PA Mysterious Conjurer (Lavis Cannon) (Weapon Potential)
+Mysterious Conjurer,1919700754,Special,Mysterious Conjurer (Etoile) (Lavis Cannon) (Weapon Potential)
 Thundering Blades,2924634920,Special,Thundering Blades (Jupiter Tullus) (Weapon Potential)
+Thundering Blades,2194522995,Special,Thundering Blades (Etoile) (Jupiter Tullus) (Weapon Potential)
 Elusive Blades,2311811561,Special,Elusive Blades (Bullet Kunai) (Weapon Potential)
 Antique Shot,2482321781,Special,Antique Shot (Spread Needle) (Weapon Potential)
 Antique Shot,3918796978,Special,Antique Shot (Phantom) (Spread Needle) (Weapon Potential)
@@ -1243,7 +1320,7 @@ Byakko Accordant,1989470535,Special,Byakko Accordant (Shiho Byakko) (Weapon Pote
 Soulbound Guillotine,895229155,Special,Soulbound Guillotine =100% HP (Corrupted Spear Epitemia) (Weapon Potential)
 Soulbound Guillotine,2876421265,Special,Soulbound Guillotine <100% HP (Corrupted Spear Epitemia) (Weapon Potential)
 S1: Reckless Strike,818692292,Special,S1: Reckless Strike (S-Class Special Ability)
-S4: Raising Pursuit,99411394,Special,S4: Raising Pursuit(S-Class Special Ability)
+S4: Raising Pursuit,99411394,Special,S4: Raising Pursuit (S-Class Special Ability)
 BOOSTO KICKU,85301614,Special,Tokyo speed-pad kick level 1
 BOOSTO KICKU,85302964,Special,Tokyo speed-pad kick level 2 
 BOOSTO KICKU,85303029,Special,Tokyo speed-pad kick level 3
