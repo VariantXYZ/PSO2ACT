@@ -1203,7 +1203,6 @@ Double Saber hit (Etoile),169524061,Melee,Etoile Double Saber second normal atta
 Double Saber hit (Etoile),3511369619,Melee,Etoile Double Saber third normal attack
 Double Saber hit (Etoile),601312782,Melee,Etoile Double Saber air first normal attack
 Double Saber hit (Etoile),2524726786,Melee,Etoile Double Saber air second normal attack
-Double Saber hit (Etoile),3511369619,Melee,Etoile Double Saber air third normal attack
 Double Saber Step Attack (Etoile),1877753403,Melee,Etoile Double Saber Step Attack
 Double Saber Weapon Action (Etoile),3703502919,Special,Etoile Double Saber Weapon Action first-in-a-row
 Double Saber Weapon Action (Etoile),1299126211,Special,Etoile Double Saber Weapon Action second-in-a-row
@@ -1220,8 +1219,8 @@ Saber Destruction,2697421419,PA,Saber Destruction second
 Saber Destruction,2697421354,PA,Saber Destruction final
 Shooting Star,3186989454,PA,Shooting Star
 Shooting Star,3186990914,PA,Shooting Star swords
-Celestial Collide3016370354,PA,Celestial Collide
-Celestial Collide3016370673,PA,Celestial Collide sword
+Celestial Collide,3016370354,PA,Celestial Collide
+Celestial Collide,3016370673,PA,Celestial Collide sword
 Dual Blades hit (Etoile),634701582,Melee,Etoile Dual Blades  first normal attack
 Dual Blades hit (Etoile),3591995488,Melee,Etoile Dual Blades second normal attack
 Dual Blades hit (Etoile),3591995809,Melee,Etoile Dual Blades second normal attack kick
