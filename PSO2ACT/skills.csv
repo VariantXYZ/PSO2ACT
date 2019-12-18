@@ -1207,8 +1207,12 @@ Double Saber Step Attack (Etoile),1877753403,Melee,Etoile Double Saber Step Atta
 Double Saber Weapon Action (Etoile),3703502919,Special,Etoile Double Saber Weapon Action first-in-a-row
 Double Saber Weapon Action (Etoile),1299126211,Special,Etoile Double Saber Weapon Action second-in-a-row
 Double Saber Weapon Action (Etoile),2505461367,Special,Etoile Double Saber Weapon Action small swords
-Double Saber Weapon Action (Etoile),3703475885,Special,Etoile Double Saber PA to Weapon Action
-Double Saber Gear (Etoile),3674749665,Special,Etoile Double Saber Gear (Et skill)
+Double Saber Weapon Action (Etoile),3703475948,Special,Etoile Double Saber Weapon Action parry first-in-a-row
+Double Saber Weapon Action (Etoile),1299131665,Special,Etoile Double Saber Weapon Action parry second-in-a-row
+Double Saber Weapon Action (Etoile),3703475885,Special,Etoile Double Saber Weapon Action (Quick Take) first-in-a-row (Et skill)
+Double Saber Weapon Action (Etoile),1299131728,Special,Etoile Double Saber Weapon Action (Quick Take) second-in-a-row (Et skill)
+Double Saber Gear (Etoile),2428433047,Special,Etoile Double Saber Gear no gear (Et skill)
+Double Saber Gear (Etoile),3674749665,Special,Etoile Double Saber Gear 1 gear (Et skill)
 Double Saber Step Slide Attack,3668847214,Special,Double Saber Step Slide Attack (Et skill)
 Double Saber Step Guard,3668848108,Special,Double Saber Step Guard (Et skill)
 Absolute Quasar,3023957695,PA,Absolute Quasar dash hit
@@ -1233,6 +1237,7 @@ Dual Blades Gear (Etoile),2848757556,Special,Etoile Dual Blades Gear (Connect) f
 Dual Blades Gear (Etoile),3689006720,Special,Etoile Dual Blades Gear (Connect) semi-final hit (Et skill)
 Dual Blades Gear (Etoile),3689006745,Special,Etoile Dual Blades Gear (Connect) final hit (Et skill)
 Dual Blades Gear (Etoile),2511501523,Special,Etoile Dual Blades Gear (Full Connect) (Et skill)
+Dual Blades Gear (Etoile),2511501522,Special,Etoile Dual Blades Gear slash (Full Connect) (Et skill)
 Distortion Piece,2146020536,PA,Distortion Piece first hit
 Distortion Piece,2146020473,PA,Distortion Piece second hit
 Distortion Piece,2146021178,PA,Distortion Piece final hit
@@ -1270,6 +1275,7 @@ Glitter Stripe,4020026781,PA,Glitter Stripe
 Glitter Stripe,785560393,PA,Glitter Stripe explosion
 Glitter Stripe,785561722,PA,Glitter Stripe explosion (Focus/Weapon Action)
 Black Hole Rupture,2723321977,PA,Black Hole Rupture
+Black Hole Rupture,2710202273,PA,Black Hole Rupture AoE field generating slash
 Black Hole Rupture,2286047535,PA,Black Hole Rupture AoE field
 Black Hole Rupture,2286047593,PA,Black Hole Rupture AoE field (Focus/Weapon Action)
 Luminous Flare,5834299,PA,Luminous Flare
