@@ -1225,6 +1225,7 @@ Dual Blades hit (Etoile),634701582,Melee,Etoile Dual Blades  first normal attack
 Dual Blades hit (Etoile),3591995488,Melee,Etoile Dual Blades second normal attack
 Dual Blades hit (Etoile),3591995809,Melee,Etoile Dual Blades second normal attack kick
 Dual Blades hit (Etoile),634701708,Melee,Etoile Dual Blades third normal attack hit
+Dual Blades Step Attack (Etoile),3216339209,Melee,Etoile Dual Blades Step Attack first hit
 Dual Blades Step Attack (Etoile),3216339272,Melee,Etoile Dual Blades Step Attack second hit
 Dual Blades Weapon Action (Etoile),762625001,Special,Etoile Dual Blades Weapon Action thrown sword
 Dual Blades Weapon Action (Etoile),2717596840,Special,Etoile Dual Blades Weapon Action guard
@@ -1243,6 +1244,7 @@ Radiant Sting,2350220858,PA,Radiant Sting side swords
 Radiant Sting,1624837806,PA,Radiant Sting final hit
 Vertical Flow,1625099890,PA,Vertical Flow jump hit
 Vertical Flow,1625099760,PA,Vertical Flow downward hit
+Vertical Flow,2419210264,PA,Vertical Flow ???
 Vertical Flow,2419211090,PA,Vertical Flow X slash
 Vertical Flow,1609610974,PA,Vertical Flow left side sword
 Vertical Flow,1609610314,PA,Vertical Flow right side sword
@@ -1256,12 +1258,14 @@ Wand hit (Etoile),4018085752,Melee,Etoile Wand first normal attack
 Wand hit (Etoile),4018085689,Melee,Etoile Wand second normal attack
 Wand hit (Etoile),4018085882,Melee,Etoile Wand third normal attack
 Wand Step Attack (Etoile),3968236707,Melee,Etoile Wand Step Attack 
-Wand Gear (Etoile),3381519387,Special,Etoile Wand Gear 1st charge explosion
-Wand Gear (Etoile),3381519386,Special,Etoile Wand Gear 2nd charge first explosion
-Wand Gear (Etoile),3099099080,Special,Etoile Wand Gear 2nd charge big explosion
-Prism Circular,88841907,PA,Prism Circular first hit
-Prism Circular,288338327,PA,Prism Circular slash
-Prism Circular,88842224,PA,Prism Circular (Focus/Weapon Action)
+Wand Gear (Etoile),1295321598,Special,Etoile Wand Gear projectile (Et skill)
+Wand Gear (Etoile),3381519387,Special,Etoile Wand Gear 1st charge explosion (Et skill)
+Wand Gear (Etoile),3381519386,Special,Etoile Wand Gear 2nd charge first explosion (Et skill)
+Wand Gear (Etoile),3099099080,Special,Etoile Wand Gear 2nd charge big explosion (Et skill)
+Prism Circular,699328332,PA,Prism Circular hold
+Prism Circular,788841907,PA,Prism Circular first hit
+Prism Circular,4288338327,PA,Prism Circular slash
+Prism Circular,788842224,PA,Prism Circular (Focus/Weapon Action)
 Glitter Stripe,4020026781,PA,Glitter Stripe
 Glitter Stripe,785560393,PA,Glitter Stripe explosion
 Glitter Stripe,785561722,PA,Glitter Stripe explosion (Focus/Weapon Action)
