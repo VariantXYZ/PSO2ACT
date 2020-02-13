@@ -685,9 +685,9 @@ Parallel Slider (C),3857649477,PA,Parallel Slider (Type-0)
 Satellite Cannon,2295790933,PA,Satellite Cannon (no charge)
 Satellite Cannon,2295790868,PA,Satellite Cannon (half charge)
 Satellite Cannon,2295790295,PA,Satellite Cannon (full charge)
-End Attraction,2285537842,PA,End Attraction (no charge)
-End Attraction,2285537907,PA,End Attraction (half charge)
-End Attraction,2285538736,PA,End Attraction (full charge)
+End Attract,2285537842,PA,End Attract (no charge)
+End Attract,2285537907,PA,End Attract (half charge)
+End Attract,2285538736,PA,End Attract (full charge)
 Gravity Bomb,3695311812,Special,Gravity Bomb
 Stun Grenade,506640607,Special,Stun Grenade
 Upper Trap,2460168075,Special,Upper Trap (Ra skill)
@@ -1307,8 +1307,8 @@ Quadruple Grenade,3193149642,Ranged,Quadruple Grenade (first normal attack) (Yas
 Quadruple Grenade,3193417863,Ranged,Quadruple Grenade (second normal attack) (Yasminkov 4000FJ) (Weapon Potential)
 Quadruple Grenade,3191508501,Ranged,Quadruple Grenade (third normal attack) (Yasminkov 4000FJ) (Weapon Potential)
 Dive Roll Shoot (Quadruple Grenade),3569343302,Ranged,Quadruple Grenade (Dive Roll Shoot) (Yasminkov 4000FJ) (Weapon Potential)
-Auxiliary Dart,2512505424,Special,Auxiliary Dart (Radius Arca) (Weapon Potential)
-Auxiliary Dart,2512505439,Special,Auxiliary Dart (Radius Arca) (Weapon Potential)
+Auxiliary Dart,2512505424,Special,Auxiliary Dart (normal) (Radius Arca) (Weapon Potential)
+Auxiliary Dart,2512505439,Special,Auxiliary Dart (after dodge) (Radius Arca) (Weapon Potential)
 Hexing Spirit,3555827165,Special,Hexing Spirit (Cursed Slayer Gaen) (Weapon Potential) probably depends on the number of normal attacks
 Hexing Spirit,3555827167,Special,Hexing Spirit (Cursed Slayer Gaen) (Weapon Potential) probably depends on the number of normal attacks
 Hexing Spirit,3555827164,Special,Hexing Spirit (Cursed Slayer Gaen) (Weapon Potential) probably depends on the number of normal attacks
@@ -1332,6 +1332,8 @@ Soulbound Guillotine,895229155,Special,Soulbound Guillotine =100% HP (Corrupted 
 Soulbound Guillotine,2876421265,Special,Soulbound Guillotine <100% HP (Corrupted Spear Epitemia) (Weapon Potential)
 S1: Reckless Strike,818692292,Special,S1: Reckless Strike (S-Class Special Ability)
 S4: Raising Pursuit,99411394,Special,S4: Raising Pursuit (S-Class Special Ability)
+S5: Auxiliary Arrow,4233010551,S5: Auxiliary Arrow (normal) (S-Class Special Ability)
+S5: Auxiliary Arrow,4233010550,S5: Auxiliary Arrow (after dodge) (S-Class Special Ability)
 BOOSTO KICKU,85301614,Special,Tokyo speed-pad kick level 1
 BOOSTO KICKU,85302964,Special,Tokyo speed-pad kick level 2 
 BOOSTO KICKU,85303029,Special,Tokyo speed-pad kick level 3
