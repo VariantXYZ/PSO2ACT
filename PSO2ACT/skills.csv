@@ -1332,8 +1332,8 @@ Soulbound Guillotine,895229155,Special,Soulbound Guillotine =100% HP (Corrupted 
 Soulbound Guillotine,2876421265,Special,Soulbound Guillotine <100% HP (Corrupted Spear Epitemia) (Weapon Potential)
 S1: Reckless Strike,818692292,Special,S1: Reckless Strike (S-Class Special Ability)
 S4: Raising Pursuit,99411394,Special,S4: Raising Pursuit (S-Class Special Ability)
-S5: Auxiliary Arrow,4233010551,S5: Auxiliary Arrow (normal) (S-Class Special Ability)
-S5: Auxiliary Arrow,4233010550,S5: Auxiliary Arrow (after dodge) (S-Class Special Ability)
+S5: Auxiliary Arrow,4233010551,Special,S5: Auxiliary Arrow (normal) (S-Class Special Ability)
+S5: Auxiliary Arrow,4233010550,Special,S5: Auxiliary Arrow (after dodge) (S-Class Special Ability)
 BOOSTO KICKU,85301614,Special,Tokyo speed-pad kick level 1
 BOOSTO KICKU,85302964,Special,Tokyo speed-pad kick level 2 
 BOOSTO KICKU,85303029,Special,Tokyo speed-pad kick level 3
