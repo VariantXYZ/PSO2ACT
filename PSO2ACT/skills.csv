@@ -170,13 +170,13 @@ Sword hit,1215367338,Melee,Sword_ 3rd
 Sword hit,1331225593,Melee,Sword air first normal attack 
 Sword hit,1331225146,Melee,Sword air second normal attack
 Sword hit,1331225211,Melee,Sword air third normal attack
-Sword Step Attack (C),1279043576,Melee,Sword Step Attack (Sacrifice's Bite ver) (unused as of 2018 Oct 10)
-Sword hit (C),2001359545,Melee,Sword first normal attack (Sacrifice's Bite ver) (unused as of 2018 Oct 10)
-Sword hit (C),2002747972,Melee,Sword second normal attack (Sacrifice's Bite ver) (unused as of 2018 Oct 10)
-Sword hit (C),2084739075,Melee,Sword third normal attack (Sacrifice's Bite ver) (unused as of 2018 Oct 10)
-Sword hit (C),1351584013,Melee,Sword air first normal attack (Sacrifice's Bite ver) (unused as of 2018 Oct 10)
-Sword hit (C),1353244642,Melee,Sword air second normal attack (Sacrifice's Bite ver) (unused as of 2018 Oct 10)
-Sword hit (C),1354018567,Melee,Sword air third normal attack (Sacrifice's Bite ver) (unused as of 2018 Oct 10)
+Sword Step Attack (C),1279043576,Melee,Sword Step Attack (Sacrifice Bite ver) (unused as of 2018 Oct 10)
+Sword hit (C),2001359545,Melee,Sword first normal attack (Sacrifice Bite ver) (unused as of 2018 Oct 10)
+Sword hit (C),2002747972,Melee,Sword second normal attack (Sacrifice Bite ver) (unused as of 2018 Oct 10)
+Sword hit (C),2084739075,Melee,Sword third normal attack (Sacrifice Bite ver) (unused as of 2018 Oct 10)
+Sword hit (C),1351584013,Melee,Sword air first normal attack (Sacrifice Bite ver) (unused as of 2018 Oct 10)
+Sword hit (C),1353244642,Melee,Sword air second normal attack (Sacrifice Bite ver) (unused as of 2018 Oct 10)
+Sword hit (C),1354018567,Melee,Sword air third normal attack (Sacrifice Bite ver) (unused as of 2018 Oct 10)
 Rising Edge,1227622308,PA,Start
 Rising Edge,1224723795,PA,Spin
 Twister Fall,1224723730,PA,Spin
@@ -213,14 +213,14 @@ Guilty Break,3096967243,PA,half charge 1
 Guilty Break,785070206,PA,half charge 2
 Guilty Break,3096936719,PA,full charge 1
 Guilty Break,297995916,PA,full charge 2
-Sacrifice's Bite,526157945,PA,Sacrifice's bite latch
-Sacrifice's Bite,2275427188,PA,Sacrifice's bite charges
-Sacrifice's Bite,985472180,PA,Sacrifice's bite short-charge
-Sacrifice's Bite,2606728976,PA,Sacrifice's bite smack
-Sacrifice's Bite (C),1040118139,PA,Sacrifice's Bite (Type-0) latch
-Sacrifice's Bite (C),179195970,PA,Sacrifice's Bite (Type-0) charge
-Sacrifice's Bite (C),3909378260,PA,Sacrifice's Bite (Type-0) quick-charge
-Sacrifice's Bite (C),3040541025,PA,Sacrifice's Bite (Type-0) hit
+Sacrifice Bite,526157945,PA,Sacrifice bite latch
+Sacrifice Bite,2275427188,PA,Sacrifice bite charges
+Sacrifice Bite,985472180,PA,Sacrifice bite short-charge
+Sacrifice Bite,2606728976,PA,Sacrifice bite smack
+Sacrifice Bite (C),1040118139,PA,Sacrifice Bite (Type-0) latch
+Sacrifice Bite (C),179195970,PA,Sacrifice Bite (Type-0) charge
+Sacrifice Bite (C),3909378260,PA,Sacrifice Bite (Type-0) quick-charge
+Sacrifice Bite (C),3040541025,PA,Sacrifice Bite (Type-0) hit
 Ignition Parry,3096775537,PA,Ignition Parry first four strikes (parried version uses this as well)
 Ignition Parry,54200585,PA,Ignition Parry final two strikes
 Ignition Parry,498184876,PA,Ignition Parry parried first hit
@@ -461,14 +461,14 @@ Symphonic Drive,167868454,PA,0 gear Symphonic Drive second kick
 Symphonic Drive,167868455,PA,1 gear
 Symphonic Drive,167868448,PA,2 gear
 Symphonic Drive,167868449,PA,3 gear
-Orchestra,120509749,PA,0 gear Orchestra
-Orchestra,120509750,PA,1 gear
-Orchestra,120509751,PA,2 gear
-Orchestra,120509752,PA,3 gear
-Orchestra,1362404324,PA,0 gear Orchestra finish
-Orchestra,1362404325,PA,1 gear
-Orchestra,1362404326,PA,2 gear
-Orchestra,1362404327,PA,3 gear
+Ooorchestraaa,120509749,PA,0 gear Ooorchestraaa
+Ooorchestraaa,120509750,PA,1 gear
+Ooorchestraaa,120509751,PA,2 gear
+Ooorchestraaa,120509752,PA,3 gear
+Ooorchestraaa,1362404324,PA,0 gear Ooorchestraaa finish
+Ooorchestraaa,1362404325,PA,1 gear
+Ooorchestraaa,1362404326,PA,2 gear
+Ooorchestraaa,1362404327,PA,3 gear
 Bloody Sarabande,1022160397,PA,Bloody Saranbande 0 gear pt1
 Bloody Sarabande,1022160396,PA,Bloody Saranbande 1 gear
 Bloody Sarabande,1022160395,PA,Bloody Saranbande 2 gear
@@ -1336,6 +1336,7 @@ Golden Dragon's Eruption,4005133178,Special,Golden Dragon's Eruption (Sign Burn)
 Byakko Accordant,1989470535,Special,Byakko Accordant (Shiho Byakko) (Weapon Potential)
 Soulbound Guillotine,895229155,Special,Soulbound Guillotine =100% HP (Corrupted Spear Epitemia) (Weapon Potential)
 Soulbound Guillotine,2876421265,Special,Soulbound Guillotine <100% HP (Corrupted Spear Epitemia) (Weapon Potential)
+Golden Crest,2248412976,Special,Golden Crest (Folgore Weben) (Weapon Potential)
 S1: Reckless Strike,818692292,Special,S1: Reckless Strike (S-Class Special Ability)
 S4: Raising Pursuit,99411394,Special,S4: Raising Pursuit (S-Class Special Ability)
 S5: Auxiliary Arrow,4233010551,Special,S5: Auxiliary Arrow (normal) (S-Class Special Ability)
