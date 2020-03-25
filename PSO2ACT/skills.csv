@@ -525,6 +525,8 @@ Meteor Fist,1050511877,PA,Meteor Fist (bigass fist edition)
 Meteor Fist,70519939,PA,MEGAFIST
 Heartless Impact,1169988911,PA,Heartless Impact part 1
 Heartless Impact,63569063,PA,Heartless Impact part 2
+Fatal Knockout,465516065,Special,Fatal Knockout first two hits
+Fatal Knockout,465515874,Special,Fatal Knockout final hit
 Katana hit,3146534752,Melee,Katana 1
 Katana hit,3146534691,Melee,Katana 2
 Katana hit,3146534882,Melee,Katana 3
@@ -532,12 +534,12 @@ Katana hit,3103989825,Melee,Katana air first normal attack
 Katana hit,3103990658,Melee,Katana air second normal attack
 Katana hit,3103990723,Melee,Katana air third normal attack
 Katana Step Attack,3106156042,Melee,Katana Step
-Just Counter,2700168094,Special,Just Counter 0 gear hit
-Just Counter,2700168093,Special,Just Counter 1 gear
-Just Counter,2700168092,Special,Just Counter 2 gear
-Just Counter,4143333980,Special,Just Counter 3 gear
-Just Counter,4136181738,Special,Just Counter (2-3 gear) second hit
-Counter Edge,1987114712,Special,Counter Edge 0-1 gear
+Just Counter,2700168094,Special,Just Counter 0 gear hit (unused as of 2020 March 25)
+Just Counter,2700168093,Special,Just Counter 1 gear (unused as of 2020 March 25)
+Just Counter,2700168092,Special,Just Counter 2 gear (unused as of 2020 March 25)
+Just Counter,4143333980,Special,Just Counter 3 gear (unused as of 2020 March 25)
+Just Counter,4136181738,Special,Just Counter (outdated: (2-3 gear) second hit)
+Counter Edge,1987114712,Special,Counter Edge 0-1 gear (unused as of 2020 March 25)
 Counter Edge,4184015666,Special,Counter Edge 2-3 gear
 Tsukimi-sazanka,3148575588,PA,Tsukimi-sazanka
 Gekka-zakuro,215665118,PA,Gekka-zakuro downswing
@@ -874,6 +876,8 @@ Grim Barrage,1235843178,PA,Grim Barrage (part 2) 0 gear
 Grim Barrage,1235843181,PA,1 gear
 Grim Barrage,1235843180,PA,2 gear
 Grim Barrage,1235843183,PA,3 gear
+Calamity Bullet,1900182416,Special,Calamity Bullet hits
+Calamity Bullet,1918289664,Special,Calamity Bullet final two hits
 Jet Boots hit,3540874879,Melee,First Attack
 Jet Boots hit,2778548652,Melee,Second Attack
 Jet Boots hit,3614558463,Melee,Third Attack
