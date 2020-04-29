@@ -205,8 +205,8 @@ Sonic Arrow,3096768032,PA,full gear
 Sonic Arrow,1410023705,PA,???
 Cruel Throw,2150373435,PA,grab
 Cruel Throw,1224724117,PA,thrown
-Enemy Thrown,2164805818,PA,beatdown
-Enemy Thrown (C),1107498562,PA,Enemy Thrown (C)
+Enemy Thrown,2164805818,PA,Enemy Thrown (enemy grabbed only has a single hitbox)
+Enemy Thrown,1107498562,PA,Enemy Thrown (enemy grabbed has multiple hitboxes)
 Guilty Break,3096967176,PA,no charge 1
 Guilty Break,784836873,PA,no charge 2
 Guilty Break,3096967243,PA,half charge 1
@@ -286,6 +286,7 @@ Bind Through,2996928382,PA,Bind Through pickup
 Bind Through,377627045,PA,Bind Through slam
 Grapple Charge,1615246036,PA,Grapple Charge grapple
 Grapple Charge,1667543020,PA,Grapple Charge charge
+Grapple Charge,1910262360,PA,Grapple Charge charge (grapple missed)
 Heavenly Fall,4142951253,PA,Heavenly Fall heaven
 Heavenly Fall,1713894514,PA,Heavenly Fall fall
 Other Cyclone,1850125110,PA,Other Cyclone grab
