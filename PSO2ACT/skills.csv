@@ -205,8 +205,8 @@ Sonic Arrow,3096768032,PA,full gear
 Sonic Arrow,1410023705,PA,???
 Cruel Throw,2150373435,PA,grab
 Cruel Throw,1224724117,PA,thrown
-Enemy Thrown,2164805818,PA,Enemy Thrown single-part enemy hit
-Enemy Thrown,1107498562,PA,Enemy Thrown multi-part enemy hit
+Enemy Thrown,2164805818,PA,Enemy Thrown (enemy grabbed only has a single hitbox)
+Enemy Thrown,1107498562,PA,Enemy Thrown (enemy grabbed has multiple hitboxes)
 Guilty Break,3096967176,PA,no charge 1
 Guilty Break,784836873,PA,no charge 2
 Guilty Break,3096967243,PA,half charge 1
