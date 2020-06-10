@@ -229,6 +229,8 @@ Ignition Parry,54200648,PA,Ignition Parry 1 gear last 2 hits
 Ignition Parry,54200890,PA,Ignition Parry 2 gear last 2 hits
 Ignition Parry,915578993,PA,Ignition Parry 1 gear last 2 hits parried
 Ignition Parry,915561415,PA,Ignition Parry 2 gear last 2 hits parried
+Imperial Cleave,3811494773,Special,Imperial Cleave hit
+Imperial Cleave,2499265502,Special,Imperial Cleave slash
 Partizan hit,2285482403,Melee,Partisan 1
 Partizan hit,2226608029,Melee,Partisan 2
 Partizan hit,3208780153,Melee,Partisan 3
@@ -276,8 +278,6 @@ Tear Grid,3331228937,PA,Tear Grid combo hits
 Tear Grid,195498830,PA,Tear Grid final hit
 Tear Grid,3630719180,PA,Tear Grid combo hits(g)
 Tear Grid,3226393072,PA,Tear Grid final hit (g)
-Imperial Cleave,3811494773,Special,Imperial Cleave hit
-Imperial Cleave,2499265502,Special,Imperial Cleave slash
 Wired Lances hit,1667827810,Melee,Wired Lance 1
 Wired Lances hit,1667827875,Melee,Wired Lance 2
 Wired Lances hit,1667828192,Melee,Wired Lance 3
@@ -668,6 +668,8 @@ Tritt Shooter,3255472210,PA,Tritt Shooter (crafted) roundhouse
 Banishing Arrow,348753019,PA,Banishing Arrow
 Million Storm,294264661,PA,Million Storm
 Chase Arrow,294264342,PA,Chase Arrow
+Cerulean Ballista,3760583070,Special,Cerulean Ballista no direction held
+Cerulean Ballista,3760583384,Special,Cerulean Ballista any direction held
 Assault Rifle hit,1856399071,Ranged,Rifle shot
 Dive Roll (Assault Rifle) hit,220156466,Ranged,Rifle Diveroll shoot
 Weak Bullet,713142898,Special,Weak bullet hit
@@ -1114,6 +1116,7 @@ Hero Counter (Twin Machine Guns),1905792389,Ranged,Hero Twin Machine Guns Step A
 Brand New Star,2832005595,PA,Brand New Star
 Brand New Star (Counter),1399183080,PA,Brand New Star after dodge
 Final Storm,2832005530,PA,Final Storm
+Final Storm,1399183806,PA,Final Storm final hit
 Second Edge,2832005465,PA,Second Edge
 Moment Trick,2832005400,PA,Moment Trick
 Switch to Sword,2817683590,Melee,Switch to Sword
