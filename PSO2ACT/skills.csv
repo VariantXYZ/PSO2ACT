@@ -937,13 +937,13 @@ Wanda Pulsar,933701936,PA,Wanda Pulsar
 Wanda Pulsar,4223323079,PA,Wanda Pulsar
 Wanda Slicer,2918501417,PA,Wanda Slicer
 Wanda Slicer,2918501480,PA,Wanda Slicer
-Cery hit,639929291,Melee,Cery auto-attack 1
-Cery Plode,2156897712,PA,Cery Plode
-Cery/Popple Territory,493814577,PA,Cery/Popple Territory
-Cery/Popple Territory,493814640,PA,Cery/Popple Territory power-up
-Cery Curse,3581010262,PA,Cery Curse
-Cery Fall,385030021,PA,Cery Fall
-Cery Chaser,385050960,PA,Cery Chaser
+Sally hit,639929291,Melee,Sally auto-attack 1
+Sally Plode,2156897712,PA,Sally Plode
+Sally/Popple Territory,493814577,PA,Sally/Popple Territory
+Sally/Popple Territory,493814640,PA,Sally/Popple Territory power-up
+Sally Curse,3581010262,PA,Sally Curse
+Sally Fall,385030021,PA,Sally Fall
+Sally Chaser,385050960,PA,Sally Chaser
 Trim hit,487482498,Melee,Trim auto-attack 1
 Trim hit,487482435,Melee,Trim auto-attack 2
 Trim hit,487489051,Melee,Trim auto-attack 3
@@ -1070,6 +1070,16 @@ Redran Mine,1312015390,PA,Redran Mine explosion
 Redran Burst,1282005173,PA,Redran Burst 1-3 balls
 Redran Burst,1282005238,PA,Redran Burst 4-7 balls
 Redran Burst,1282005047,PA,Redran Burst 8 balls
+Glass hit,3395240567,Melee,Glass normal attack
+Glass Laser,848194963,PA,Glass Laser 2 lock-on
+Glass Laser,848195026,PA,Glass Laser 3 lock-on
+Glass Laser,848195090,PA,Glass Laser 4 lock-on
+Glass Slash,2731019914,PA,Glass Slash
+Glass Mine,2731019595,PA,Glass Mine
+Glass Mine,853221906,PA,Glass Mine DoT
+Glass Burst,1279678971,PA,Glass Burst 1-3 balls
+Glass Burst,1279678906,PA,Glass Burst 4-7 balls
+Glass Burst,1279679082,PA,Glass Burst 8 balls
 Sword hit (Hero),2444771520,Melee,Hero Sword first normal attack
 Sword hit (Hero),2444771715,Melee,Hero Sword second normal attack
 Sword hit (Hero),2832347180,Melee,Hero Sword third normal attack first hit
