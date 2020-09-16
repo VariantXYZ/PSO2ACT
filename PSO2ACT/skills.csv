@@ -337,7 +337,8 @@ Ein Raketen (C),2001154192,PA,Ein Raketen (type-0) slash
 Serpent Air,3780905363,PA,Serpent Air hits
 Serpent Air,3959349048,PA,Serpent Air final hit
 Aiming Shot,1657878962,PA,Aiming Shot (uncharged)
-Aiming Shot,1657879790,PA,Aiming shot (charged)
+Aiming Shot,1657879790,PA,Aiming Shot (Charge lv.1)
+Aiming Shot,1657880367,PA,Aiming Shot (Charge lv.2)
 Thrillsplosion,3912567547,PA,Thrillsplosion
 Slash Rave,799003079,PA,Slash rave combo hits
 Slash Rave,799003014,PA,Slash rave finishing shot part 1
@@ -1344,13 +1345,19 @@ Slug Scatter (Fomel),4242543394,PA,Luster Slug Scatter direction hold final hits
 Hollow Point (Fomel),3029011960,PA,Luster Hollow Point stationary
 Hollow Point (Fomel),98235939,PA,Luster Hollow Point stationary hold
 Hollow Point (Fomel),98208226,PA,Luster Hollow Point stationary hold final hits
+Hollow Point (Fomel),3198762365,PA,Luster Hollow Point direction
+Hollow Point (Fomel),2909644564,PA,Luster Hollow Point direction hold hits
+Hollow Point (Fomel),2909644629,PA,Luster Hollow Point direction hold final hits
 Slash Fall (Fomel),944554419,Special,Luster Slash Fall (Lu skill)
 Slash Fall (Fomel),1927014535,Special,Luster Slash Fall hold (Lu skill)
 Slash Fall (Fomel),2413146675,Special,Luster Slash Fall air sword hit (Lu skill)
 Slash Rise (Fomel),3645978248,Special,Luster Slash Rise (Lu skill)
 Slash Rise (Fomel),3084143207,Special,Luster Slash Rise hold (Lu skill)
 Quick Slash (Fomel),2580374948,Special,Luster Quick Slash stationary (Lu skill)
-Quick Slash (Fomel),3498754478,Special,Luster Quick Slash direction (Lu skill)
+Quick Slash (Fomel),3498754478,Special,Luster Quick Slash forward (Lu skill)
+Quick Slash (Fomel),2547839819,Special,Luster Quick Slash right side (Lu skill)
+Quick Slash (Fomel),1600689712,Special,Luster Quick Slash backwards (Lu skill)
+Quick Slash (Fomel),1715505987,Special,Luster Quick Slash left side (Lu skill)
 Quick Shoot (Fomel),1592168506,Special,Luster Quick Shoot (Lu skill)
 Photon Cluster (Fomel),2612099040,Special,Luster Photon Cluster (Lu skill)
 Style Purge (Fomel),3745407130,Special,Luster Style Purge Fomel hit (Lu skill)
@@ -1399,7 +1406,10 @@ Slash Fall (Zandi),1458283045,Special,Luster Slash Fall air sword hit (Lu skill)
 Slash Rise (Zandi),1519968653,Special,Luster Slash Rise (Lu skill)
 Slash Rise (Zandi),440065617,Special,Luster Slash Rise hold (Lu skill)
 Quick Slash (Zandi),653852694,Special,Luster Quick Slash stationary (Lu skill)
-Quick Slash (Zandi),1798013007,Special,Luster Quick Slash direction (Lu skill)
+Quick Slash (Zandi),3847747973,Special,Luster Quick Slash forward (Lu skill)
+Quick Slash (Zandi),2370661157,Special,Luster Quick Slash right side (Lu skill)
+Quick Slash (Zandi),3496008220,Special,Luster Quick Slash backwards (Lu skill)
+Quick Slash (Zandi),1798013007,Special,Luster Quick Slash left side (Lu skill)
 Quick Shoot (Zandi),349461351,Special,Luster Quick Shoot (Lu skill)
 Style Purge (Zandi),95182487,Special,Luster Style Purge Zandi hit (Lu skill)
 Gunslash hit (Luster Baran),788266949,Melee,Luster Baran first normal attack
@@ -1451,7 +1461,10 @@ Slash Fall (Baran),3614105314,Special,Luster Slash Fall air sword hit (Lu skill)
 Slash Rise (Baran),1593374957,Special,Luster Slash Rise (Lu skill)
 Slash Rise (Baran),185538533,Special,Luster Slash Rise hold (Lu skill)
 Quick Slash (Baran),1999157312,Special,Luster Quick Slash stationary (Lu skill)
-Quick Slash (Baran),1096591425,Special,Luster Quick Slash direction (Lu skill)
+Quick Slash (Baran),1096591425,Special,Luster Quick Slash forward (Lu skill)
+Quick Slash (Baran),1210048760,Special,Luster Quick Slash right side (Lu skill)
+Quick Slash (Baran),1535197318,Special,Luster Quick Slash backwards (Lu skill)
+Quick Slash (Baran),915528908,Special,Luster Quick Slash left side (Lu skill)
 Quick Shoot (Baran),908867453,Special,Luster Quick Shoot (Lu skill)
 Style Purge (Baran),877930414,Special,Luster Style Purge Baran hit (Lu skill)
 Gunslash hit (Luster non-element),246459449,Melee,Luster non-element first normal attack
@@ -1495,7 +1508,10 @@ Slash Fall (non-element),2557185610,Special,Luster Slash Fall air sword hit (Lu 
 Slash Rise (non-element),1395796309,Special,Luster Slash Rise (Lu skill)
 Slash Rise (non-element),53211277,Special,Luster Slash Rise hold (Lu skill)
 Quick Slash (non-element),1546305539,Special,Luster Quick Slash stationary (Lu skill)
-Quick Slash (non-element),606882270,Special,Luster Quick Slash direction (Lu skill)
+Quick Slash (non-element),2097365226,Special,Luster Quick Slash forward (Lu skill)
+Quick Slash (non-element),2665468148,Special,Luster Quick Slash right side (Lu skill)
+Quick Slash (non-element),1329182457,Special,Luster Quick Slash backwards (Lu skill)
+Quick Slash (non-element),606882270 ,Special,Luster Quick Slash left side (Lu skill)
 Luster Time,30537184,Special,Luster Luster Time explosion (Lu skill)
 Luster Time,1972006612,Special,Luster Luster Time first hit (Lu skill)
 Luster Time,1972006615,Special,Luster Luster Time first multiple hits (Lu skill)
@@ -1547,6 +1563,7 @@ Luminecho Guillotine,895846384,Special,Luminecho Guillotine (Orgei Malice) (Weap
 Luminecho Guillotine,832000006,Special,Luminecho Guillotine (Orgei Malice) (Weapon Potential)
 Variating Redress,3714671926,Special,Variating Redress (Genon series) (Weapon Potential)
 Golden Dragon's Eruption,4005133178,Special,Golden Dragon's Eruption (Sign Burn) (Weapon Potential)
+Golden Dragon's Eruption,4070982583,Special,Golden Dragon's Eruption (Luster) (Sign Burn) (Weapon Potential)
 Byakko Accordant,1989470535,Special,Byakko Accordant (Shiho Byakko) (Weapon Potential)
 Soulbound Guillotine,895229155,Special,Soulbound Guillotine =100% HP (Corrupted Spear Epitemia) (Weapon Potential)
 Soulbound Guillotine,2876421265,Special,Soulbound Guillotine <100% HP (Corrupted Spear Epitemia) (Weapon Potential)
