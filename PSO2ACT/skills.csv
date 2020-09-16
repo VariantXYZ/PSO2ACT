@@ -1311,6 +1311,7 @@ Gunslash hit (Luster Fomel),1771344883,Melee,Luster second normal attack
 Gunslash hit (Luster Fomel),2314478622,Melee,Luster third normal attack
 Gunslash hit (Luster Fomel),1917552622,Melee,Luster Extra Attack (Lu skill)
 Gunslash hit (Luster Fomel),204848271,Melee,Luster normal attack hold
+Gunslash hit (Luster Fomel),1952842142,Melee,Luster normal attack hold no gear
 Photon Spear,3274277101,Special,Luster Photon Spear
 Gunslash Step Attack (Luster Fomel),3286390190,Melee,Luster Step Attack
 Luster Counter (Fomel),4109993569,Special,Luster Step Counter (Lu skill)
@@ -1353,6 +1354,22 @@ Slash Fall (Fomel),1927014535,Special,Luster Slash Fall hold (Lu skill)
 Slash Fall (Fomel),2413146675,Special,Luster Slash Fall air sword hit (Lu skill)
 Slash Rise (Fomel),3645978248,Special,Luster Slash Rise (Lu skill)
 Slash Rise (Fomel),3084143207,Special,Luster Slash Rise hold (Lu skill)
+Slash Fall (Fomel),2095263219,Special,Luster Slash Fall hold no gear (Lu skill)
+Slash Rise (Fomel),2992516031,Special,Luster Slash Rise hold no gear (Lu skill)
+Flechette (Fomel),1165627302,PA,Luster Flechette Fomel stationary hold no gear
+Flechette (Fomel),869974062,PA,Luster Flechette direction hold hit no gear
+Flechette (Fomel),869975021,PA,Luster Flechette direction hold final hit no gear
+Brand Extension (Fomel),3491739985,PA,Luster Brand Extension stationary hold no gear hits
+Brand Extension (Fomel),3491739792,PA,Luster Brand Extension stationary hold no gear final hits
+Brand Extension (Fomel),2089638825,PA,Luster Brand Extension direction hold no gear hits
+Brand Extension (Fomel),2089638888,PA,Luster Brand Extension direction hold no gear final hits
+Slug Scatter (Fomel),3300417638,PA,Luster Slug Scatter stationary hold no gear
+Slug Scatter (Fomel),2641984285,PA,Luster Slug Scatter direction hold hits no gear 
+Slug Scatter (Fomel),2641984348,PA,Luster Slug Scatter direction hold final hits no gear
+Hollow Point (Fomel),1339015403,PA,Luster Hollow Point stationary hold hits no gear
+Hollow Point (Fomel),1339015336,PA,Luster Hollow Point stationary hold final hits no gear
+Hollow Point (Fomel),3051384498,PA,Luster Hollow Point direction hold hits no gear
+Hollow Point (Fomel),3051384305,PA,Luster Hollow Point direction hold final hits no gear
 Quick Slash (Fomel),2580374948,Special,Luster Quick Slash stationary (Lu skill)
 Quick Slash (Fomel),3498754478,Special,Luster Quick Slash forward (Lu skill)
 Quick Slash (Fomel),2547839819,Special,Luster Quick Slash right side (Lu skill)
@@ -1366,6 +1383,7 @@ Gunslash hit (Luster Zandi),1454771500,Melee,Luster Zandi second normal attack
 Gunslash hit (Luster Zandi),1192707064,Melee,Luster Zandi third normal attack 
 Gunslash hit (Luster Zandi),2748387183,Melee,Luster Zandi Extra Attack (Lu skill)
 Gunslash hit (Luster Zandi),4165096601,Melee,Luster normal attack hold
+Gunslash hit (Luster Zandi),3028393901,Melee,Luster normal attack hold no gear
 Gunslash Step Attack (Luster Zandi),4035900181,Melee,Luster Step Attack
 Step Guard (Zandi),2785427875,Special,Luster Step Guard (Lu skill)
 Luster Counter (Zandi),3402465838,Special,Luster Step Counter (Lu skill)
@@ -1400,11 +1418,27 @@ Hollow Point (Zandi),3218192052,PA,Luster Hollow Point stationary hold final hit
 Hollow Point (Zandi),865932846,PA,Luster Hollow Point direction
 Hollow Point (Zandi),1406227085,PA,Luster Hollow Point direction hold hits
 Hollow Point (Zandi),1406227276,PA,Luster Hollow Point direction hold final hits
+Flechette (Zandi),808927040,PA,Luster Flechette Zandi stationary hold no gear
+Flechette (Zandi),355552619,PA,Luster Flechette direction hold hit no gear
+Flechette (Zandi),355552682,PA,Luster Flechette direction hold final hit no gear
+Brand Extension (Zandi),1084186869,PA,Luster Brand Extension stationary hold hits no gear
+Brand Extension (Zandi),1084186804,PA,Luster Brand Extension stationary hold final hits no gear
+Brand Extension (Zandi),914860715,PA,Luster Brand Extension direction hold hits no gear
+Brand Extension (Zandi),914860648,PA,Luster Brand Extension direction hold final hit no gear
+Slug Scatter (Zandi),3225271342,PA,Luster Slug Scatter stationary hold no gear
+Slug Scatter (Zandi),71419540,PA,Luster Slug Scatter direction hold hits no gear
+Slug Scatter (Zandi),71417938,PA,Luster Slug Scatter direction hold final hits no gear
+Hollow Point (Zandi),2554392033,PA,Luster Hollow Point stationary hold hits no gear
+Hollow Point (Zandi),2554391840,PA,Luster Hollow Point stationary hold final hits no gear
+Hollow Point (Zandi),2618945109,PA,Luster Hollow Point direction hold hits no gear
+Hollow Point (Zandi),2618945044,PA,Luster Hollow Point direction hold final hits no gear
 Slash Fall (Zandi),942756658,Special,Luster Slash Fall (Lu skill)
 Slash Fall (Zandi),1165228084,Special,Luster Slash Fall hold (Lu skill)
 Slash Fall (Zandi),1458283045,Special,Luster Slash Fall air sword hit (Lu skill)
 Slash Rise (Zandi),1519968653,Special,Luster Slash Rise (Lu skill)
 Slash Rise (Zandi),440065617,Special,Luster Slash Rise hold (Lu skill)
+Slash Fall (Zandi),660935806,Special,Luster Slash Fall hold no gear (Lu skill)
+Slash Rise (Zandi),3302003211,Special,Luster Slash Rise hold no gear (Lu skill)
 Quick Slash (Zandi),653852694,Special,Luster Quick Slash stationary (Lu skill)
 Quick Slash (Zandi),3847747973,Special,Luster Quick Slash forward (Lu skill)
 Quick Slash (Zandi),2370661157,Special,Luster Quick Slash right side (Lu skill)
@@ -1421,6 +1455,7 @@ Gunslash slash (Luster Baran),3381272952,Special,Luster Baran second normal slas
 Gunslash slash (Luster Baran),3381273147,Special,Luster Baran third normal slash
 Gunslash slash (Luster Baran),3381273082,Special,Luster Baran Extra Attack slash (Lu skill)
 Gunslash hit (Luster Baran),3941083368,Melee,Luster normal attack hold
+Gunslash hit (Luster Baran),2775227003,Melee,Luster normal attack hold no gear
 Photon Bullet,212749371,Special,Luster Photon Bullet
 Gunslash Step Attack (Luster Baran),1527438262,Melee,Luster Step Attack
 Step Guard (Baran),3070047115,Special,Luster Step Guard (Lu skill)
@@ -1460,6 +1495,8 @@ Slash Fall (Baran),2530530277,Special,Luster Slash Fall hold (Lu skill)
 Slash Fall (Baran),3614105314,Special,Luster Slash Fall air sword hit (Lu skill)
 Slash Rise (Baran),1593374957,Special,Luster Slash Rise (Lu skill)
 Slash Rise (Baran),185538533,Special,Luster Slash Rise hold (Lu skill)
+Slash Fall (Baran),498703720,Special,Luster Slash Fall hold no gear (Lu skill)
+Slash Rise (Baran),698077075,Special,Luster Slash Rise hold no gear (Lu skill)
 Quick Slash (Baran),1999157312,Special,Luster Quick Slash stationary (Lu skill)
 Quick Slash (Baran),1096591425,Special,Luster Quick Slash forward (Lu skill)
 Quick Slash (Baran),1210048760,Special,Luster Quick Slash right side (Lu skill)
@@ -1472,6 +1509,7 @@ Gunslash hit (Luster non-element),1124900582,Melee,Luster non-element second nor
 Gunslash hit (Luster non-element),1101154530,Melee,Luster non-element third normal attack
 Gunslash hit (Luster non-element),1244140660,Melee,Luster non-element Extra Attack (Lu skill)
 Gunslash hit (Luster non-element),982712511,Melee,Luster normal attack hold
+Gunslash hit (Luster non-element),1298735458,Melee,Luster normal attack hold no gear
 Gunslash Step Attack (Luster non-element),3892948221,Melee,Luster Step Attack
 Step Guard (non-element),2480928358,Special,Luster Step Guard (Lu skill)
 Luster Counter (non-element),380547910,Special,Luster Step Counter (Lu skill)
@@ -1502,11 +1540,27 @@ Hollow Point (non-element),1165118285,PA,Luster Hollow Point stationary hold fin
 Hollow Point (non-element),3500311290,PA,Luster Hollow Point direction
 Hollow Point (non-element),619968869,PA,Luster Hollow Point direction hold hits
 Hollow Point (non-element),619962881,PA,Luster Hollow Point direction hold final hits
+Flechette (non-element),4181296419,PA,Luster Flechette non-element stationary hold no gear
+Flechette (non-element),1150187886,PA,Luster Flechette direction hold hit no gear
+Flechette (non-element),1150186814,PA,Luster Flechette direction hold final hit no gear
+Brand Extension (non-element),3548536742,PA,Luster Brand Extension stationary hold hits no gear
+Brand Extension (non-element),3548536679,PA,Luster Brand Extension stationary hold final hit no gear
+Brand Extension (non-element),139846536,PA,Luster Brand Extension direction hold hits no gear
+Brand Extension (non-element),139846217,PA,Luster Brand Extension direction hold final hit no gear
+Slug Scatter (non-element),734319635,PA,Luster Slug Scatter stationary hold no gear
+Slug Scatter (non-element),1552123291,PA,Luster Slug Scatter direction hold hits no gear
+Slug Scatter (non-element),1552123482,PA,Luster Slug Scatter direction hold final hits no gear
+Hollow Point (non-element),2934430031,PA,Luster Hollow Point stationary hold hits no gear
+Hollow Point (non-element),2934429966,PA,Luster Hollow Point stationary hold final hits no gear
+Hollow Point (non-element),508166378,PA,Luster Hollow Point direction hold hits no gear
+Hollow Point (non-element),508167726,PA,Luster Hollow Point direction hold final hits no gear
 Slash Fall (non-element),1197374983,Special,Luster Slash Fall (Lu skill)
 Slash Fall (non-element),2198880678,Special,Luster Slash Fall hold (Lu skill)
 Slash Fall (non-element),2557185610,Special,Luster Slash Fall air sword hit (Lu skill)
 Slash Rise (non-element),1395796309,Special,Luster Slash Rise (Lu skill)
 Slash Rise (non-element),53211277,Special,Luster Slash Rise hold (Lu skill)
+Slash Fall (non-element),1876898478,Special,Luster Slash Fall hold no gear (Lu skill)
+Slash Rise (non-element),3724401130,Special,Luster Slash Rise hold no gear (Lu skill)
 Quick Slash (non-element),1546305539,Special,Luster Quick Slash stationary (Lu skill)
 Quick Slash (non-element),2097365226,Special,Luster Quick Slash forward (Lu skill)
 Quick Slash (non-element),2665468148,Special,Luster Quick Slash right side (Lu skill)
