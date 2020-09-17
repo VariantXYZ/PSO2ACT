@@ -1328,6 +1328,7 @@ Gunslash Weapon Action (Luster Fomel),3988763991,Special,Luster Weapon Action ch
 Gunslash Weapon Action (Luster Fomel),1592179056,Special,Luster Weapon Action charge 3 hits (Shoot Enhance) (Lu skill)
 Gunslash Weapon Action (Luster Fomel),3988763924,Special,Luster Weapon Action charge 3 finish (Shoot Enhance) (Lu skill)
 Gunslash hit (Luster Fomel),4099792656,Special,Luster Weapon Action into Step Attack
+Luster Counter (Weapon Action (Fomel),2221684619,Special,Luster Counter with WA into Step Attack
 Flechette (Fomel),2611294785,PA,Luster Flechette stationary
 Flechette (Fomel),1961649619,PA,Luster Flechette stationary hold
 Flechette (Fomel),1465951479,PA,Luster Flechette direction
@@ -1398,6 +1399,7 @@ Gunslash Weapon Action (Luster Zandi),349455247,Special,Luster Weapon Action cha
 Gunslash Weapon Action (Luster Zandi),349455438,Special,Luster Weapon Action charge 2
 Gunslash Weapon Action (Luster Zandi),349455117,Special,Luster Weapon Action charge 3
 Gunslash hit (Luster Zandi),4279228173,Special,Luster Weapon Action into Step Attack
+Luster Counter (Weapon Action (Zandi),2480579189,Special,Luster Counter with WA into Step Attack
 Zandi Dodge Advance Attack,2489726207,Special,Luster Zandi Dodge Advance follow-up attack
 Flechette (Zandi),996668125,PA,Luster Flechette stationary
 Flechette (Zandi),3892535876,PA,Luster Flechette stationary hold
@@ -1476,6 +1478,7 @@ Gunslash Weapon Action (Luster Baran),908877573,Special,Luster Weapon Action cha
 Gunslash Weapon Action (Luster Baran),908877635,Special,Luster Weapon Action charge 2
 Gunslash Weapon Action (Luster Baran),908877698,Special,Luster Weapon Action charge 3
 Gunslash hit (Luster Baran),1605885859,Special,Luster Weapon Action into Step Attack
+Luster Counter (Weapon Action (Baran),2124983417,Special,Luster Counter with WA into Step Attack
 Flechette (Baran),2256150497,PA,Luster Flechette stationary
 Flechette (Baran),2429721250,PA,Luster Flechette stationary hold
 Flechette (Baran),2064296513,PA,Luster Flechette direction
@@ -1541,6 +1544,8 @@ Step Slide (non-element),850061164,Special,Luster Step Slide sideways (Lu skill)
 Step Slide (non-element),1000184235,Special,Luster Step Slide backwards (Lu skill)
 Gunslash Weapon Action (non-element),240252326,Special,Luster Weapon Action
 Gunslash Weapon Action (non-element),2558880803,Special,Luster Weapon Action hold
+Gunslash hit (Luster non-element),4134454790,Special,Luster Weapon Action into Step Attack
+Luster Counter (Weapon Action (non-element),1400377060,Special,Luster Counter with WA into Step Attack
 Flechette (non-element),596161793,PA,Luster Flechette stationary
 Flechette (non-element),2092584073,PA,Luster Flechette stationary hold
 Flechette (non-element),2975705021,PA,Luster Flechette direction
@@ -1658,6 +1663,7 @@ BOOSTO KICKU,85303029,Special,Tokyo speed-pad kick level 3
 BOOSTO KICKU,85301612,Special,Tokyo speed-pad kick level 1 on cars
 BOOSTO KICKU,85302966,Special,Tokyo speed-pad kick level 2 on cars
 BOOSTO KICKU,85303031,Special,Tokyo speed-pad kick level 3 on cars
+BOOSTO KICKU,85301616,Special,Ep 6 PD story/raid boss dash kick
 Mag (Attack),2667138551,Special,Mag action (S-ATK Attack)
 Mag (Blow),3296842070,Special,Mag action (S-ATK Blow)
 Mag (Upper),546125641,Special,Mag action (S-ATK Upper)
