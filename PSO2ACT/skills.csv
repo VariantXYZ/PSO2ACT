@@ -1315,7 +1315,8 @@ Gunslash hit (Luster Fomel),1952842142,Melee,Luster normal attack hold no gear
 Photon Spear,3274277101,Special,Luster Photon Spear
 Gunslash Step Attack (Luster Fomel),3286390190,Melee,Luster Step Attack
 Luster Counter (Fomel),4109993569,Special,Luster Step Counter (Lu skill)
-Step Guard (Fomel),3233723013,Special,Luster Step Guard (Lu skill)
+Step Guard (Fomel),3233723013,Special,Luster Step Guard forward (Lu skill)
+Step Guard (Fomel),3113325750,Special,Luster Step Guard backward (Lu skill)
 Step Slide (Fomel),444545478,Special,Luster Step Slide forward (Lu skill)
 Step Slide (Fomel),2207557530,Special,Luster Step Slide sideways (Lu skill)
 Step Slide (Fomel),177981608,Special,Luster Step Slide backwards (Lu skill)
@@ -1385,7 +1386,8 @@ Gunslash hit (Luster Zandi),2748387183,Melee,Luster Zandi Extra Attack (Lu skill
 Gunslash hit (Luster Zandi),4165096601,Melee,Luster normal attack hold
 Gunslash hit (Luster Zandi),3028393901,Melee,Luster normal attack hold no gear
 Gunslash Step Attack (Luster Zandi),4035900181,Melee,Luster Step Attack
-Step Guard (Zandi),2785427875,Special,Luster Step Guard (Lu skill)
+Step Guard (Zandi),2785427875,Special,Luster Step Guard forward (Lu skill)
+Step Guard (Zandi),1063829095,Special,Luster Step Guard backward (Lu skill)
 Luster Counter (Zandi),3402465838,Special,Luster Step Counter (Lu skill)
 Step Slide (Zandi),2972788088,Special,Luster Step Slide forward (Lu skill)
 Step Slide (Zandi),3228155310,Special,Luster Step Slide sideways (Lu skill)
@@ -1396,6 +1398,7 @@ Gunslash Weapon Action (Luster Zandi),349455247,Special,Luster Weapon Action cha
 Gunslash Weapon Action (Luster Zandi),349455438,Special,Luster Weapon Action charge 2
 Gunslash Weapon Action (Luster Zandi),349455117,Special,Luster Weapon Action charge 3
 Gunslash hit (Luster Zandi),4279228173,Special,Luster Weapon Action into Step Attack
+Zandi Dodge Advance Attack,2489726207,Special,Luster Zandi Dodge Advance follow-up attack
 Flechette (Zandi),996668125,PA,Luster Flechette stationary
 Flechette (Zandi),3892535876,PA,Luster Flechette stationary hold
 Flechette (Zandi),1236997706,PA,Luster Flechette direction
@@ -1418,9 +1421,9 @@ Hollow Point (Zandi),3218192052,PA,Luster Hollow Point stationary hold final hit
 Hollow Point (Zandi),865932846,PA,Luster Hollow Point direction
 Hollow Point (Zandi),1406227085,PA,Luster Hollow Point direction hold hits
 Hollow Point (Zandi),1406227276,PA,Luster Hollow Point direction hold final hits
-Flechette (Zandi),808927040,PA,Luster Flechette Zandi stationary hold no gear
-Flechette (Zandi),355552619,PA,Luster Flechette direction hold hit no gear
-Flechette (Zandi),355552682,PA,Luster Flechette direction hold final hit no gear
+Flechette (Zandi),3808927040,PA,Luster Flechette Zandi stationary hold no gear
+Flechette (Zandi),1355552619,PA,Luster Flechette direction hold hit no gear
+Flechette (Zandi),1355552682,PA,Luster Flechette direction hold final hit no gear
 Brand Extension (Zandi),1084186869,PA,Luster Brand Extension stationary hold hits no gear
 Brand Extension (Zandi),1084186804,PA,Luster Brand Extension stationary hold final hits no gear
 Brand Extension (Zandi),914860715,PA,Luster Brand Extension direction hold hits no gear
@@ -1456,9 +1459,14 @@ Gunslash slash (Luster Baran),3381273147,Special,Luster Baran third normal slash
 Gunslash slash (Luster Baran),3381273082,Special,Luster Baran Extra Attack slash (Lu skill)
 Gunslash hit (Luster Baran),3941083368,Melee,Luster normal attack hold
 Gunslash hit (Luster Baran),2775227003,Melee,Luster normal attack hold no gear
+Gunslash hit (Luster Baran),3363255252,Melee,Luster Baran first normal attack (Dodge Advance) (Lu skill)
+Gunslash hit (Luster Baran),3363254293,Melee,Luster second normal attack (Dodge Advance) (Lu skill)
+Gunslash hit (Luster Baran),3363254358,Melee,Luster third normal attack (Dodge Advance) (Lu skill)
+Gunslash hit (Luster Baran),3363254423,Melee,Luster Extra Attack (Dodge Advance) (Lu skill)
 Photon Bullet,212749371,Special,Luster Photon Bullet
 Gunslash Step Attack (Luster Baran),1527438262,Melee,Luster Step Attack
-Step Guard (Baran),3070047115,Special,Luster Step Guard (Lu skill)
+Step Guard (Baran),3070047115,Special,Luster Step Guard forward (Lu skill)
+Step Guard (Baran),647085407,Special,Luster Step Guard backward (Lu skill)
 Luster Counter (Baran),1754815403,Special,Luster Step Counter (Lu skill)
 Step Slide (Baran),1890244919,Special,Luster Step Slide forward (Lu skill)
 Step Slide (Baran),76288340,Special,Luster Step Slide sideways (Lu skill)
@@ -1525,7 +1533,8 @@ Gunslash hit (Luster non-element),1244140660,Melee,Luster non-element Extra Atta
 Gunslash hit (Luster non-element),982712511,Melee,Luster normal attack hold
 Gunslash hit (Luster non-element),1298735458,Melee,Luster normal attack hold no gear
 Gunslash Step Attack (Luster non-element),3892948221,Melee,Luster Step Attack
-Step Guard (non-element),2480928358,Special,Luster Step Guard (Lu skill)
+Step Guard (non-element),2480928358,Special,Luster Step Guard forward (Lu skill)
+Step Guard (non-element),3544032203,Special,Luster Step Guard backward (Lu skill)
 Luster Counter (non-element),380547910,Special,Luster Step Counter (Lu skill)
 Step Slide (non-element),4065806309,Special,Luster Step Slide forward (Lu skill)
 Step Slide (non-element),850061164,Special,Luster Step Slide sideways (Lu skill)
