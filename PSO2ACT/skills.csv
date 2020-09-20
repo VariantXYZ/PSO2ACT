@@ -1372,6 +1372,10 @@ Hollow Point (Fomel),1339015403,PA,Luster Hollow Point stationary hold hits no g
 Hollow Point (Fomel),1339015336,PA,Luster Hollow Point stationary hold final hits no gear
 Hollow Point (Fomel),3051384498,PA,Luster Hollow Point direction hold hits no gear
 Hollow Point (Fomel),3051384305,PA,Luster Hollow Point direction hold final hits no gear
+Normal attack followup (Fomel),2925304621,Special,Flechette (stationary) and Hollow Point Fomel PA follow-up with normal attacks
+Normal attack followup (Fomel),958081478,Special,Flechette (direction) Fomel PA follow-up with normal attacks
+Normal attack followup (Fomel),2212607950,Special,Brand Extension Fomel PA follow-up with normal attacks
+Normal attack followup (Fomel),129686491,Special,Slug Scatter Fomel PA follow-up with normal attacks
 Quick Slash (Fomel),2580374948,Special,Luster Quick Slash stationary (Lu skill)
 Quick Slash (Fomel),3498754478,Special,Luster Quick Slash forward (Lu skill)
 Quick Slash (Fomel),2547839819,Special,Luster Quick Slash right side (Lu skill)
@@ -1437,6 +1441,10 @@ Hollow Point (Zandi),2554392033,PA,Luster Hollow Point stationary hold hits no g
 Hollow Point (Zandi),2554391840,PA,Luster Hollow Point stationary hold final hits no gear
 Hollow Point (Zandi),2618945109,PA,Luster Hollow Point direction hold hits no gear
 Hollow Point (Zandi),2618945044,PA,Luster Hollow Point direction hold final hits no gear
+Normal attack followup (Zandi),2720894468,Special,Flechette (stationary) and Hollow Point Zandi PA follow-up with normal attacks
+Normal attack followup (Zandi),4092014190,Special,Flechette (direction) Zandi PA follow-up with normal attacks
+Normal attack followup (Zandi),2300109425,Special,Brand Extension Zandi PA follow-up with normal attacks
+Normal attack followup (Zandi),1796346705,Special,Slug Scatter Zandi PA follow-up with normal attacks
 Slash Fall (Zandi),942756658,Special,Luster Slash Fall (Lu skill)
 Slash Fall (Zandi),1165228084,Special,Luster Slash Fall hold (Lu skill)
 Slash Fall (Zandi),1458283045,Special,Luster Slash Fall air sword hit (Lu skill)
@@ -1515,6 +1523,10 @@ Hollow Point (Baran),4080136121,PA,Luster Hollow Point stationary hold hits no g
 Hollow Point (Baran),4080136312,PA,Luster Hollow Point stationary hold final hits no gear
 Hollow Point (Baran),717533710,PA,Luster Hollow Point direction hold hits no gear
 Hollow Point (Baran),717533775,PA,Luster Hollow Point direction hold final hits no gear
+Normal attack followup (Baran),708905998,Special,Flechette (stationary) and Hollow Point Baran PA follow-up with normal attacks
+Normal attack followup (Baran),2629368763,Special,Flechette (direction) Baran PA follow-up with normal attacks
+Normal attack followup (Baran),3800063707,Special,Brand Extension Baran PA follow-up with normal attacks
+Normal attack followup (Baran),4082235190,Special,Slug Scatter Baran PA follow-up with normal attacks
 Slash Fall (Baran),2040738961,Special,Luster Slash Fall (Lu skill)
 Slash Fall (Baran),2530530277,Special,Luster Slash Fall hold (Lu skill)
 Slash Fall (Baran),3614105314,Special,Luster Slash Fall air sword hit (Lu skill)
@@ -1582,6 +1594,10 @@ Hollow Point (non-element),2934430031,PA,Luster Hollow Point stationary hold hit
 Hollow Point (non-element),2934429966,PA,Luster Hollow Point stationary hold final hits no gear
 Hollow Point (non-element),508166378,PA,Luster Hollow Point direction hold hits no gear
 Hollow Point (non-element),508167726,PA,Luster Hollow Point direction hold final hits no gear
+Normal attack followup (non-element),388116085,Special,Flechette (stationary) and Hollow Point non-element PA follow-up with normal attacks
+Normal attack followup (non-element),2407096757,Special,Flechette (direction) non-element PA follow-up with normal attacks
+Normal attack followup (non-element),3761879532,Special,Brand Extension non-element PA follow-up with normal attacks
+Normal attack followup (non-element),697019330,Special,Slug Scatter non-element PA follow-up with normal attacks
 Slash Fall (non-element),1197374983,Special,Luster Slash Fall (Lu skill)
 Slash Fall (non-element),2198880678,Special,Luster Slash Fall hold (Lu skill)
 Slash Fall (non-element),2557185610,Special,Luster Slash Fall air sword hit (Lu skill)
