@@ -1081,6 +1081,29 @@ Glass Mine,853221906,PA,Glass Mine DoT
 Glass Burst,1279678971,PA,Glass Burst 1-3 balls
 Glass Burst,1279678906,PA,Glass Burst 4-7 balls
 Glass Burst,1279679082,PA,Glass Burst 8 balls
+Vulcan hit,2063999436,Ranged,Vulcan first normal hit
+Vulcan hit,2063999435,Ranged,Vulcan second normal hit
+Vulcan hit,2063999434,Ranged,Vulcan third normal hit
+Vulcan Zan,95929731,PA,Vulcan Zan
+Vulcan Zan,2435231242,PA,Vulcan Zan PA succession
+Vulcan Kyaku,2696678670,PA,Vulcan Kyaku first hit
+Vulcan Kyaku,2696678735,PA,Vulcan Kyaku second hit
+Vulcan Kyaku,57330511,PA,Vulcan Kyaku PA succession first hit
+Vulcan Kyaku,57330446,PA,Vulcan Kyaku PA succession second hit
+Vulcan Kyaku,57330886,PA,Vulcan Kyaku PA succession third hit
+Vulcan Kyaku,57330823,PA,Vulcan Kyaku PA succession fourth hit
+Vulcan Kyaku,57330756,PA,Vulcan Kyaku PA succession final hit
+Vulcan Ken,95929601,PA,Vulcan Ken
+Vulcan Ken,1151390282,PA,Vulcan Ken PA succession first hit
+Vulcan Ken,1151390219,PA,Vulcan Ken PA succession second hit
+Vulcan Ken,1151433823,PA,Vulcan Ken PA succession third hit
+Vulcan Ken,1151434142,PA,Vulcan Ken PA succession final hit
+Vulcan Dan,95944533,PA,Vulcan Dan
+Vulcan Dan,744644532,PA,Vulcan Dan PA succession
+Vulcan Geki,2900785656,PA,Vulcan Geki
+Vulcan Geki,2900785465,PA,Vulcan Geki PA succession (1-2 chained)
+Vulcan Geki,2900783709,PA,Vulcan Geki PA succession (3-4 chained)
+Vulcan Geki,2900784540,PA,Vulcan Geki PA succession (6 chained)
 Sword hit (Hero),2444771520,Melee,Hero Sword first normal attack
 Sword hit (Hero),2444771715,Melee,Hero Sword second normal attack
 Sword hit (Hero),2832347180,Melee,Hero Sword third normal attack first hit
